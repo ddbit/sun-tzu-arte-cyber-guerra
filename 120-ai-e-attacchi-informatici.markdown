@@ -1,6 +1,6 @@
 
 
-# AI e Sicurezza
+# L'AI come facilitatore di attacchi informatici.
 
 > *Questa macchina è troppo importante per me per lasciare che tu la manometta*
 

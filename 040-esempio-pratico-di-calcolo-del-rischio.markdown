@@ -11,9 +11,13 @@ Abbiamo visto come dare una valutazione più o meno quantitativa della nostra su
 ```R = P * D```
 
 
-Abbiamo praticamente lavorato sul calcolo di P che sarà una funzione che aumenta sia con la nostra superficie di attacco esposta che con la capacità degli attaccanti di colpire.
+Abbiamo praticamente lavorato sul calcolo di P che sarà una funzione che aumenta sia con la nostra superficie di attacco esposta che con la capacità degli attaccanti di colpire. In poche parole per calcolare P ci serve il modello dell'attaccante e la nostra superficie d'attacco.
 
 Ora dobbiamo anche concentrarci sull'altro fattore del rischio, ovvero il danno D.
+
+Come detto in precedenza, se valorizziamo il danno in termini economici allora anche il rischio sarà immediatamente espresso con gli stessi termini. Ovvero, se ho un danno potenziale stimato da 1 milione di euro ed una probabilità di subirlo pari al 3% allora il rischio sarà esattamente pari a 3000 euro. Ma in genere non è così lineare e semplice ottenere queste stime.
+
+
 
 In questo capitolo ci riferiamo all'approccio di misurazione del rischio elaborato sa OWASP e disponibile online al sito [https://owasp.org/www-community/OWASP_Risk_Rating_Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology).
 
