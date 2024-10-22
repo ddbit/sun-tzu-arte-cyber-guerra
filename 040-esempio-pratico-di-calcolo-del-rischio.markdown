@@ -15,8 +15,9 @@ Abbiamo praticamente lavorato sul calcolo di P che sarà una funzione che aument
 
 Ora dobbiamo anche concentrarci sull'altro fattore del rischio, ovvero il danno D.
 
-Come detto in precedenza, se valorizziamo il danno in termini economici allora anche il rischio sarà immediatamente espresso con gli stessi termini. Ovvero, se ho un danno potenziale stimato da 1 milione di euro ed una probabilità di subirlo pari al 3% allora il rischio sarà esattamente pari a 3000 euro. Ma in genere non è così lineare e semplice ottenere queste stime.
+Come detto in precedenza, se valorizziamo il danno in termini economici allora anche il rischio sarà immediatamente espresso con gli stessi termini. Ovvero, se ho un danno potenziale stimato da 1 milione di euro ed una probabilità di subirlo pari al 3% allora il rischio sarà esattamente pari a 3000 euro. A fronte di questo rischio, mi conviene adottare delle strategie di "mitigazione" che possono costare al massimo 3000 euro, se costano di più tantovale assorbire il colpo.
 
+Ma in genere non è così lineare e semplice ottenere queste stime. Prendiamo il caso di una fuga di informazioni inclusi dati personali. Conosciamo a priori l'entità delle sanzioni, ma magari possono esserci altre conseguenze come azioni legali da parte delle vittime coinvolte, cause civili il cui esito in termini economici non è sempre facilmente quantificabile.
 
 
 In questo capitolo ci riferiamo all'approccio di misurazione del rischio elaborato sa OWASP e disponibile online al sito [https://owasp.org/www-community/OWASP_Risk_Rating_Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology).
@@ -37,6 +38,7 @@ L'impatto o danno lo possiamo suddividere in Impatto Tecnico ed Impatto non tecn
 La frase "L'impatto o danno lo possiamo suddividere in Impatto Tecnico ed Impatto non tecnico" si riferisce alla classificazione degli effetti che un incidente, particolarmente nel contesto della sicurezza informatica, può avere su un'organizzazione. Questa distinzione aiuta a valutare e gestire le conseguenze in modo più strutturato e mirato. Vediamo in dettaglio cosa significano questi due tipi di impatto:
 
 ### Impatto Tecnico
+
 L'**impatto tecnico** include tutti gli effetti diretti che un incidente di sicurezza ha sui sistemi informatici e sulla tecnologia di un'organizzazione. Questo può includere:
 
 - **Perdita di confidenzialità**: Informazioni sensibili che vengono esposte a persone non autorizzate.
@@ -47,6 +49,7 @@ L'**impatto tecnico** include tutti gli effetti diretti che un incidente di sicu
 Questi impatti possono avere ripercussioni immediate sul funzionamento quotidiano dell'organizzazione e richiedono interventi tecnici per la risoluzione, come il ripristino dei sistemi, l'applicazione di patch di sicurezza o la sostituzione di hardware danneggiato.
 
 ### Impatto non Tecnico
+
 L'**impatto non tecnico** si riferisce alle conseguenze indirette che gli incidenti di sicurezza possono avere sulle operazioni aziendali, sulla reputazione e su altri aspetti non strettamente legati alla tecnologia. Esempi di impatto non tecnico includono:
 
 - **Perdite finanziarie**: Oltre ai costi diretti per la riparazione e il recupero dei sistemi, un'organizzazione può subire perdite dovute all'interruzione delle operazioni commerciali, sanzioni legali, o pagamenti di riscatti nei casi di attacchi ransomware.
