@@ -1,4 +1,6 @@
-
+<!---
+status: READY
+-->
 
 # Autenticazione debole e forte
 

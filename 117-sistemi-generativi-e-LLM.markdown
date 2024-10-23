@@ -1,7 +1,12 @@
+<!---
+status: ALMOST
+*TODO Manca intro a LLM e RAG*
+-->
+
 Correttezza nei Sistemi generativi e modelli di linguaggio
 ==========================================
 
-*TODO Manca intro a LLM e RAG*
+
 
 ## Come si legge la scheda tecnica di un modello LLM
 

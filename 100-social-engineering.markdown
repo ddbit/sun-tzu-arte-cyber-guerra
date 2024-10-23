@@ -1,4 +1,7 @@
-
+<!---
+status: ALMOST
+inserire attacco via QR
+-->
 
 # Social Engineering. L'Arma più efficace in mano agli Hacker
 

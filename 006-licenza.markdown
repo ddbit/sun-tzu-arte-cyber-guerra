@@ -1,3 +1,7 @@
+<!---
+status: ALMOST
+inserire QR al posto del link finale.
+-->
 # Licenza
 
 

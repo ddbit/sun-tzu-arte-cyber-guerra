@@ -1,3 +1,7 @@
+<!---
+status: READY
+-->
+
 # Il rischio è bello (se sai come prenderlo)
 
 

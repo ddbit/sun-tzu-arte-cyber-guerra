@@ -1,3 +1,7 @@
+<!---
+status: READY
+-->
+
 # Esempi di Tecnologie biometriche.
 
 > *La lingua può nascondere la verità ma gli occhi mai* 

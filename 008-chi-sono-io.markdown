@@ -1,3 +1,7 @@
+<!---
+status: ALMOST
+inserire QR a pagina personale
+-->
 
 # Chi è l'autore
 

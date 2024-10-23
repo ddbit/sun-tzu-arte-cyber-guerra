@@ -1,4 +1,8 @@
-
+<!---
+status: ALMOST
+inserire una sezione con esempio di superficie d'attacco di una persona
+che usa normalmente pc e cellulare.
+-->
 
 # Conosci te stesso. 
 

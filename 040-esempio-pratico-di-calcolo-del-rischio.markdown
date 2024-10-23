@@ -1,4 +1,9 @@
+<!---
+status: ALMOST
 
+inserire QR al posto dei link interi
+inserire altre metodologie per valutazione rischio? NIST800-30?
+-->
 
 # Esempio di calcolo del Rischio
 

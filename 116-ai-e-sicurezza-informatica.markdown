@@ -1,3 +1,9 @@
+<!---
+status: ALMOST
+note: inserire immagine della targa sullo zaino
+manca totalmente la parte realtiva a privacy e copyright, forse meglio un capitolo a parte.
+-->
+
 # Anche l'AI sbaglia, anzi se è AI allora sbaglia.
 
 

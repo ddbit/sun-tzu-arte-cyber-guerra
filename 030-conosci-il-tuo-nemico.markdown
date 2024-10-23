@@ -1,4 +1,7 @@
-
+<!---
+status: ALMOST
+inserire OWASP top 10
+-->
 
 # Modello dell'Attaccante - "Conosci il Tuo Nemico"
 
