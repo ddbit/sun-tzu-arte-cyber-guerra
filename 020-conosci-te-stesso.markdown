@@ -146,3 +146,23 @@ La tabella  offre una panoramica su come misurare la superficie di attacco in ba
 ## Conclusione
 
 La gestione della superficie di attacco è un processo continuo che richiede vigilanza, adattabilità e impegno costante. Solo attraverso un approccio olistico e integrato, che include la tecnologia, la formazione e le procedure operative standard, le organizzazioni possono sperare di rimanere un passo avanti rispetto agli attaccanti nel panorama delle minacce informatiche.
+
+Okay, ma oltre al concetto, non dico astratto, ma più o meno legato alla struttura in cui lavoro in che modo la superficie d'attacco si rivela nella vita di tutti i giorni, per ognuno di noi nella nostra quotidianità?
+
+Riflettiamo su quanto ognuno di noi, nel mondo iperconnesso di oggi, esponga costantemente una superficie d'attacco più ampia di quanto si possa immaginare. 
+
+Ogni volta che navighiamo online, usiamo un'app sullo smartphone, condividiamo informazioni sui social o accediamo a una piattaforma cloud, stiamo aumentando il numero di "punti d'ingresso" che potrebbero essere sfruttati da attori malintenzionati. 
+
+Ma cosa significa esattamente "superficie d'attacco"? In parole semplici, è l'insieme di tutti i possibili punti attraverso i quali un sistema o un individuo può essere attaccato. E oggigiorno, con la nostra continua presenza digitale, questa superficie è più ampia e complessa che mai.
+
+Facciamo un salto indietro nel tempo, negli anni '90 e nei primi anni 2000. All'epoca, la nostra esposizione digitale era limitata: poche persone avevano accesso a internet in modo regolare, e l'attività online era in gran parte confinata all'invio di email o alla navigazione su siti web semplici. Non c'erano cloud, dispositivi IoT o reti sociali globali. Il massimo rischio che un utente medio poteva affrontare era un virus ricevuto via email o il furto di dati attraverso un sito non sicuro. La superficie d'attacco, quindi, era molto più piccola e più facile da gestire.
+
+Oggi, però, la storia è completamente diversa. La nostra vita è interconnessa in modi che solo vent'anni fa sembravano fantascienza. Smartphone, smart TV, wearable come smartwatch, auto connesse, assistenti vocali, dispositivi IoT che monitorano la nostra casa e il nostro lavoro: tutti questi dispositivi rappresentano possibili punti deboli, ciascuno aumentando la nostra superficie d'attacco. Non solo, il nostro uso di app e piattaforme cloud implica che i nostri dati risiedano in luoghi spesso fuori dal nostro controllo diretto, aumentando ulteriormente il rischio.
+
+Inoltre, oggi ogni volta che ci iscriviamo a un nuovo servizio online, forniamo un quantitativo significativo di **informazioni personali**. Che si tratti di un'email, di un numero di telefono o di dettagli sulla nostra identità, ogni servizio richiede dati che, se violati, possono essere sfruttati per truffe, furti di identità o accessi non autorizzati ai nostri account. Questo vale per servizi semplici come social media o piattaforme di shopping online, ma diventa ancora più preoccupante quando si parla di **servizi fintech**, dove siamo spesso chiamati a fornire dettagli sensibili sui nostri redditi, sui nostri conti bancari e sui flussi monetari. Basta una violazione di sicurezza per compromettere le informazioni più delicate sulla nostra vita finanziaria, con conseguenze potenzialmente devastanti.
+
+E non parliamo solo di attacchi mirati a grandi aziende o governi. Anche l'utente medio è una potenziale vittima. Basti pensare ai furti di identità, agli attacchi di phishing, ai ransomware che colpiscono persino le famiglie. Oggi, ogni nostro accesso a un servizio online, ogni password che utilizziamo, ogni informazione che condividiamo è una possibile vulnerabilità.
+
+Per questo, è fondamentale capire che la superficie d'attacco non è più confinata a un solo computer o un solo sistema, ma si estende in modo esponenziale a ogni dispositivo connesso che possediamo e a ogni servizio online che utilizziamo. Proteggersi significa essere consapevoli di questi rischi, limitare la quantità di dati che condividiamo inutilmente e adottare misure di sicurezza adeguate per difendere ogni aspetto della nostra vita digitale.
+
+In sintesi, rispetto agli anni '90 e 2000, oggi siamo molto più esposti, e la complessità delle minacce è cresciuta di pari passo con la nostra crescente dipendenza dal digitale. Non possiamo più ignorare l'importanza di ridurre e gestire la nostra superficie d'attacco. Solo essendo consapevoli e adottando le giuste precauzioni possiamo sperare di mantenere il controllo in un mondo dove la sicurezza informatica è una battaglia continua.
