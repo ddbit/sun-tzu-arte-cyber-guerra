@@ -4,7 +4,25 @@
 
 > *Every business which does not manage risk is a business at risk*
 
+Immagina per un attimo di sederti alla tua scrivania, magari sorseggiando il tuo caffè del mattino, pronto a iniziare una nuova giornata di lavoro. Sei un dipendente di un'azienda privata, o forse lavori nella pubblica amministrazione. Oppure, ancora, sei un professionista, che opera in uno studio legale o contabile. Ti occupi delle tue mansioni quotidiane, ma c'è un aspetto che potrebbe sfuggire alla tua attenzione, nonostante sia essenziale per la sicurezza del tuo lavoro e, in alcuni casi, della tua carriera: **la valutazione del rischio informatico**.
 
+### Sei un dipendente di un'azienda privata?
+
+Se la tua risposta è sì, pensa a quanto valore hanno le informazioni con cui lavori. Potrebbero essere dati sui clienti, contratti riservati o strategie di mercato. Ora immagina che questi dati finiscano nelle mani sbagliate. Le conseguenze potrebbero essere devastanti: perdita di fiducia dei clienti, sanzioni legali, e, nei casi peggiori, danni irreparabili alla reputazione dell’azienda. La valutazione del rischio non è solo una questione di proteggere file e documenti, ma di salvaguardare il cuore pulsante dell’azienda. Un attacco informatico potrebbe comportare settimane di inattività o la perdita di migliaia di euro. Ecco perché capire le potenziali vulnerabilità e agire in anticipo è fondamentale.
+
+### Sei un dipendente di una pubblica amministrazione?
+
+Qui la situazione cambia leggermente, ma la posta in gioco è forse ancora più alta. Gestisci dati sensibili sui cittadini: informazioni personali, documenti fiscali, dati sanitari. La sicurezza di questi dati è una responsabilità enorme. Immagina cosa accadrebbe se venissero compromessi: disservizi per i cittadini, perdita di fiducia nei confronti dell’istituzione, oltre alle potenziali violazioni delle normative sulla privacy. Per te, la valutazione del rischio non è solo importante, ma è un dovere nei confronti della comunità che servi. Un attacco informatico a una pubblica amministrazione non è solo una questione di furto di dati, ma può paralizzare servizi essenziali, causando disagi enormi a intere città o regioni.
+
+### Sei un professionista o lavori in uno studio professionale?
+
+In questo caso, il rischio assume un'altra sfumatura. Se sei un avvocato, un commercialista o un consulente, gestisci informazioni che i tuoi clienti ti affidano con la massima fiducia. Da contratti riservati a documenti finanziari, i tuoi dati sono preziosi non solo per te, ma per chi si affida ai tuoi servizi. Non puoi permetterti una perdita o una compromissione di questi dati. Se subisci una violazione, le ripercussioni non sono solo legali o economiche, ma toccano la tua reputazione e quella del tuo studio. Per te, valutare i rischi informatici significa proteggere la tua professione e il futuro della tua carriera.
+
+### Perché la valutazione del rischio è così importante?
+
+Che tu lavori per un’azienda, un ente pubblico o in uno studio professionale, la valutazione del rischio informatico è il primo passo per garantire che i dati con cui lavori, i sistemi che usi e le persone che servi siano al sicuro. È un processo che ti permette di anticipare i pericoli, di proteggere ciò che conta davvero e di dormire sonni tranquilli sapendo che hai fatto tutto il possibile per prevenire una crisi.
+
+Alla fine, la sicurezza informatica non è solo una questione di tecnologia, ma una responsabilità condivisa. Quando ci pensi in questi termini, non si tratta solo di software, firewall o antivirus, ma di proteggere il tuo lavoro, il tuo valore e, soprattutto, la fiducia di chi ti circonda.
 
 
 Il rischio cyber è diventato una costante preoccupazione per le organizzazioni in ogni settore, spingendole a investire risorse significative nella protezione delle loro infrastrutture digitali. La valutazione del rischio cyber è il processo fondamentale attraverso cui un'organizzazione identifica, analizza e gestisce i rischi associati alle minacce informatiche. Questo capitolo esplora il concetto di rischio cyber, i metodi per gestirlo efficacemente e le strategie per implementare un efficace risk management.
