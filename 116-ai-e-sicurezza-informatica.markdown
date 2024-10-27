@@ -11,6 +11,19 @@ manca totalmente la parte realtiva a privacy e copyright, forse meglio un capito
 
 (Alan Turing)
 
+Luca Bizzarri in una puntata del suo Podcast "Non hanno un amico" racconta un'avventura curiosa che, ahimè, ha rivelato i limiti di un'intelligenza artificiale. Incuriosito da una frase del ministro Giuli che cita in un discorso pubblico il concetto di "pensiero solare" che suona importante e altisonante, chiede a ChatGPT chi ne sia l’ideatore. La risposta è rapida e senza incertezze: un certo **Giuseppe Zuccari**, altrimenti noto come **Giuliano Zuccarini**, filosofo italiano nato a **Città di Castello** nel 1942, sarebbe l’artefice di tale pensiero, con profondi aforismi come "La rigidità delle ideologie si discioglie nella luce meridiana dello spirito mediterraneo." Un pensatore, insomma, con una penna a dir poco luminosa.
+
+Bizzarri già pregusta di poter sbeffeggiare il ministro, accusandolo non solo di logorrea pseudo-erudita ma anche di plagio di idee altrui, d'altronde Bizzarri fa questo di mestiere, pungolare i potenti, e gliene siamo grati.
+
+Tuttavia, Luca Bizzarri non è tipo da accettare tutto sulla fiducia: fa un salto su Google e... niente. Nessuna traccia di questo pensatore dei tropici umbri. Perfino gli amici Ugo e Manuela tentano di rintracciare Zuccari su ChatGPT ma ricevono risposte completamente diverse, come se l'AI fosse intenta a cambiare discorso.
+
+Così, Bizzarri torna da ChatGPT e chiede con un po’ di diffidenza: "Ma non è che ti sei inventato tutto questo, caro amico digitale?" La risposta dell'AI è quasi un colpo di scena: *"Hai ragione a dubitare."* ChatGPT confessa che Giuseppe Zuccari, con tutto il suo pensiero solare, è una creazione immaginaria – una manifestazione del suo "tentativo di rispondere."
+
+
+
+
+
+## Metriche dei modelli di apprendimento
 
 Quando si tratta di codice sappiamo che la sua correttezza è molto importante per garantire la sicurezza informatica. 
 
@@ -27,8 +40,6 @@ In altre parole possiamo distinguere gli errori che derivano da una cattiva impl
 
 Tutto questo nel caso del software, ma nel caso dei modelli di intelligenza artificiale in cosa consistono le specifiche e come si riconosce un comportamento valido e corretto da uno scorretto?
 
-
-## Metriche dei modelli di apprendimento
 
 Premesso che non è questa la sede per discutere del funzionamento dei modelli di AI e soprattutto di quali siano le tecniche per il loro addestramento ci limiteremo a dire che i sistemi di AI sono in genere basati su modelli di apprendimento automatico che a partire da un dataset di dati "etichettati" detto appunto training set viene addestrato a classificare nuovi elementi non presenti nel dataset di partenza.
 
@@ -48,7 +59,16 @@ Altre metriche usate sono:
 Tuttavia anche le metriche più complesse illustrate qui hanno lo scopo di dare una misura quantitativa di come il modello reagisce a dati diversi da quelli usati per l'addestramento ma non dice ancora tutta la verità.
 
 
+## Allucinazioni
+
+Si può dire che Bizzarri sia stato vittima di un'allucinazione di ChatGPT, o per dirla in termini tecnici, di una **"hallucination"** dell'IA. Le allucinazioni nei modelli di linguaggio si verificano quando l'IA fornisce informazioni che sembrano plausibili ma che sono, in realtà, inventate di sana pianta. È un po' come se l'IA, per non voler mai dire "non lo so," si lanciasse a riempire i vuoti con dettagli fantasiosi.
+
+In questo caso, il povero Bizzarri ha ricevuto un'immagine di un filosofo italiano perfettamente dettagliato, nato a Città di Castello, autore di citazioni memorabili, eppure... del tutto immaginario! Un caso emblematico di allucinazione digitale, dove la creatività della macchina ha superato la realtà.
+
+
 ## Il bias
+
+Le allucinazioni sono sicuramente un problema serio, ma in realtà sono abbastanza facilmente verificabili attraverso un check con motori di ricerca e basi di dati esterne. Un problema molto più subdolo è caratterizzato dal cosiddetto bias, che possiamo considerare un errore sistematico e pervasivo che riguarda il contenuto stesso dei dati di training forniti al modello di AI.
 
 Il bias nell'AI, noto anche come bias nel machine learning o bias dell'algoritmo, si verifica quando un sistema AI produce risultati distorti a causa di pregiudizi presenti nei dati di training o nelle decisioni prese durante lo sviluppo dell'algoritmo. Questi pregiudizi possono derivare da molte fonti, come scelte di progettazione, selezione dei dati o generalizzazioni errate, e possono condurre a risultati ingiusti o non rappresentativi.
 
