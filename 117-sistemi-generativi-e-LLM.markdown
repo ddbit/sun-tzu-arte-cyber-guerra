@@ -3,10 +3,26 @@ status: ALMOST
 *TODO Manca intro a LLM e RAG*
 -->
 
+> Thot: "La scrittura renderà gli egiziani più sapienti e aumenterà la loro memoria"
+
+> Thamus: "Senza l’insegnamento orale del maestro non si avrà mai la conoscenza, ma l’arroganza del sapere e sarà impossibile arrivare alla verità"
+
+(Dialogo tra il dio Thot e il faraone Thamus, ricavato da "Fedro" di Platone)
+
+
+
+
+In questa sezione ci focalizziamo sui sistemi di AI generativa, ed in particolare su quelli chiamati in gergo LLM (Large Language Models).
+
+In pochi anni la loro popolarità è cresciuta a dismisura anche grazie al lancio sul mercato di ChatGPT, un'applicazione che consente tramite un prompt in linguaggio naturale di ottenere la generazione di testo e di immagini.
+
+Come spesso accade, la tecnologia fornisce degli strumenti dei quali bisogna conoscere i limiti e le caratteristiche per farne un uso corretto.
+
+
 Correttezza nei Sistemi generativi e modelli di linguaggio
 ==========================================
 
-Luca Bizzarri in una puntata del suo Podcast "Non hanno un amico" racconta un'avventura curiosa che, ahimè, ha rivelato i limiti di un'intelligenza artificiale. Incuriosito da una frase del ministro Giuli che cita in un discorso pubblico il concetto di "pensiero solare" che suona importante e altisonante, chiede a ChatGPT chi ne sia l’ideatore. La risposta è rapida e senza incertezze: un certo **Giuseppe Zuccari**, altrimenti noto come **Giuliano Zuccarini**, filosofo italiano nato a **Città di Castello** nel 1942, sarebbe l’artefice di tale pensiero, con profondi aforismi come "La rigidità delle ideologie si discioglie nella luce meridiana dello spirito mediterraneo." Un pensatore, insomma, con una penna a dir poco luminosa.
+A proposito della correttezza dei risultati, il comico Luca Bizzarri in una puntata del suo Podcast "Non hanno un amico" racconta un'avventura curiosa che, ahimè, ha rivelato i limiti di un'intelligenza artificiale. Incuriosito da una frase del ministro Giuli che cita in un discorso pubblico il concetto di "pensiero solare" che suona importante e altisonante, chiede a ChatGPT chi ne sia l’ideatore. La risposta è rapida e senza incertezze: un certo **Giuseppe Zuccari**, altrimenti noto come **Giuliano Zuccarini**, filosofo italiano nato a **Città di Castello** nel 1942, sarebbe l’artefice di tale pensiero, con profondi aforismi come "La rigidità delle ideologie si discioglie nella luce meridiana dello spirito mediterraneo." Un pensatore, insomma, con una penna a dir poco luminosa.
 
 Bizzarri già pregusta di poter sbeffeggiare il ministro, accusandolo non solo di logorrea pseudo-erudita ma anche di plagio di idee altrui, d'altronde Bizzarri fa questo di mestiere, pungolare i potenti, e gliene siamo grati.
 
@@ -18,6 +34,17 @@ Così, Bizzarri torna da ChatGPT e chiede con un po’ di diffidenza: "Ma non è
 Si può dire che Bizzarri sia stato vittima di un'allucinazione di ChatGPT, o per dirla in termini tecnici, di una **"hallucination"** dell'IA. Le allucinazioni nei modelli di linguaggio si verificano quando l'IA fornisce informazioni che sembrano plausibili ma che sono, in realtà, inventate di sana pianta. È un po' come se l'IA, per non voler mai dire "non lo so," si lanciasse a riempire i vuoti con dettagli fantasiosi.
 
 In questo caso, il povero Bizzarri ha ricevuto un'immagine di un filosofo italiano perfettamente dettagliato, nato a Città di Castello, autore di citazioni memorabili, eppure... del tutto immaginario! Un caso emblematico di allucinazione digitale, dove la creatività della macchina ha superato la realtà.
+
+Com'è fatto un sistema LLM
+-----------------
+
+Partiamo da un oggetto che già conoscevamo bene. Il suggeritore della tastiera del cellulare. Il lettore avrà presente che mentre scriviamo un messaggio la tastiera ci propone già 3-4 termini che secondo un certo modello statistico il cellulare ci suggerisce come utili a proseguire il discorso.
+
+In un certo senso, quello del cellulare è un piccolo modello di linguaggio, utilizza dati ricavati dal nostro modo di scrivere e da quello mediato di milioni di altri individui per allegerirci la fatica di scrivere le parole lettera per lettera.
+
+In un curioso esperimento potreste provare ad iniziare una conversazione con un vostro amico in chat e poi farla proseguire interamente al suggeritore, ad esempio adottando la regola di scegliere sempre la parola centrale suggeritca.
+
+Vi troverete a comporre delle frasi di senso "quasi" compiuto, diciamo dei deliri dell'algoritmo che però sembrano a chi li legge dei messaggi che forse sono un po' ambigui ma che magari scritti meglio avrebbero avuto un senso logico.
 
 
 
