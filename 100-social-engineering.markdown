@@ -89,6 +89,43 @@ I criminali inviano email, messaggi di testo o messaggi attraverso i social medi
 
 Una volta che la vittima segue il link, viene di solito reindirizzata a una pagina web falsa che imita l'aspetto di un sito legittimo. Qui, le viene chiesto di inserire informazioni sensibili che vengono poi raccolte dai criminali. Se l'utente apre un allegato, questo può invece installare malware sul dispositivo che permette ulteriori attacchi.
 
+## Un esempio reale che mi ha coinvolto personalmente
+
+Di recente ho esaurito lo spazio disco sul servizio iCloud. Quindi ho cominciato a ricevere dei messaggi leciti da parte della Apple che mi invitavano a estendere lo spazio facendo un acquisto.
+
+
+![vero messaggio Apple](/images/phishing-0.png)
+
+Nella figura ho messo in evidenza i domini internet da cui arrivavano i messaggi e a cui rimandavano i link contenuti nel corpo del messaggio stesso.
+
+Questa pratica di ispezione dei link è divenuta per me quasi automatica, è abbastanza semplice e la consiglio a tutti, quando ricevete un messaggio con dei link, prima di cliccarci sopra, fateci "sorvolare" il mouse. Vi apparirà (dipende dal vostro client di posta), la URL dell'indirizzo completo. Ad esempio, io utilizzo la posta gmail direttamente dal browser Chrome, e quindi vedo l'indirizzo completo sul bordo inferiore della finestra di Chrome. Altri client di posta fanno in modo diverso. Cercatene uno che vi mostri sempre i link completi.
+
+Questi messaggi apparivano con una certa frequenza, più o meno ogni volta che un'operazione sul mio cellulare o sul mio Mac richiedevano di utilizzare nuovo spazio. Tuttavia, non ho effettuato nessun acquisto per un po' di tempo.
+
+In mezzo ai vari messaggi nella mia posta elettronica uno mi ha incuriosito:
+
+![phising mail](/images/phishing-1.png)
+
+Era un messaggio all'apparenza autentico, e in fondo arrivava in un momento in cui questi messaggi da parte di Apple erano frequenti nella mia mailbox.
+
+Ad una più attenta ispezione dei link tuttavia emergeva qualcosa di strano.
+
+Il link non era verso un dominio di Apple o iCloud ma verso Linkedin, comunque un dominio per me affidabile. Ma allora cosa stava succedendo? Dovevo fidarmi?
+
+![phising mail](/images/phishing-2.png)
+
+No, ⚠️ Il link Linkedin viene visto come “legale” dai tool anti malware, ma è un trucco, **il link incapsula un altro link ad un sito pericoloso**.
+
+Questa tecnica si chiama smart link abuse, ed in pratica è basata sul fatto che le piattaforme come Linkedin quando gli utenti creano dei post contenenti dei link a risorse esterne, di fatto "riscrivono" i link originali esterni con dei link interni.
+
+In altre parole, un post su Linkedin che contiene un link a miosito.com viene trasformato in linkedin.com/xyy... che non è altro che un "redirect" al link esterno originale.
+
+Ecco come gli hacker usano questa funzionalità di Linkedin per inserire link all'apparenza innocui che invece portano a siti che truffano gli utenti.
+
+Il perché le piattaforme come Linkedin usino questo meccanismo di indirezione dei link, prestandosi di fatto ad essere utilizzati come vettori per delle truffe è presto detto. Alle piattaforme piace controllare tutto quello che fanno i loro utenti, e questi link sono uno strumento di analytics nel migliore dei casi.
+
+La tempistica di questo tentativo di phishing è probabilmente casuale ma **molto favorevole all'attacante**. Infatti proprio in quei giorni ricevevo richieste legittime da parte di Apple e avrei facilmente potuto cadere nell'imboscata in quanto le mie difese erano rilassate. Se l'attaccante avesse utilizzato un subject della mail identico a quello delle mail autentiche probabilmente non avrei avuto nessun sospetto.
+
 ### Prevenzione del Phishing
 Ecco alcune misure di prevenzione contro il phishing:
 - **Verifica delle fonti**: Prima di inserire qualsiasi dato personale, verificare sempre che l'URL nel browser corrisponda esattamente a quello di un sito fidato. Essere anche cauti con le email che richiedono azioni immediate.
