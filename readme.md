@@ -1,3 +1,3 @@
 # Readme
 
-![cover](/images/cover.jpg)
+![cover](images/cover.jpg)

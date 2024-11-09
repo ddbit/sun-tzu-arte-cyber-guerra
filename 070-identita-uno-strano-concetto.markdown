@@ -61,9 +61,13 @@ Offriamo qui una spiegazione chiara e concisa dei concetti fondamentali di ident
 - **Differenza rispetto all'autenticazione**: A differenza dell'autenticazione, che si concentra sulla verifica dell'identità, l'autorizzazione si occupa di stabilire e gestire i permessi basati sull'identità confermata.
 
 ### In sintesi
+
 - **Identità**: Chi sei.
+
 - **Autenticazione**: La verifica di chi tu sia.
+
 - **Autorizzazione**: Ciò che ti è permesso fare.
+
 
 Questi tre concetti sono interconnessi e lavorano insieme per garantire la sicurezza nelle interazioni digitali, assicurando che solo le entità autenticate e autorizzate possano accedere e operare all'interno di ambienti protetti. Questa strutturazione aiuta a prevenire accessi non autorizzati e abusi, formando una catena di sicurezza che protegge le risorse informatiche e le informazioni sensibili.
 

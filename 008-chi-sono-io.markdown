@@ -37,4 +37,6 @@ Attualmente opero come libero professionista, sono membro associato del Clusit (
 
 Questo fa di me un esperto di sicurezza informatica? Forse no. Ma fa di me uno che ha sempre voglia di imparare cose nuove e guardacaso ho scoperto che scrivere un libro a volte è il modo migliore per imparare qualcosa.
 
+Se volete sapere di più ecco un QR (sicuro se avete una copia originale del libro) che punta alla mia pagina personale.
 
+![qr pagina personale](images/qrcode_digitaldavide.me.png)

@@ -27,6 +27,9 @@ Ma in genere non è così lineare e semplice ottenere queste stime. Prendiamo il
 
 In questo capitolo ci riferiamo all'approccio di misurazione del rischio elaborato sa OWASP e disponibile online al sito [https://owasp.org/www-community/OWASP_Risk_Rating_Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology).
 
+![qr owasp risk rating](images/qrcode_owasp.org-riskrating.png)
+
+
 Come lo stesso OWASP riconosce, esistono altri approcci più completi e maturi per la valutazione del rischio tra cui 
 
 - [NIST 800-30 - Guide for Conducting Risk Assessments](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
@@ -142,18 +145,15 @@ Per creare una tabella di "impatto non tecnico" possiamo usare il seguente forma
   - **Reputation Damage:** Danni gravi non specificati nella colonna per il punteggio 9, ma si possono immaginare come catastrofici.
   - **Non-compliance e Privacy Violation:** Non specificati per il punteggio 9, suggerendo che il focus è sulla devastazione finanziaria e potenzialmente su estremi danni reputazionali.
 
-### Applicazioni della Tabella
+### Esercizio di Applicazione della Tabella: Agenzia di Viaggi Online.
 
 Questa tabella è utilizzata per valutare il potenziale impatto non tecnico di incidenti di sicurezza informatica. Organizzazioni possono utilizzare queste informazioni per:
+
 - Preparare risposte adeguate a vari livelli di incidenti.
 - Prioritizzare risorse in base al potenziale impatto.
 - Implementare misure preventive per ridurre la possibilità di danni gravi.
 
 Questa classificazione aiuta le aziende a comprendere non solo le conseguenze tecniche ma anche quelle finanziarie, legali e di immagine che possono scaturire da incidenti di sicurezza, permettendo così una gestione del rischio più olistica e informata.
-
-
-
-
 
 Per realizzare una valutazione del rischio per un sistema di database clienti di un'agenzia di viaggi online, dobbiamo considerare vari fattori che influenzano la probabilità di un attacco e l'impatto di tale attacco. Ecco come potremmo procedere basandoci sulle tabelle fornite per "superficie di attacco", "capacità dell'attaccante", e l'impatto "tecnico e non tecnico".
 

@@ -71,9 +71,9 @@ La promessa di guadagni facili o di benefici personali può essere un potente le
 ### 6. Desiderio
 Similmente all'avidità, il desiderio di qualcosa di desiderabile (come un lavoro, una relazione o un status sociale) può essere sfruttato dagli attaccanti. Questi possono presentarsi come capaci di soddisfare tale desiderio in cambio di azioni che compromettono la sicurezza.
 
-## Prevenzione contro gli Attacchi di Ingegneria Sociale
 
 Le contromisure contro l'ingegneria sociale richiedono una combinazione di formazione, consapevolezza e protocolli di sicurezza:
+
 - **Formazione e consapevolezza**: Educare i dipendenti sul riconoscimento delle tattiche di ingegneria sociale e sull'importanza di verificare le richieste di informazioni sensibili.
 - **Politiche di sicurezza chiare**: Avere linee guida chiare su come vengono gestite e condivise le informazioni all'interno dell'organizzazione.
 - **Verifica multi-fase**: Implementare procedure che richiedono più forme di verifica prima di concedere l'accesso a informazioni sensibili o sistemi critici.
@@ -89,42 +89,7 @@ I criminali inviano email, messaggi di testo o messaggi attraverso i social medi
 
 Una volta che la vittima segue il link, viene di solito reindirizzata a una pagina web falsa che imita l'aspetto di un sito legittimo. Qui, le viene chiesto di inserire informazioni sensibili che vengono poi raccolte dai criminali. Se l'utente apre un allegato, questo può invece installare malware sul dispositivo che permette ulteriori attacchi.
 
-## Un esempio reale che mi ha coinvolto personalmente
 
-Di recente ho esaurito lo spazio disco sul servizio iCloud. Quindi ho cominciato a ricevere dei messaggi leciti da parte della Apple che mi invitavano a estendere lo spazio facendo un acquisto.
-
-
-![vero messaggio Apple](/images/phishing-0.png)
-
-Nella figura ho messo in evidenza i domini internet da cui arrivavano i messaggi e a cui rimandavano i link contenuti nel corpo del messaggio stesso.
-
-Questa pratica di ispezione dei link è divenuta per me quasi automatica, è abbastanza semplice e la consiglio a tutti, quando ricevete un messaggio con dei link, prima di cliccarci sopra, fateci "sorvolare" il mouse. Vi apparirà (dipende dal vostro client di posta), la URL dell'indirizzo completo. Ad esempio, io utilizzo la posta gmail direttamente dal browser Chrome, e quindi vedo l'indirizzo completo sul bordo inferiore della finestra di Chrome. Altri client di posta fanno in modo diverso. Cercatene uno che vi mostri sempre i link completi.
-
-Questi messaggi apparivano con una certa frequenza, più o meno ogni volta che un'operazione sul mio cellulare o sul mio Mac richiedevano di utilizzare nuovo spazio. Tuttavia, non ho effettuato nessun acquisto per un po' di tempo.
-
-In mezzo ai vari messaggi nella mia posta elettronica uno mi ha incuriosito:
-
-![phising mail](/images/phishing-1.png)
-
-Era un messaggio all'apparenza autentico, e in fondo arrivava in un momento in cui questi messaggi da parte di Apple erano frequenti nella mia mailbox.
-
-Ad una più attenta ispezione dei link tuttavia emergeva qualcosa di strano.
-
-Il link non era verso un dominio di Apple o iCloud ma verso Linkedin, comunque un dominio per me affidabile. Ma allora cosa stava succedendo? Dovevo fidarmi?
-
-![phising mail](/images/phishing-2.png)
-
-No, ⚠️ Il link Linkedin viene visto come “legale” dai tool anti malware, ma è un trucco, **il link incapsula un altro link ad un sito pericoloso**.
-
-Questa tecnica si chiama smart link abuse, ed in pratica è basata sul fatto che le piattaforme come Linkedin quando gli utenti creano dei post contenenti dei link a risorse esterne, di fatto "riscrivono" i link originali esterni con dei link interni.
-
-In altre parole, un post su Linkedin che contiene un link a miosito.com viene trasformato in linkedin.com/xyy... che non è altro che un "redirect" al link esterno originale.
-
-Ecco come gli hacker usano questa funzionalità di Linkedin per inserire link all'apparenza innocui che invece portano a siti che truffano gli utenti.
-
-Il perché le piattaforme come Linkedin usino questo meccanismo di indirezione dei link, prestandosi di fatto ad essere utilizzati come vettori per delle truffe è presto detto. Alle piattaforme piace controllare tutto quello che fanno i loro utenti, e questi link sono uno strumento di analytics nel migliore dei casi.
-
-La tempistica di questo tentativo di phishing è probabilmente casuale ma **molto favorevole all'attacante**. Infatti proprio in quei giorni ricevevo richieste legittime da parte di Apple e avrei facilmente potuto cadere nell'imboscata in quanto le mie difese erano rilassate. Se l'attaccante avesse utilizzato un subject della mail identico a quello delle mail autentiche probabilmente non avrei avuto nessun sospetto.
 
 ### Prevenzione del Phishing
 Ecco alcune misure di prevenzione contro il phishing:
@@ -211,7 +176,46 @@ Per difendersi da attacchi che sfruttano dispositivi come il Rubber Ducky, organ
 Il Rubber Ducky rappresenta un esempio potente di come dispositivi apparentemente innocui possano essere trasformati in strumenti potenti per il cyber attacco o la difesa, sottolineando l'importanza di una buona sicurezza fisica e informatica.
 
 
-## Caso studio di Social Engineering: Coinspaid
+## Caso studio: Un esempio reale che mi ha coinvolto personalmente
+
+Di recente ho esaurito lo spazio disco sul servizio iCloud. Quindi ho cominciato a ricevere dei messaggi leciti da parte della Apple che mi invitavano a estendere lo spazio facendo un acquisto.
+
+
+![vero messaggio Apple](images/phishing-0.png)
+
+Nella figura ho messo in evidenza i domini internet da cui arrivavano i messaggi e a cui rimandavano i link contenuti nel corpo del messaggio stesso.
+
+Questa pratica di ispezione dei link è divenuta per me quasi automatica, è abbastanza semplice e la consiglio a tutti, quando ricevete un messaggio con dei link, prima di cliccarci sopra, fateci "sorvolare" il mouse. Vi apparirà (dipende dal vostro client di posta), la URL dell'indirizzo completo. Ad esempio, io utilizzo la posta gmail direttamente dal browser Chrome, e quindi vedo l'indirizzo completo sul bordo inferiore della finestra di Chrome. Altri client di posta fanno in modo diverso. Cercatene uno che vi mostri sempre i link completi.
+
+Questi messaggi apparivano con una certa frequenza, più o meno ogni volta che un'operazione sul mio cellulare o sul mio Mac richiedevano di utilizzare nuovo spazio. Tuttavia, non ho effettuato nessun acquisto per un po' di tempo.
+
+In mezzo ai vari messaggi nella mia posta elettronica uno mi ha incuriosito:
+
+![phishing mail](images/phishing-1.png)
+
+Era un messaggio all'apparenza autentico, e in fondo arrivava in un momento in cui questi messaggi da parte di Apple erano frequenti nella mia mailbox.
+
+Ad una più attenta ispezione dei link tuttavia emergeva qualcosa di strano.
+
+Il link non era verso un dominio di Apple o iCloud ma verso Linkedin, comunque un dominio per me affidabile. Ma allora cosa stava succedendo? Dovevo fidarmi?
+
+![phising mail](images/phishing-2.png)
+
+No, ⚠️ Il link Linkedin viene visto come “legale” dai tool anti malware, ma è un trucco, **il link incapsula un altro link ad un sito pericoloso**.
+
+Questa tecnica si chiama smart link abuse, ed in pratica è basata sul fatto che le piattaforme come Linkedin quando gli utenti creano dei post contenenti dei link a risorse esterne, di fatto "riscrivono" i link originali esterni con dei link interni.
+
+In altre parole, un post su Linkedin che contiene un link a miosito.com viene trasformato in linkedin.com/xyy... che non è altro che un "redirect" al link esterno originale.
+
+Ecco come gli hacker usano questa funzionalità di Linkedin per inserire link all'apparenza innocui che invece portano a siti che truffano gli utenti.
+
+Il perché le piattaforme come Linkedin usino questo meccanismo di indirezione dei link, prestandosi di fatto ad essere utilizzati come vettori per delle truffe è presto detto. Alle piattaforme piace controllare tutto quello che fanno i loro utenti, e questi link sono uno strumento di analytics nel migliore dei casi.
+
+La tempistica di questo tentativo di phishing è probabilmente casuale ma **molto favorevole all'attacante**. Infatti proprio in quei giorni ricevevo richieste legittime da parte di Apple e avrei facilmente potuto cadere nell'imboscata in quanto le mie difese erano rilassate. Se l'attaccante avesse utilizzato un subject della mail identico a quello delle mail autentiche probabilmente non avrei avuto nessun sospetto.
+
+
+
+## Caso studio: Processore di cripto pagamenti Coinspaid
 
 
 Il caso coinvolge un attacco sofisticato contro una società di pagamenti processore di valute virtuali, probabilmente eseguito dal gruppo Lazarus nel 2023. Questo attacco evidenzia la metodologia avanzata e il livello di preparazione impiegato dai cybercriminali nelle loro operazioni di cyber-spionaggio e furto. Ecco una ricostruzione dettagliata e analisi di questo attacco:
@@ -242,7 +246,7 @@ Il caso coinvolge un attacco sofisticato contro una società di pagamenti proces
 ### Conclusioni e Misure di Prevenzione
 Questo attacco illustra l'importanza della vigilanza, della formazione continua degli impiegati su tattiche di phishing e ingegneria sociale, e della necessità di implementare rigorose misure di sicurezza informatica. Le aziende dovrebbero anche considerare la verifica delle interazioni che coinvolgono la condivisione di dati sensibili e l'implementazione di politiche di sicurezza che limitino l'installazione di software non autorizzato sui dispositivi aziendali. La collaborazione con esperti di sicurezza per simulare attacchi e testare la resilienza dei sistemi è un altro strumento critico per prepararsi e mitigare potenziali minacce.
 
-## Casi di studio. Banca del Bangladesh
+## Caso studio. Banca del Bangladesh
 
 Il caso della Banca Centrale del Bangladesh è uno degli esempi più eclatanti di cyber-attacco finanziario degli ultimi anni e dimostra la vulnerabilità delle istituzioni finanziarie globali a sofisticate incursioni informatiche. Ecco una dettagliata analisi del caso:
 

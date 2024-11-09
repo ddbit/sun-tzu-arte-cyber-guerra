@@ -35,10 +35,6 @@ Un **exploit** è una tecnica o un pezzo di codice che, sfruttando una vulnerabi
 
 Un **attacco** si verifica quando un exploit viene utilizzato contro un sistema per comprometterlo, rubare dati o causare un danno. Gli attacchi possono essere automatizzati e diffusi, come nel caso di worm e attacchi ransomware, o possono essere mirati e complessi, come avviene nei casi di attacchi diretti a specifiche organizzazioni o individui. La fase di attacco è quella in cui le minacce diventano effettive e le vulnerabilità vengono sfruttate per realizzare gli obiettivi dannosi degli attaccanti. Strategie di difesa efficaci contro gli attacchi includono il monitoraggio continuo dei sistemi, la formazione degli utenti sulla sicurezza, e la pronta risposta agli incidenti quando vengono identificati.
 
-### OWASP Top 10
-
-*to be done*
-
 ### Modello di Dolev-Yao: Analisi dell'Attaccante
 
 Il Modello Dolev-Yao è un approccio all'analisi della sicurezza informatica che pone particolare attenzione sulle capacità dell'attaccante di manipolare e intercettare la comunicazione all'interno di un sistema. Questo approccio è noto come il Modello di Dolev-Yao, che è un modello teorico utilizzato per analizzare la sicurezza dei protocolli di comunicazione. Ecco una discussione più approfondita sul modello e sulle sue implicazioni pratiche nella sicurezza informatica.

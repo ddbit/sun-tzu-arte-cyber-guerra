@@ -36,7 +36,7 @@ Ci sono varie metriche per stabilire se un dato modello creato per risolvere un 
 
 Questa metrica dice solo una parte della verità, ad esempio è importante capire quanti sono i falsi positivi o i falsi negativi e a questo scopo spesso i data scientist generano delle matrici di confusione.
 
-![matrice di confusione](/images/confusion-matrix.png)
+![matrice di confusione](images/confusion-matrix.png)
 
 Altre metriche usate sono:
 
