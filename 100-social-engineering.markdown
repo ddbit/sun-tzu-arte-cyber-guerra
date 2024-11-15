@@ -8,7 +8,7 @@ inserire attacco via QR
 > *PEBCAK: Problem Exists Between Keyboard And Chair*
 
 
-Questa frase viene spesso usata in modo ironico per indicare che il problema di un computer non è dovuto a un malfunzionamento del software o dell'hardware, ma piuttosto a un errore umano o all'inesperienza dell'utente. L'immagine mostra un'icona stilizzata di una persona seduta davanti a un computer, il che suggerisce visivamente che il "problema" si trova nell'interazione tra l'utente e il computer.
+Questa frase viene spesso usata in modo ironico per indicare che il problema di un computer non è dovuto a un malfunzionamento del software o dell'hardware, ma piuttosto a un errore umano o all'inesperienza dell'utente.
 
 L'utilizzo del termine PEBKAC è comune tra gli addetti al supporto tecnico come modo colloquiale e umoristico per descrivere situazioni in cui la soluzione agli issue tecnici risiede nell'educazione o nell'addestramento dell'utente piuttosto che in interventi tecnici sul sistema.
 
@@ -17,9 +17,13 @@ L'ingegneria sociale nella sicurezza informatica è una tattica usata dagli hack
 
 ## Tecniche di Ingegneria Sociale
 Alcune delle tecniche più comuni includono:
+
 - **Phishing**: Attacchi tramite email o messaggi che sembrano provenire da fonti legittime per indurre gli utenti a fornire dati sensibili come password o informazioni bancarie.
+
 - **Pretexting**: L'attaccante crea uno scenario falso o una situazione ingannevole per ottenere informazioni personali. Ad esempio, potrebbero fingere di aver bisogno di informazioni per un report o per verificare l'identità dell'utente.
+
 - **Baiting**: Simile al phishing, ma con l'offerta di qualcosa di allettante per ingannare la vittima, come un download gratuito di software che in realtà è malware.
+
 - **Quid pro quo**: Promettere un beneficio in cambio di informazioni. Questo può includere assistenza tecnica falsa, dove l'attaccante promette di risolvere un problema in cambio dell'accesso a sistemi o dati sensibili.
 
 
@@ -42,14 +46,11 @@ Dopo aver guadagnato la fiducia della vittima o averla ingannata con successo, g
 ### 5. Uscita
 Una volta raggiunti i loro obiettivi, gli attaccanti cercano di terminare l'interazione senza lasciare tracce. Questo può includere la cancellazione di tutte le comunicazioni, il mascheramento delle loro tracce digitali, e l'assicurarsi che la vittima non sia consapevole di essere stata ingannata.
 
-### Prevenzione e Mitigazione
-Per prevenire gli attacchi di social engineering, le organizzazioni e gli individui dovrebbero adottare misure come la formazione continua sulla sicurezza, l'implementazione di politiche di sicurezza robuste, e l'uso di tecnologie che aiutano a identificare e bloccare tentativi di phishing e altre forme di inganno.
-
-Essere consapevoli delle tattiche utilizzate in questi attacchi e promuovere una cultura di sicurezza e di verifica possono ridurre significativamente la vulnerabilità agli attacchi di social engineering.
 
 
-## Cosa ci rende vulnerabili agli attacchi di social engineering?
 
+Cosa ci rende vulnerabili agli attacchi di social engineering?
+--------------------------------------------------------------
 
 Gli attacchi di social engineering sfruttano varie vulnerabilità psicologiche umane per manipolare le persone affinché compiano azioni che non farebbero normalmente, come rivelare informazioni sensibili o concedere l'accesso a sistemi protetti. Ecco alcune delle vulnerabilità umane comunemente sfruttate:
 
@@ -72,13 +73,19 @@ La promessa di guadagni facili o di benefici personali può essere un potente le
 Similmente all'avidità, il desiderio di qualcosa di desiderabile (come un lavoro, una relazione o un status sociale) può essere sfruttato dagli attaccanti. Questi possono presentarsi come capaci di soddisfare tale desiderio in cambio di azioni che compromettono la sicurezza.
 
 
-Le contromisure contro l'ingegneria sociale richiedono una combinazione di formazione, consapevolezza e protocolli di sicurezza:
+### Prevenzione e Mitigazione
 
-- **Formazione e consapevolezza**: Educare i dipendenti sul riconoscimento delle tattiche di ingegneria sociale e sull'importanza di verificare le richieste di informazioni sensibili.
-- **Politiche di sicurezza chiare**: Avere linee guida chiare su come vengono gestite e condivise le informazioni all'interno dell'organizzazione.
-- **Verifica multi-fase**: Implementare procedure che richiedono più forme di verifica prima di concedere l'accesso a informazioni sensibili o sistemi critici.
+Per prevenire gli attacchi di social engineering, le organizzazioni e gli individui dovrebbero adottare misure come la formazione continua sulla sicurezza, l'implementazione di politiche di sicurezza robuste, e l'uso di tecnologie che aiutano a identificare e bloccare tentativi di phishing e altre forme di inganno.
 
-L'ingegneria sociale rimane una delle minacce più insidiose nella sicurezza informatica perché sfrutta vulnerabilità che non sono tecniche ma umane. La vigilanza e la formazione continua sono essenziali per proteggersi da questi tipi di attacchi.
+
+E' fondamentale educare i dipendenti sul riconoscimento delle tattiche di ingegneria sociale e sull'importanza di verificare le richieste di informazioni sensibili.
+
+Inoltre bisogna predisporre delle linee guida chiare su come vengono gestite e condivise le informazioni all'interno dell'organizzazione. Ad esempio potrebbe non essere una buona idea che professionisti e dipendenti usino il loro PC personale se prima non sono stati istruiti su come proteggerlo adeguatamente. 
+Oppure potrebbe non essere una buona idea scaricare documenti di lavoro su un telefono personale che magari poi viene venduto senza preoccuparsi di cancellare i dati. Sembrano indicazioni banali, ma possono fare una gran differenza e talvolta anche i più esperti si trovano nel dubbio se fare o non fare una determinata azione che invece potrebbe essere prevista in un documento di linee guida.
+
+Naturalmente dovrebbe essere imperativo implementare procedure che richiedono più forme di verifica prima di concedere l'accesso a informazioni sensibili o sistemi critici.
+
+L'ingegneria sociale rimane tuttavia una delle minacce più insidiose nella sicurezza informatica perché sfrutta vulnerabilità che non sono tecniche ma umane. E incredibilmente anche stimati professionisti del mondo IT vengono colpiti personalmente ogni giorno. Figuriamoci gli altri.
 
 ## Phishing
 
@@ -93,88 +100,16 @@ Una volta che la vittima segue il link, viene di solito reindirizzata a una pagi
 
 ### Prevenzione del Phishing
 Ecco alcune misure di prevenzione contro il phishing:
+
 - **Verifica delle fonti**: Prima di inserire qualsiasi dato personale, verificare sempre che l'URL nel browser corrisponda esattamente a quello di un sito fidato. Essere anche cauti con le email che richiedono azioni immediate.
+
 - **Formazione e consapevolezza**: Le organizzazioni dovrebbero formare regolarmente i loro dipendenti a riconoscere i segni di email e messaggi sospetti.
+
 - **Utilizzo di soluzioni anti-phishing**: Molte soluzioni di sicurezza e-mail moderne includono filtri anti-phishing che aiutano a bloccare email sospette prima che raggiungano gli utenti.
+
 - **Autenticazione a più fattori**: Anche se i dati di accesso vengono compromessi, l'autenticazione a più fattori può prevenire l'accesso non autorizzato.
 
 Il phishing rimane una minaccia significativa nella sicurezza informatica a causa della sua continua evoluzione e sofisticazione. Mantenere un alto livello di vigilanza e adottare pratiche di sicurezza solide sono essenziali per proteggersi da queste tecniche di inganno.
-
-## SMiShing
-
-Lo **smishing** è una forma specifica di phishing che sfrutta i messaggi di testo (SMS) come mezzo per ingannare le vittime. Gli attaccanti inviano SMS che sembrano provenire da fonti legittime come banche, aziende o altre istituzioni note per indurre gli individui a rivelare informazioni personali o a scaricare malware.
-
-### Come Funziona il Smishing
-I messaggi di smishing possono contenere collegamenti a siti web fraudolenti che richiedono agli utenti di inserire informazioni personali o dettagli del conto bancario. In alternativa, possono incoraggiare il destinatario a scaricare una applicazione che in realtà è malware. Questi messaggi spesso utilizzano toni urgenti o offrono vantaggi come buoni sconto, premi o anche minacce di chiusura di un conto per provocare una risposta rapida dalla vittima.
-
-### Esempio di Smishing
-Un esempio comune di smishing potrebbe essere un messaggio che afferma: "La tua carta di credito è stata temporaneamente sospesa per attività sospette. Per riattivarla, clicca qui e conferma la tua identità." Il link conduce a una pagina web che imita quella di una banca legittima, dove le credenziali inserite vengono rubate.
-
-### Prevenzione del Smishing
-Ecco alcune misure per proteggersi dal smishing:
-- **Ignorare messaggi non sollecitati**: Non rispondere a messaggi di testo che richiedono informazioni personali, soprattutto se non sono stati richiesti.
-- **Verificare la fonte**: Prima di prendere qualsiasi azione richiesta via SMS, è importante verificare la legittimità del messaggio contattando direttamente l'entità attraverso canali ufficiali.
-- **Non cliccare sui link**: Evitare di cliccare su link in messaggi di testo sospetti. Se è necessario accedere a un sito, è meglio digitare direttamente l'URL nel browser.
-- **Utilizzare software antivirus**: Assicurarsi che i dispositivi mobili siano protetti con software antivirus aggiornato, che può aiutare a bloccare alcuni tipi di malware distribuiti tramite smishing.
-
-Il smishing è un metodo ingannevole efficace perché molti non sospettano dei messaggi di testo come veicolo per le truffe. Mantenere una consapevolezza critica e adottare buone pratiche di sicurezza è essenziale per proteggersi da queste minacce.
-
-Nel 2021, il 74% delle organizzazioni ha subito attacchi di smishing, evidenziando un aumento del 13% rispetto al 2020. Questa informazione è supportata da una ricerca condotta in vari settori, dimostrando quanto sia diffuso e crescente il problema degli attacchi di smishing tra le aziende e le organizzazioni di tutto il mondo .
-
-
-## USB Malevole
-
-Le USB malevole, o **malicious USB drives**, sono dispositivi di memoria USB che sono stati modificati o programmati per eseguire operazioni dannose quando collegati a un computer. Questi attacchi sfruttano la naturale tendenza delle persone a fidarsi dei dispositivi USB e la curiosità di vedere cosa contengano i dispositivi trovati.
-
-### Funzionamento delle USB Malevole
-Quando una persona inserisce una USB malevola in un computer, il dispositivo può automaticamente:
-- **Installare malware**: Questo può includere virus, trojan, ransomware, o spyware che possono danneggiare il sistema, rubare dati sensibili, o prendere il controllo remoto del computer.
-- **Eseguire uno script dannoso**: Gli script possono configurare il sistema per renderlo vulnerabile a ulteriori attacchi o per esfiltrare dati.
-- **Simulare una tastiera**: Alcune USB malevole possono emulare una tastiera e digitare comandi preprogrammati molto rapidamente, eseguendo azioni malevoli senza che l'utente intervenga.
-
-### Rischi Associati
-L'uso di USB malevole può portare a:
-- **Violazioni della sicurezza**: I dati sensibili possono essere rubati o compromessi.
-- **Diffusione di malware**: L'USB può fungere da vettore per diffondere malware attraverso reti o tra dispositivi.
-- **Danni hardware o software**: Alcuni attacchi possono causare danni fisici ai computer, come sovraccaricare e bruciare componenti hardware.
-
-### Prevenzione e Precauzioni
-Per mitigare i rischi associati alle USB malevole:
-- **Non usare dispositivi USB trovati**: Evitare di inserire USB di origine sconosciuta nei propri dispositivi.
-- **Disabilitare l'esecuzione automatica**: Configurare i sistemi per non eseguire automaticamente i contenuti da dispositivi USB.
-- **Utilizzare software antivirus**: Mantenere aggiornato il software antivirus e eseguire scansioni regolari dei dispositivi USB prima di usarli.
-- **Politiche di sicurezza rigorose**: Le organizzazioni dovrebbero avere politiche che limitano l'uso di dispositivi USB esterni e forniscono dispositivi approvati e sicuri ai dipendenti.
-
-La consapevolezza e le precauzioni appropriate sono essenziali per proteggersi da questo tipo di minacce informatiche, data la loro capacità di causare danni significativi con pochi o nessun segno evidente di compromissione fino a quando non è troppo tardi.
-
-
-## Rubber Ducky
-
-Il **Rubber Ducky** è un dispositivo USB particolarmente noto nel mondo della sicurezza informatica per la sua capacità di emulare una tastiera e automaticamente eseguire una sequenza di comandi una volta inserito in un computer. Questo strumento può sembrare un comune drive USB, ma è in realtà un potente dispositivo di hacking programmato per inviare comandi al computer ospitante come se fossero digitati da un utente.
-
-### Come Funziona il Rubber Ducky
-Quando il Rubber Ducky è inserito in una porta USB, il sistema operativo del computer lo riconosce come una tastiera esterna, non come un normale dispositivo di memorizzazione. Grazie a questa caratteristica, può bypassare i controlli di sicurezza che normalmente si applicano ai dispositivi di storage USB. Il dispositivo ha uno script pre-caricato, noto come "payload", che può essere scritto in un linguaggio semplice e diretto. Questo payload viene eseguito automaticamente e può compiere azioni come:
-
-- Aprire terminali o linee di comando.
-- Scaricare ed eseguire software dannoso.
-- Cambiare le impostazioni del sistema.
-- Rubare o manipolare dati.
-- Installare backdoors per un accesso remoto futuro.
-
-### Potenziali Usi del Rubber Ducky
-- **Test di penetrazione**: I professionisti della sicurezza utilizzano dispositivi come il Rubber Ducky per testare le misure di sicurezza delle organizzazioni, identificando vulnerabilità che potrebbero essere sfruttate da attaccanti reali.
-- **Educazione e formazione**: Utilizzato in ambienti controllati per formare il personale IT sulla rilevazione e il blocco di attacchi hardware.
-- **Attività illecite**: Malintenzionati possono utilizzare il Rubber Ducky per compiere attacchi informatici e furto di dati.
-
-### Prevenzione e Difesa
-Per difendersi da attacchi che sfruttano dispositivi come il Rubber Ducky, organizzazioni e individui possono adottare diverse strategie:
-- **Disabilitare le porte USB**: Sulle macchine critiche dove non è necessario l'uso quotidiano delle USB, disabilitare fisicamente o via software le porte può prevenire attacchi.
-- **Controllo degli accessi**: Limitare l'uso delle porte USB solo a dispositivi autorizzati e tracciati.
-- **Educazione degli utenti**: Formare i dipendenti a riconoscere e segnalare l'uso di dispositivi USB non autorizzati.
-- **Sicurezza fisica**: Mantenere una sicurezza fisica adeguata per prevenire l'accesso non autorizzato agli spazi lavorativi e ai computer.
-
-Il Rubber Ducky rappresenta un esempio potente di come dispositivi apparentemente innocui possano essere trasformati in strumenti potenti per il cyber attacco o la difesa, sottolineando l'importanza di una buona sicurezza fisica e informatica.
-
 
 ## Caso studio: Un esempio reale che mi ha coinvolto personalmente
 
@@ -214,86 +149,108 @@ Il perché le piattaforme come Linkedin usino questo meccanismo di indirezione d
 La tempistica di questo tentativo di phishing è probabilmente casuale ma **molto favorevole all'attacante**. Infatti proprio in quei giorni ricevevo richieste legittime da parte di Apple e avrei facilmente potuto cadere nell'imboscata in quanto le mie difese erano rilassate. Se l'attaccante avesse utilizzato un subject della mail identico a quello delle mail autentiche probabilmente non avrei avuto nessun sospetto.
 
 
+## SMiShing
 
-## Caso studio: Processore di cripto pagamenti Coinspaid
+Lo **smishing** è una forma specifica di phishing che sfrutta i messaggi di testo (SMS) come mezzo per ingannare le vittime. Gli attaccanti inviano SMS che sembrano provenire da fonti legittime come banche, aziende o altre istituzioni note per indurre gli individui a rivelare informazioni personali o a scaricare malware.
+
+### Come Funziona lo Smishing
+I messaggi di smishing possono contenere collegamenti a siti web fraudolenti che richiedono agli utenti di inserire informazioni personali o dettagli del conto bancario. In alternativa, possono incoraggiare il destinatario a scaricare una applicazione che in realtà è malware. Questi messaggi spesso utilizzano toni urgenti o offrono vantaggi come buoni sconto, premi o anche minacce di chiusura di un conto per provocare una risposta rapida dalla vittima.
+
+### Esempio di Smishing
+Un esempio comune di smishing potrebbe essere un messaggio che afferma: "La tua carta di credito è stata temporaneamente sospesa per attività sospette. Per riattivarla, clicca qui e conferma la tua identità." Il link conduce a una pagina web che imita quella di una banca legittima, dove le credenziali inserite vengono rubate.
+
+### Prevenzione dallo Smishing
+
+Ecco alcune misure per proteggersi dal smishing:
+
+- **Ignorare messaggi non sollecitati**: Non rispondere a messaggi di testo che richiedono informazioni personali, soprattutto se non sono stati richiesti.
+
+- **Verificare la fonte**: Prima di prendere qualsiasi azione richiesta via SMS, è importante verificare la legittimità del messaggio contattando direttamente l'entità attraverso canali ufficiali.
+
+- **Non cliccare sui link**: Evitare di cliccare su link in messaggi di testo sospetti. Se è necessario accedere a un sito, è meglio digitare direttamente l'URL nel browser.
+
+- **Utilizzare software antivirus**: Assicurarsi che i dispositivi mobili siano protetti con software antivirus aggiornato, che può aiutare a bloccare alcuni tipi di malware distribuiti tramite smishing.
+
+Il smishing è un metodo ingannevole efficace perché molti non sospettano dei messaggi di testo come veicolo per le truffe. Mantenere una consapevolezza critica e adottare buone pratiche di sicurezza è essenziale per proteggersi da queste minacce.
+
+Nel 2021, il 74% delle organizzazioni ha subito attacchi di smishing, evidenziando un aumento del 13% rispetto al 2020. Questa informazione è supportata da una ricerca condotta in vari settori, dimostrando quanto sia diffuso e crescente il problema degli attacchi di smishing tra le aziende e le organizzazioni di tutto il mondo .
 
 
-Il caso coinvolge un attacco sofisticato contro una società di pagamenti processore di valute virtuali, probabilmente eseguito dal gruppo Lazarus nel 2023. Questo attacco evidenzia la metodologia avanzata e il livello di preparazione impiegato dai cybercriminali nelle loro operazioni di cyber-spionaggio e furto. Ecco una ricostruzione dettagliata e analisi di questo attacco:
+## USB Malevole
 
-### Cronologia e Tattiche dell'Attacco
+Le USB malevole, o **malicious USB drives**, sono dispositivi di memoria USB che sono stati modificati o programmati per eseguire operazioni dannose quando collegati a un computer. Questi attacchi sfruttano la naturale tendenza delle persone a fidarsi dei dispositivi USB e la curiosità di vedere cosa contengano i dispositivi trovati.
 
-#### Preparazione: Pre-Marzo 2023
-- **Tentativi di Brute Force e Port Scanning**: In questa fase iniziale, il gruppo Lazarus ha condotto attacchi di brute force e scanning delle porte per identificare vulnerabilità nei sistemi della società. Questo serviva a mappare la rete e trovare punti di ingresso deboli.
+### Funzionamento delle USB Malevole
 
-#### Raccolta Informazioni: Marzo 2023
-- **Finta Startup Chiede Informazioni sull'Infrastruttura Tecnica**: Il gruppo ha creato una falsa startup nel settore delle criptovalute che ha formalmente richiesto informazioni sull'infrastruttura tecnica della società vittima, ottenendo così dati cruciali sotto falso pretesto.
+Quando una persona inserisce una USB malevola in un computer, il dispositivo può automaticamente **Installare malware**. Questo può includere virus, trojan, ransomware, o spyware che possono danneggiare il sistema, rubare dati sensibili, o prendere il controllo remoto del computer.
 
-#### Phishing: Aprile 2023
-- **Raffica di Attacchi Phishing via Email**: I dipendenti sono stati bombardati con email di phishing progettate per sembrare comunicazioni legittime, con l'obiettivo di rubare credenziali di accesso o installare malware nei sistemi della società.
+Gli script malware così installati possono configurare il sistema per renderlo vulnerabile a ulteriori attacchi o per esfiltrare dati. Alcune USB malevole possono emulare una tastiera e digitare comandi preprogrammati molto rapidamente, eseguendo azioni malevoli senza che l'utente intervenga.
 
-#### Social Engineering: Giugno 2023
-- **Colloqui di Lavoro Finti per Persone Chiave**: Membri chiave della società sono stati contattati con offerte di colloqui per posizioni molto remunerative, con l'intento di raccogliere ulteriori informazioni o di manipolarli per installare software dannoso.
+### Rischi Associati
 
-#### Attacco: Luglio 2023
-- **Attacco Massivo da 150,000 Diversi Punti IP**: Con l'infrastruttura già compromessa e i dati raccolti, il gruppo ha lanciato un attacco coordinato da un numero enorme di diversi indirizzi IP, complicando così la difesa e la tracciabilità del traffico malevolo.
+L'uso di USB malevole può portare a:
 
-### Punti Chiave dell'Attacco
-- **Reclutatori Finti da Crypto.com**: Sono stati usati reclutatori falsi da note aziende di criptovalute per contattare i dipendenti con offerte allettanti.
-- **Installazione di JumpCloud Agent Durante il Processo di Selezione**: Questo agente, sebbene legittimo in altri contesti, è stato utilizzato per installare codice malevolo.
-- **Furto di Profili e Chiavi dal Computer dell'Impiegato**: Questo ha permesso un accesso non autorizzato all'infrastruttura critica della società.
-- **Sfruttamento di Una Vulnerabilità nella Infrastruttura di CoinsPaid**: Dopo aver ottenuto l'accesso, gli hacker hanno sfruttato vulnerabilità specifiche per massimizzare l'impatto dell'attacco.
+- **Violazioni della sicurezza**: I dati sensibili possono essere rubati o compromessi.
 
-### Conclusioni e Misure di Prevenzione
-Questo attacco illustra l'importanza della vigilanza, della formazione continua degli impiegati su tattiche di phishing e ingegneria sociale, e della necessità di implementare rigorose misure di sicurezza informatica. Le aziende dovrebbero anche considerare la verifica delle interazioni che coinvolgono la condivisione di dati sensibili e l'implementazione di politiche di sicurezza che limitino l'installazione di software non autorizzato sui dispositivi aziendali. La collaborazione con esperti di sicurezza per simulare attacchi e testare la resilienza dei sistemi è un altro strumento critico per prepararsi e mitigare potenziali minacce.
+- **Diffusione di malware**: L'USB può fungere da vettore per diffondere malware attraverso reti o tra dispositivi.
 
-## Caso studio. Banca del Bangladesh
+- **Danni hardware o software**: Alcuni attacchi possono causare danni fisici ai computer, come sovraccaricare e bruciare componenti hardware.
 
-Il caso della Banca Centrale del Bangladesh è uno degli esempi più eclatanti di cyber-attacco finanziario degli ultimi anni e dimostra la vulnerabilità delle istituzioni finanziarie globali a sofisticate incursioni informatiche. Ecco una dettagliata analisi del caso:
+### Prevenzione e Precauzioni
 
-### Descrizione del Caso
+In generale le pendrive USB stanno perdendo popolarità e tutto sommato questo è un bene. Tuttavia è possibile che si possa essere indotti con l'inganno ad utilizzare un pendrive USB malevolo. Come abbiamo visto le leve psicologiche sono tante.
 
-**Quando:** Febbraio 2016  
-**Chi:** Probabilmente il gruppo Lazarus, conosciuto per le sue connessioni con la Corea del Nord  
-**Vittima:** Banca Centrale del Bangladesh  
-**Danni:** Circa $100 milioni, con un tentativo di furto di $1 miliardo  
-**Metodo:** Abuso del sistema SWIFT, spear-phishing e manipolazione dei sistemi interni della banca
+Per mitigare i rischi associati alle USB malevole: 
 
-### Dettagli dell'Attacco
+- **Non usare dispositivi USB trovati per caso**: Evitare di inserire USB di origine sconosciuta nei propri dispositivi. Nel sesto episodio della serie TV Mr Robot, vengono utilizzate delle chiavette USB che si connettono come se fossero una tastiera e scrivono e inviano comandi malevoli al computer della vittima. Per indurre la vittima ad utilizzarle l'hacker fa una cosa molto semplice: le getta per terra nel parcheggio. La curiosità fa il resto.
 
-#### Fase di Ricognizione
-Gli attaccanti hanno iniziato con un'accurata fase di ricognizione mirata a comprendere i sistemi interni e le procedure di sicurezza della Banca. Questo ha incluso l'uso di tecniche di spear-phishing per indurre i dipendenti della banca a scaricare malware che ha fornito agli hacker un primo punto di accesso alla rete interna.
+- **Disabilitare l'esecuzione automatica**: Configurare i sistemi per non eseguire automaticamente i contenuti da dispositivi USB. Per esempio su Windows è necessario disabilitare il sistema Autoplay. Non ci dilunghiamo qui su come fare, sono sicuro che il lettore potrà trovare un gran numero di siti web stile Aranzulla con la procedura da seguire. Ancora meglio, sarebbe utile rivolgersi al proprio tecnico informatico in azienda e chiedere a lui di supervisionare l'operazione.
 
-#### Movimento Laterale
-Dopo aver ottenuto accesso alla rete, gli hacker hanno esplorato sistematicamente la rete alla ricerca di accessi ai sistemi cruciali per le operazioni di SWIFT. Questa fase includeva l'acquisizione di credenziali che permettevano agli attaccanti di mascherarsi come utenti legittimi e operare indisturbati all'interno del sistema.
+- **Utilizzare software antivirus**: Mantenere aggiornato il software antivirus e eseguire scansioni regolari dei dispositivi USB prima di usarli.
 
-#### Compromissione dei Sistemi SWIFT
-Una volta ottenuto l'accesso ai sistemi SWIFT, gli attaccanti hanno manipolato il software per nascondere le tracce delle transazioni fraudolente. Questo includeva alterazioni che impedivano la registrazione e la stampa delle ricevute delle transazioni, cruciali per la rilevazione di attività sospette.
+- **Politiche di sicurezza rigorose**: Le organizzazioni dovrebbero avere politiche che limitano l'uso di dispositivi USB esterni e forniscono dispositivi approvati e sicuri ai dipendenti.
 
-#### Transazioni Fraudolente
-Utilizzando le credenziali ottenute, gli hacker hanno inviato richieste di trasferimento di fondi per quasi $1 miliardo a conti nelle Filippine e in Sri Lanka. Questi fondi sono stati rapidamente dispersi attraverso il sistema dei casinò nelle Filippine, rendendo molto difficile il recupero.
 
-#### Scoperta dell'Attacco
-Un piccolo errore ortografico in una delle richieste di trasferimento ha insospettito una banca corrispondente, che ha contattato la Banca del Bangladesh per chiarimenti. Questo ha portato alla scoperta dell'attacco e alla sospensione delle transazioni residue, limitando il danno a "solo" $81 milioni.
 
-### Implicazioni e Misure di Mitigazione
+## Rubber Ducky
 
-Questo attacco ha sottolineato la necessità per le istituzioni finanziarie di rafforzare le misure di sicurezza, sia a livello di tecnologia sia nella formazione del personale. La cooperazione internazionale e la condivisione delle informazioni tra le banche e le agenzie di sicurezza sono diventate priorità più elevate. Inoltre, è stata rafforzata la necessità di monitorare e verificare tutte le transazioni, e di implementare sistemi di sicurezza end-to-end che possano rilevare e mitigare tempestivamente simili incursioni.
+Il **Rubber Ducky** è un dispositivo USB particolarmente noto nel mondo della sicurezza informatica per la sua capacità di emulare una tastiera e automaticamente eseguire una sequenza di comandi una volta inserito in un computer. Questo strumento può sembrare un comune drive USB, ma è in realtà un potente dispositivo di hacking programmato per inviare comandi al computer ospitante come se fossero digitati da un utente.
 
-Questo caso serve come un potente monito delle potenziali vulnerabilità all'interno dei sistemi finanziari globali e dell'importanza di una vigilanza costante contro le minacce di cyber-attacco.
+### Come Funziona il Rubber Ducky
+Quando il Rubber Ducky è inserito in una porta USB, il sistema operativo del computer lo riconosce come una tastiera esterna, non come un normale dispositivo di memorizzazione. Grazie a questa caratteristica, può bypassare i controlli di sicurezza che normalmente si applicano ai dispositivi di storage USB. Il dispositivo ha uno script pre-caricato, noto come "payload", che può essere scritto in un linguaggio semplice e diretto. Questo payload viene eseguito automaticamente e può compiere azioni come:
+
+- Aprire terminali o linee di comando.
+- Scaricare ed eseguire software dannoso.
+- Cambiare le impostazioni del sistema.
+- Rubare o manipolare dati.
+- Installare backdoors per un accesso remoto futuro.
+
+### Potenziali Usi del Rubber Ducky
+- **Test di penetrazione**: I professionisti della sicurezza utilizzano dispositivi come il Rubber Ducky per testare le misure di sicurezza delle organizzazioni, identificando vulnerabilità che potrebbero essere sfruttate da attaccanti reali.
+- **Educazione e formazione**: Utilizzato in ambienti controllati per formare il personale IT sulla rilevazione e il blocco di attacchi hardware.
+- **Attività illecite**: Malintenzionati possono utilizzare il Rubber Ducky per compiere attacchi informatici e furto di dati.
+
 
 ## Quando il nemico è il tuo capo
 
 L'attacco utilizza tecniche di **spear phishing** avanzate, una forma di ingegneria sociale che mira a manipolare la vittima sfruttando la fiducia nei confronti di figure autoritarie come il capo. Ecco una disamina più dettagliata dell'attacco e delle misure di difesa consigliate:
 
 ### Analisi dell'Attacco
+
 - **Impersonificazione**: L'attaccante si spaccia per il capo della vittima, conoscendo abbastanza dettagli per rendere la comunicazione credibile. Questo può includere il tono tipico delle comunicazioni del capo, terminologia specifica del settore, e dettagli personali che rendono la richiesta apparentemente legittima.
+
 - **Creazione di Urgenza**: L'urgenza è un elemento cruciale in questi attacchi. L'attaccante spinge la vittima a reagire rapidamente, bypassando i normali processi di riflessione o verifica.
+
 - **Sfruttamento della Fiducia**: L'attaccante sfrutta la fiducia che il dipendente ripone nel suo capo. L'impulso di rispondere prontamente e positivamente a una richiesta del proprio superiore può sovrastare il giudizio critico.
 
 ### Misure di Difesa
+
 - **Verifica Diretta**: Di fronte a richieste inaspettate o urgenti che coinvolgono azioni sensibili come trasferimenti di denaro o condivisione di credenziali, è fondamentale verificare l'autenticità della richiesta attraverso un canale diverso. Una chiamata telefonica al capo può chiarire immediatamente se la richiesta è legittima.
+
 - **Protocolli di Sicurezza Interna**: Le aziende dovrebbero implementare protocolli che richiedono verifiche multiple per azioni sensibili. Ad esempio, i trasferimenti di fondi significativi dovrebbero richiedere l'approvazione di più persone.
+
 - **Formazione Continua**: La formazione regolare su come riconoscere i tentativi di phishing e spear phishing è essenziale. I dipendenti dovrebbero essere addestrati a identificare le bandiere rosse, come le richieste di azioni urgenti o atipiche tramite email.
+
 - **Cultura della Sicurezza**: Promuovere una cultura aziendale dove sia normale e accettato verificare le richieste inaspettate. Nessun dipendente dovrebbe temere di apparire scortese o insubordinato per aver voluto confermare direttamente una richiesta con il suo capo.
 
 
