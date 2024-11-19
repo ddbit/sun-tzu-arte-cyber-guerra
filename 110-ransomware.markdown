@@ -29,6 +29,8 @@ I ransomware possono essere diffusi attraverso diverse tecniche, tra cui:
 
 Una caratteristica distintiva dei gruppi di ransomware è la loro tendenza a operare quasi come legittime aziende di software. Offrono supporto ai clienti (vittime), spesso includendo FAQ, guide su come acquistare e trasferire criptovalute, e persino supporto via chat in tempo reale per aiutare le vittime a pagare il riscatto.
 
+Quest'aspetto non è da sottovalutare, se unito al fatto che magari in organizzazioni poco educate alla sicurezza alla diligenza delle procedure, potrebbe essere più difficile ottenere un aiuto immediato da un loro esperto di cybersecurity piuttosto che pagare una modesta cifra in criptovaluta, finché è modesta ovviamente.
+
 ## Esempi Noti di Attacchi di Ransomware
 
 - **WannaCry**: Questo attacco del 2017 ha sfruttato una vulnerabilità nel protocollo Windows Server Message Block (SMB) per infettare e criptare computer in oltre 150 paesi, con un enorme impatto su organizzazioni sanitarie, aziende e governi.
@@ -71,9 +73,10 @@ L'immagine rappresenta una torta grafica che mostra la distribuzione delle varie
 
 - **Altri (1%)**: Questa categoria comprende altri tipi di malware che non rientrano nelle categorie precedenti ma che rappresentano comunque una minaccia.
 
-## Diffusione del fenomeno
+Diffusione del fenomeno
+--------
 
-Sophos ha realizzato una ricerca sul fenomeno organizzata come segue:
+Sophos (nota società del settore cybersec) ha realizzato una ricerca sul fenomeno organizzata come segue:
 
 
 - **Intervistati**: La ricerca ha coinvolto 3.000 persone.
@@ -99,14 +102,19 @@ I risultati della ricerca Sophos forniscono dati interessanti riguardo l'impatto
 
 ### Conclusioni e Raccomandazioni
 I dati mostrano chiaramente che, nonostante una minore prevalenza di attacchi, il settore statale è meno efficace nel gestire e mitigare gli effetti degli attacchi ransomware una volta che si verificano. È essenziale:
+
 - **Migliorare la Preparazione e la Risposta agli Incidenti**: Implementare strumenti avanzati di rilevazione e risposta per fermare gli attacchi prima che i dati vengano cifrati.
+
 - **Rafforzare le Politiche e le Pratiche di Backup**: Assicurarsi che i backup siano frequenti, sicuri e testati regolarmente per la loro efficacia nel ripristino dei dati.
+
 - **Formazione e Sensibilizzazione**: Continuare a educare i dipendenti sulle minacce di ransomware e su come prevenirle, specialmente tramite la consapevolezza su phishing e altre tattiche di ingegneria sociale.
 
 Questi passaggi sono cruciali per rafforzare la resilienza contro il ransomware, minimizzare i danni potenziali e garantire la continuità operativa nelle istituzioni statali.
 
 
-## Clean up payment
+Clean up payment
+--------
+
 
 Il fenomeno del **cleanup payment** rappresenta una complicazione addizionale e particolarmente insidiosa negli attacchi di ransomware. Non solo le vittime sono costrette a pagare per riottenere l'accesso ai propri dati criptati, ma possono anche trovarsi di fronte a ulteriori richieste di estorsione per impedire la divulgazione di dati sensibili rubati durante l'attacco. Questo modus operandi sottolinea l'evoluzione e la crescente sofisticazione delle strategie adottate dalle organizzazioni criminali che gestiscono campagne di ransomware.
 
