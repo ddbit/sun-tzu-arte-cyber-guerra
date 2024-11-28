@@ -89,6 +89,55 @@ In figura una TPU di cui esistono già [sei diverse generazioni](https://en.wiki
 
 ## Come funzionano i modelli di machine learning
 
+Intanto dividiamoli in due grandi categorie **regressione** e **classificazione**:
+
+---
+
+### **1. REGRESSIONE (Grafico a sinistra)**
+- **Scopo:** La regressione viene utilizzata per prevedere valori continui (es. il prezzo di una casa, la temperatura, ecc.).
+- **Grafico:**
+  - L'asse x rappresenta i valori previsti dal modello (**Predicted values**).
+  - L'asse y rappresenta i valori reali osservati nel dataset (**Actual values**).
+  - I punti blu rappresentano le coppie previste/osservate.
+  - La linea tratteggiata è la linea ideale (y=x), dove i valori previsti corrispondono esattamente a quelli reali.
+  - **Residui (Residuals):** La distanza tra i punti e la linea rappresenta l'errore (differenza tra valore reale e previsto).
+  
+Questo grafico dimostra la qualità delle previsioni di un modello di regressione: quanto più i punti sono vicini alla linea, tanto più il modello è accurato.
+
+---
+
+### **2. CLASSIFICAZIONE (Grafici a destra)**
+- **Scopo:** La classificazione è usata per assegnare etichette a categorie discrete (es. email spam/non spam, malattie presenti/assenti).
+- **Grafici:**
+  - Ogni grafico rappresenta lo spazio decisionale creato da diversi modelli di classificazione per distinguere due classi (punti blu e punti rossi).
+  - Le linee colorate (o confini decisionali) separano le due classi:
+    - I punti blu appartengono a una classe.
+    - I punti rossi appartengono a un’altra classe.
+  - I modelli mostrati includono:
+    - **Nearest Neighbors (k-NN):** Modello basato sulla vicinanza ai punti esistenti.
+    - **Linear SVM:** Modello lineare che separa le classi con un confine diritto.
+    - **RBF SVM:** Modello con un confine decisionale non lineare per gestire dati più complessi.
+
+Ogni riquadro illustra come i modelli si comportano su dati con distribuzioni diverse, con i numeri che indicano l'accuratezza.
+
+---
+
+**Differenza fondamentale:**
+- **Regressione**: Produce valori continui come output.
+- **Classificazione**: Assegna i dati a categorie o classi discrete.
+
+
+Le fasi di **training**, **testing** e **inferenza** rappresentano il ciclo vitale di un modello di apprendimento automatico.
+
+- **Training:** Durante l'addestramento, il modello apprende dai dati etichettati o non etichettati, ottimizzando i suoi parametri per ridurre l'errore tra le previsioni e i valori reali. Questa fase crea un modello capace di riconoscere schemi e relazioni nei dati.
+
+- **Testing:** Dopo l'addestramento, il modello viene valutato su dati nuovi (dataset di test) per verificare la sua capacità di generalizzare e ottenere misure di performance come accuratezza o errore medio.
+
+- **Inferenza:** Infine, il modello addestrato e testato viene utilizzato per fare previsioni su dati reali, fornendo output utili per applicazioni pratiche.
+
+Queste fasi sono iterative: se i risultati non sono soddisfacenti, si torna al training per migliorare il modello.
+
+
 La figura rappresenta un diagramma schematico dei principali approcci di **apprendimento automatico (Machine Learning)** e del processo che porta alla creazione e all'uso dei modelli di intelligenza artificiale (AI). Ecco una spiegazione dei tre principali tipi di apprendimento mostrati:
 
 ---
@@ -133,7 +182,7 @@ Dopo l'addestramento, si ottengono modelli (reti neurali rappresentate con icone
 3. Inferenza: Il modello viene utilizzato per compiti reali e i risultati sono valutati.
 
 
-## Metriche dei modelli di apprendimento
+## Come valutiamo la bontà di un modello addestrato?
 
 Quando si tratta di codice sappiamo che la sua correttezza è molto importante per garantire la sicurezza informatica. 
 
@@ -151,31 +200,39 @@ In altre parole possiamo distinguere gli errori che derivano da una cattiva impl
 Tutto questo nel caso del software, ma nel caso dei modelli di intelligenza artificiale in cosa consistono le specifiche e come si riconosce un comportamento valido e corretto da uno scorretto?
 
 
-Premesso che non è questa la sede per discutere del funzionamento dei modelli di AI e soprattutto di quali siano le tecniche per il loro addestramento ci limiteremo a dire che i sistemi di AI sono in genere basati su modelli di apprendimento automatico che a partire da un dataset di dati "etichettati" detto appunto training set viene addestrato a classificare nuovi elementi non presenti nel dataset di partenza.
+Premesso che non è questa la sede per discutere i dettagli dell'addestramento, ci limiteremo a dire che ci sono varie metriche per stabilire se un dato modello creato per risolvere un dato problema di classificazione (o di regressione) funziona *abbastanza* bene. 
 
-Ci sono varie metriche per stabilire se un dato modello creato per risolvere un dato problema di classificazione (o di regressione) funziona abbastanza bene. Ad esempio nel caso dei problemi di classificazione la metrica più semplice e intuitiva è l'accuratezza, che non è altro che la percentuale di elementi classificati correttamente rispetto al totale degli elementi usati per calcolare la metrica.
+Ad esempio nel caso dei problemi di classificazione la metrica più semplice e intuitiva è l'accuratezza, che non è altro che la percentuale di elementi classificati correttamente rispetto al totale degli elementi usati per calcolare la metrica.
 
 Questa metrica dice solo una parte della verità, ad esempio è importante capire quanti sono i falsi positivi o i falsi negativi e a questo scopo spesso i data scientist generano delle matrici di confusione.
 
-![matrice di confusione](images/confusion-matrix.png)
+Ecco la matrice di confusione per il caso medico in formato markdown:
 
-Altre metriche usate sono:
+|                              | Malattia Presente (Predetta) | Malattia Assente (Predetta) |
+|------------------------------|-----------------------------|-----------------------------|
+| **Malattia Presente (Reale)** | 80                          | 20                          |
+| **Malattia Assente (Reale)**  | 15                          | 85                          |
 
-*todo*
-- F1
-- altro aggiungi
+### Spiegazione:
+- **80**: Veri Positivi (TP) - Pazienti malati correttamente diagnosticati.
+- **20**: Falsi Negativi (FN) - Pazienti malati che il modello non ha rilevato.
+- **15**: Falsi Positivi (FP) - Pazienti sani diagnosticati erroneamente come malati.
+- **85**: Veri Negativi (TN) - Pazienti sani correttamente identificati. 
+
+
 
 
 Tuttavia anche le metriche più complesse illustrate qui hanno lo scopo di dare una misura quantitativa di come il modello reagisce a dati diversi da quelli usati per l'addestramento ma non dice ancora tutta la verità.
 
 
 
-
 ## Il bias
 
-Le allucinazioni sono sicuramente un problema serio, ma in realtà sono abbastanza facilmente verificabili attraverso un check con motori di ricerca e basi di dati esterne. Un problema molto più subdolo è caratterizzato dal cosiddetto bias, che possiamo considerare un errore sistematico e pervasivo che riguarda il contenuto stesso dei dati di training forniti al modello di AI.
+Un modello può presentare delle ottime metriche "dure" nel senso dell'accuratezza dei risultati ma ci sono problemi più subdoli che possono annidarsi nell'intero processo di addestramento.
 
-Il bias nell'AI, noto anche come bias nel machine learning o bias dell'algoritmo, si verifica quando un sistema AI produce risultati distorti a causa di pregiudizi presenti nei dati di training o nelle decisioni prese durante lo sviluppo dell'algoritmo. Questi pregiudizi possono derivare da molte fonti, come scelte di progettazione, selezione dei dati o generalizzazioni errate, e possono condurre a risultati ingiusti o non rappresentativi.
+Il bias nell'AI, noto anche come bias nel machine learning o bias dell'algoritmo, si verifica quando un sistema AI produce risultati distorti a causa di pregiudizi presenti nei dati di training o nelle decisioni prese durante lo sviluppo dell'algoritmo. 
+
+Questi pregiudizi possono derivare da molte fonti, come scelte di progettazione, selezione dei dati o generalizzazioni errate, e possono condurre a risultati ingiusti o non rappresentativi.
 
 Il bias nell'AI può avere diverse forme, tra cui:
 

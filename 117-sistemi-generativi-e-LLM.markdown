@@ -3,12 +3,13 @@ status: ALMOST
 *TODO Manca intro a LLM e RAG*
 -->
 
+# AI Generativa ed i suoi rischi
+
 > Thot: "La scrittura renderà gli egiziani più sapienti e aumenterà la loro memoria"
 
 > Thamus: "Senza l’insegnamento orale del maestro non si avrà mai la conoscenza, ma l’arroganza del sapere e sarà impossibile arrivare alla verità"
 
 (Dialogo tra il dio Thot e il faraone Thamus, ricavato da "Fedro" di Platone)
-
 
 
 
@@ -19,8 +20,22 @@ In pochi anni la loro popolarità è cresciuta a dismisura anche grazie al lanci
 Come spesso accade, la tecnologia fornisce degli strumenti dei quali bisogna conoscere i limiti e le caratteristiche per farne un uso corretto.
 
 
-Correttezza nei Sistemi generativi e modelli di linguaggio
-==========================================
+Com'è fatto un sistema LLM
+-----------------
+
+Partiamo da un oggetto che già conoscevamo bene. Il suggeritore della tastiera del cellulare. Il lettore avrà presente che mentre scriviamo un messaggio la tastiera ci propone già 3-4 termini che secondo un certo modello statistico il cellulare ci suggerisce come utili a proseguire il discorso.
+
+In un certo senso, quello del cellulare è un piccolo modello di linguaggio, utilizza dati ricavati dal nostro modo di scrivere e da quello mediato di milioni di altri individui per allegerirci la fatica di scrivere le parole lettera per lettera.
+
+In un curioso esperimento potreste provare ad iniziare una conversazione con un vostro amico in chat e poi farla proseguire interamente al suggeritore, ad esempio adottando la regola di scegliere sempre la parola centrale suggeritca.
+
+Vi troverete a comporre delle frasi di senso "quasi" compiuto, diciamo dei deliri dell'algoritmo che però sembrano a chi li legge dei messaggi che forse sono un po' ambigui ma che magari scritti meglio avrebbero avuto un senso logico.
+
+
+
+
+Le allucinazioni dei modelli generativi
+------------------
 
 A proposito della correttezza dei risultati, il comico Luca Bizzarri in una puntata del suo Podcast "Non hanno un amico" racconta un'avventura curiosa che, ahimè, ha rivelato i limiti di un'intelligenza artificiale. Incuriosito da una frase del ministro Giuli che cita in un discorso pubblico il concetto di "pensiero solare" che suona importante e altisonante, chiede a ChatGPT chi ne sia l’ideatore. La risposta è rapida e senza incertezze: un certo **Giuseppe Zuccari**, altrimenti noto come **Giuliano Zuccarini**, filosofo italiano nato a **Città di Castello** nel 1942, sarebbe l’artefice di tale pensiero, con profondi aforismi come "La rigidità delle ideologie si discioglie nella luce meridiana dello spirito mediterraneo." Un pensatore, insomma, con una penna a dir poco luminosa.
 
@@ -35,18 +50,46 @@ Si può dire che Bizzarri sia stato vittima di un'allucinazione di ChatGPT, o pe
 
 In questo caso, il povero Bizzarri ha ricevuto un'immagine di un filosofo italiano perfettamente dettagliato, nato a Città di Castello, autore di citazioni memorabili, eppure... del tutto immaginario! Un caso emblematico di allucinazione digitale, dove la creatività della macchina ha superato la realtà.
 
-Com'è fatto un sistema LLM
------------------
+Il confine tra plagio e uso leggittimo della AI nella scuola e nell'università
+------------
 
-Partiamo da un oggetto che già conoscevamo bene. Il suggeritore della tastiera del cellulare. Il lettore avrà presente che mentre scriviamo un messaggio la tastiera ci propone già 3-4 termini che secondo un certo modello statistico il cellulare ci suggerisce come utili a proseguire il discorso.
+Sono già numerosi gli episodi di tesi rigettate perché gli studenti hanno utilizzato deo tool di AI per riformulare un breve commento, sollevando temi importanti:
 
-In un certo senso, quello del cellulare è un piccolo modello di linguaggio, utilizza dati ricavati dal nostro modo di scrivere e da quello mediato di milioni di altri individui per allegerirci la fatica di scrivere le parole lettera per lettera.
+1. **Affidabilità dei tool di AI Detection**: Gli strumenti come GPT-Zero non sono precisi, con numerosi falsi positivi, e possono essere facilmente aggirati.
 
-In un curioso esperimento potreste provare ad iniziare una conversazione con un vostro amico in chat e poi farla proseguire interamente al suggeritore, ad esempio adottando la regola di scegliere sempre la parola centrale suggeritca.
+2. **Confini poco chiari sull'uso dell'AI**: Dov'è la linea tra "aiuto alla scrittura" e "plagio da AI"? Chi lo definisce?
 
-Vi troverete a comporre delle frasi di senso "quasi" compiuto, diciamo dei deliri dell'algoritmo che però sembrano a chi li legge dei messaggi che forse sono un po' ambigui ma che magari scritti meglio avrebbero avuto un senso logico.
+3. **Necessità di riforma del sistema educativo**: L'AI sta trasformando il mondo, ma il sistema educativo italiano sembra lontano dal gestire adeguatamente questa rivoluzione. 
 
 
+Quando all'AI diamo informazioni riservate
+---------
+
+In aprile 2023, alcuni dipendenti di Samsung hanno involontariamente esposto informazioni riservate utilizzando ChatGPT. Un ingegnere ha inserito codice sorgente proprietario nel chatbot per ottimizzarlo, mentre un altro ha condiviso un algoritmo per identificare difetti nei chip. Un terzo dipendente ha inviato la trascrizione di una riunione interna per generare una presentazione. Queste azioni hanno portato alla memorizzazione di dati sensibili sui server di OpenAI, rendendoli potenzialmente accessibili a terzi. 
+
+In risposta, Samsung ha vietato l'uso di ChatGPT e di altri strumenti di intelligenza artificiale generativa sui dispositivi aziendali, esprimendo preoccupazioni riguardo alla sicurezza dei dati e alla possibilità che informazioni riservate potessero essere archiviate su server esterni. 
+
+Questo incidente evidenzia i rischi associati all'uso non controllato di strumenti AI in ambito aziendale e sottolinea l'importanza di implementare rigorose politiche di sicurezza e formazione del personale per proteggere i segreti industriali. 
+
+Quando l'AI ha troppi privilegi
+----------
+
+L’adozione di strumenti come Microsoft Copilot porta alla luce un problema cruciale nella sicurezza informatica: la gestione dei livelli di accesso. Nel caso riportato da Marc Benioff, un'azienda ha scoperto che Copilot consentiva a un dipendente di accedere a email riservate e documenti sensibili, inclusi quelli del CEO, semplicemente ereditando i permessi dell’utente. 
+
+Il problema? File mal posizionati o condivisi con permessi troppo ampi. Questo episodio dimostra quanto sia essenziale gestire accuratamente i diritti di accesso e verificare regolarmente dove e come vengono archiviati i dati sensibili. Gli strumenti AI, per quanto potenti, non possono compensare una governance carente.
+
+Serve un approccio proattivo: definire regole chiare, educare i dipendenti e applicare il principio del “minimo privilegio”, ovvero dare accesso solo alle informazioni strettamente necessarie.
+
+Quando l'AI infrange il copyright
+---------
+
+Recenti studi hanno dimostrato che ChatGPT può essere indotto, attraverso prompt appositamente progettati, a rivelare informazioni personali degli utenti, sollevando preoccupazioni riguardo alla privacy e alla sicurezza dei dati. In particolare, una ricerca pubblicata su arXiv ha evidenziato come ChatGPT 4 e 4o siano vulnerabili a tali attacchi, permettendo a malintenzionati di esfiltrare dati personali senza l'uso di strumenti esterni. 
+
+Questi attacchi, noti come "prompt injection", sfruttano la capacità del modello di seguire istruzioni nascoste all'interno di input apparentemente innocui, inducendolo a divulgare informazioni riservate o a eseguire azioni non autorizzate. La ricerca sottolinea l'urgenza di sviluppare misure di sicurezza efficaci per proteggere gli utenti da tali vulnerabilità.
+
+Per approfondire, è possibile consultare l'articolo completo disponibile su arXiv.  
+
+[Exfiltration of personal information from ChatGPT via prompt injection](https://arxiv.org/abs/2406.00199?utm_source=chatgpt.com)
 
 ## Come si legge la scheda tecnica di un modello LLM
 
@@ -163,27 +206,6 @@ Di seguito una tabella riassuntiva.
 
 
 
-### Il Modello Instruct
-Ricordiamo che Llama3 arriva in due "gusti" diversi: pre-trained e instruct.
-
-Un modello **instruct** viene ulteriormente addestrato o ottimizzato per rispondere specificamente alle istruzioni fornite dall'utente in modo più intuitivo e utile. Questo addestramento supplementare, spesso realizzato attraverso tecniche di apprendimento supervisionato, implica l'utilizzo di esempi annotati dove agli addestratori umani è stato chiesto di rispondere a domande o completare compiti seguendo istruzioni esplicite. Questo tipo di modello è progettato per fornire risposteallineate con le specifiche intenzioni dell'utente.
-
-Come per i modelli pre-trained, anche quelli instruct hanno una serie di metriche di benchmark con cui vengono valutati
-
-
-| Benchmark         | Llama 3 70B | Llama 2 70B |
-|-------------------|-------------|-------------|
-| MMLU (5-shot)     | 82          | 52.9        |
-| GPQA (0-shot)     | 39.5        | 21          |
-| HumanEval (0-shot)| 81.7        | 25.6        |
-| GSM-8K (8-shot, CoT) | 93      | 57.5        |
-| MATH (4-shot, CoT)   | 50.4     | 11.6        |
-
-
-Ad esempio, la metrica [MATH (4-shot, CoT)](https://github.com/hendrycks/math/) valuta le performance dei modelli di intelligenza artificiale nei problemi di matematica. "4-shot" indica che il modello vede quattro esempi del problema prima di affrontare nuovi quesiti, mentre "CoT" (Chain of Thought) si riferisce alla tecnica di mostrare il ragionamento intermedio del modello nel processo di risoluzione, utile per comprendere e migliorare il suo approccio ai problemi.
-
-Un'altro tipo di benchmark matematico è la metrica [GSM-8K (8-shot, CoT)](https://klu.ai/glossary/GSM8K-eval) valuta le abilità di risoluzione matematica di modelli AI. "GSM-8K" indica il set di problemi, "8-shot" che il modello vede otto esempi prima di nuovi quesiti, e "CoT" (Chain of Thought) che deve mostrare il ragionamento passo dopo passo verso la soluzione.
-
 
 
 ## Come misurare la qualità del RAG nei modelli LLM
@@ -221,83 +243,7 @@ Ecco una breve descrizione di alcuni paper sui modelli Retrieval-Augmented Gener
 
 
 
-## Punteggi Elo per la valutazione degli LLM
 
-Il **punteggio Elo** è un metodo matematico per calcolare il livello relativo di abilità dei giocatori in giochi competitivi come scacchi, go, videogiochi e sport come il calcio e il basket. Ideato da Arpad Elo, un professore di fisica e maestro di scacchi di origine ungherese, questo sistema è stato originariamente creato per migliorare il sistema di classificazione degli scacchisti.
-
-### Come funziona il sistema di punteggio Elo:
-
-1. **Base Iniziale**: Ogni giocatore inizia con un punteggio di base, comunemente 1500 punti, ma questo può variare a seconda dell'organizzazione che gestisce la competizione.
-
-2. **Aggiustamenti Basati sui Risultati**: Dopo ogni partita, punti vengono trasferiti dal perdente al vincitore. La quantità di punti trasferiti dipende da due fattori:
-
-   - **Probabilità Prevista di Vincere**: Calcolata basandosi sui punteggi attuali dei due avversari. Se il vincitore era già considerato molto più forte, guadagnerà pochi punti. Se invece vince contro un avversario molto più forte, guadagnerà molti più punti.
-   - **Risultato Effettivo**: Vincita, perdita, o pareggio.
-
-3. **Formula di Aggiustamento**: La formula usata per determinare il cambiamento nel punteggio è generalmente una variazione della seguente:
-
-   $ R' = R + K \times (S - E) $
-
-   dove $ R' $ è il nuovo rating, $ R $ il rating precedente, $ K $ un fattore moltiplicativo (che varia in base alla competizione e spesso dipende dal rating del giocatore), $ S $ il risultato della partita (1 per una vittoria, 0.5 per un pareggio, 0 per una sconfitta), e $ E $ la probabilità prevista di vincere (calcolata tramite una funzione matematica che dipende dalla differenza dei punteggi).
-
-### Applicazioni del punteggio Elo:
-- **Scacchi**: È ampiamente utilizzato per classificare i giocatori di scacchi. Il sistema di rating FIDE, che classifica i giocatori di scacchi internazionali, è basato sul punteggio Elo.
-- **Sport**: Alcuni campionati sportivi utilizzano variazioni del sistema Elo per classificare le squadre o gli atleti.
-- **Videogiochi**: Giochi competitivi e piattaforme online spesso adottano sistemi basati su Elo per abbinare i giocatori di abilità simile, come nel caso degli scacchi online, League of Legends e altri giochi eSports.
-- **Ricerca Accademica**: Il sistema viene utilizzato anche in ambiti di ricerca per modellare le competizioni e prevedere i risultati.
-
-### Esempio pratico: Risultati degli Aggiornamenti del Punteggio Elo
-
-#### Scenario 1: Vincita del Giocatore A (Elo iniziale 1500)
-- **Nuovo Elo del Giocatore A**: 1508
-- **Nuovo Elo del Giocatore B** (Elo iniziale 1300): 1292
-
-#### Scenario 2: Vincita del Giocatore B (Elo iniziale 1300)
-- **Nuovo Elo del Giocatore A**: 1476
-- **Nuovo Elo del Giocatore B**: 1324
-
-In questi scenari, il cambio di punteggio Elo riflette l'impatto delle aspettative di vittoria basate sui punteggi iniziali: una vittoria inaspettata del giocatore con punteggio inferiore produce un trasferimento maggiore di punti.
-
-
-### Punteggio Elo e i modelli LLM
-
-Applicare il sistema di punteggio Elo ai modelli di linguaggio come i Large Language Models (LLM) non è convenzionale, ma teoricamente possibile in un contesto competitivo o comparativo. Per utilizzare il punteggio Elo con gli LLM, bisognerebbe definire una "competizione" o un set di sfide specifiche dove i modelli possano essere misurati direttamente l'uno contro l'altro o contro un benchmark comune. Ecco come potrebbe funzionare:
-
-#### Definizione della Competizione per LLM
-Scelta delle Sfide: Le sfide possono includere compiti di comprensione del testo, generazione di testo, traduzione automatica, risposta a domande, e altri compiti di NLP (Natural Language Processing). La chiave è scegliere sfide che possano essere quantificate in modo oggettivo.
-
-#### Misurazione delle Prestazioni: 
-I risultati di ogni LLM su queste sfide devono essere misurabili. Potrebbero essere basati su metriche standard come la BLEU score per traduzione, F1 score per la comprensione di testo, o altre metriche di valutazione accuratamente definite.
-
-#### Sistema di Punteggio: 
-Analogamente al sistema Elo negli scacchi, i modelli di linguaggio potrebbero guadagnare o perdere punti basati sui loro confronti. Se un modello "vince" su un altro in una sfida (ad esempio, ottiene un punteggio migliore in una task di traduzione), guadagnerebbe punti Elo. Il numero di punti scambiati dipenderebbe dalla differenza attesa nei loro punteggi pre-sfida.
-
-#### Potenziali Problemi e Considerazioni
-Definizione di Vittoria: Definire cosa significhi "vincere" una sfida può essere complicato, poiché differenti task potrebbero avere metriche di successo diverse e non sempre direttamente comparabili.
-
-#### Variabilità delle Prestazioni: 
-Alcuni LLM potrebbero eccellere in certi tipi di compiti ma essere mediocri in altri. Un sistema di punteggio uniforme potrebbe non riflettere accuratamente la versatilità o le specificità dei modelli.
-
-#### Aggiornamenti e Iterazioni: 
-I modelli di linguaggio vengono costantemente aggiornati e migliorati. Gestire i punteggi Elo in questo contesto dinamico potrebbe richiedere un sistema di aggiustamento frequente per tenere conto delle nuove versioni dei modelli.
-
-### Un Esempio pratico: la Chatbot Arena di LMSys
-
-La pagina "Leaderboard" su [https://chat.lmsys.org/?leaderboard](https://chat.lmsys.org/?leaderboard) fa parte della Chatbot Arena di LMSys, che classifica vari modelli di linguaggio di grande dimensione (LLM) basandosi sulle loro prestazioni attraverso differenti metriche, inclusa la valutazione Elo. 
-
-LMSys ha incorporato un **nuovo benchmark chiamato MT-Bench oltre alle tradizionali valutazioni Elo** per fornire una valutazione più dettagliata delle capacità dei chatbot. 
-
-MT-Bench include una serie di domande di conversazione multi-turno progettate per testare le abilità dei chatbot nel gestire dialoghi complessi e istruzioni.
-
-Caratteristiche chiave di questa classifica includono:
-
-- **Valutazioni Elo:** I modelli sono valutati in modo simile ai giocatori di scacchi, dove le interazioni tra diversi modelli (che competono per rispondere alle stesse domande) risultano in aggiustamenti del punteggio Elo basati su vittorie e sconfitte.
-
-- **MT-Bench:** Un insieme impegnativo di domande di conversazione multi-turno mirate a valutare le capacità conversazionali e di seguimento istruzioni dei chatbot, con risultati che influenzano la loro posizione nella classifica.
-
-- **Interazioni degli Utenti:** La piattaforma è basata sul crowdsourcing, il che significa che le preferenze degli utenti giocano un ruolo significativo nel determinare i punteggi dei vari modelli.
-
-La Chatbot Arena e MT-Bench fanno parte del più ampio sforzo di LMSYS Org per valutare e migliorare l'efficacia degli LLM **attraverso l'engagement della comunità** e strumenti di benchmark non convenzionali. 
 
 
 
