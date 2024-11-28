@@ -115,8 +115,9 @@ Questi passaggi sono cruciali per rafforzare la resilienza contro il ransomware,
 Clean up payment
 --------
 
+Il fenomeno del **cleanup payment** rappresenta una complicazione addizionale e particolarmente insidiosa negli attacchi di ransomware. Non solo le vittime sono costrette a pagare per riottenere l'accesso ai propri dati criptati, ma possono anche trovarsi di fronte a ulteriori richieste di estorsione per impedire la divulgazione di dati sensibili rubati durante l'attacco. 
 
-Il fenomeno del **cleanup payment** rappresenta una complicazione addizionale e particolarmente insidiosa negli attacchi di ransomware. Non solo le vittime sono costrette a pagare per riottenere l'accesso ai propri dati criptati, ma possono anche trovarsi di fronte a ulteriori richieste di estorsione per impedire la divulgazione di dati sensibili rubati durante l'attacco. Questo modus operandi sottolinea l'evoluzione e la crescente sofisticazione delle strategie adottate dalle organizzazioni criminali che gestiscono campagne di ransomware.
+Questo modus operandi sottolinea l'evoluzione e la crescente sofisticazione delle strategie adottate dalle organizzazioni criminali che gestiscono campagne di ransomware.
 
 ### Processo dell'Attacco con Cleanup Payment
 

@@ -4,12 +4,133 @@ note: inserire immagine della targa sullo zaino
 manca totalmente la parte realtiva a privacy e copyright, forse meglio un capitolo a parte.
 -->
 
-# Anche l'AI sbaglia, anzi se è AI allora sbaglia.
+# AI e sicurezza informatica.
+
+
 
 > Un sistema infallibile non può essere intelligente ed un sistema intelligente non può essere infallibile 
 
 (Alan Turing)
 
+
+**Anche l'AI sbaglia, anzi se è AI allora sbaglia**
+
+Non si può chiudere un libro sulla sicurezza informatica senza parlare dell'intelligenza artificiale e dell'impatto che questa potrà avere sulla sicurezza dei nostri dati e delle nostre applicazioni.
+
+Stiamo vivendo uno di quei cicli di grande interesse per l'AI, probabilmente siamo in quella fase pre-bolla o hype che forse presto si sgonfierà un po' ma che comunque è destinata a lasciare tracce profonde. 
+
+Nell'ambiente un po' si scherzava fino a qualche tempo fa dicendo che se *è scritto in python allora è machine learning, se è scritto in powerpoint allora è AI* ma a parte queste facezie da nerd, la verità è che con il lancio di ChatGPT tutti hanno cominciato a parlare di AI. Qualunque cosa succederà, c'è un epoca pre ChatGPT ed un dopo ChatGPT.
+
+
+Ci sono diversi temi da affrontare: come l'AI potrebbe essere usata per orchestrare attacchi ai sistemi tradizionali, come l'AI potrebbe essere usata per difendersi dagli attacchi, come l'AI potrebbe essere **violata** e quindi essere essa stessa un bersaglio dell'attaccante o meglio un'elemento della superficie d'attacco complessiva.
+
+Ma prima di tutto facciamo una breve panoramica di alcuni concetti legati all'AI senza i quali sarebbe vano parlarne.
+
+
+I Computer del Futuro non si programmano, si addestrano
+----------
+
+Il CEO di NVidia, Jensen Huang, ha dichiarato recentemente "No Need For Coding" e che i ragazzi di oggi non hanno bisogno di imparare a programmare, perché i progressi della AI permetteranno a tutti di risolvere i problemi usando il linguaggio naturale.
+
+Naturalmente Huang tira l'acqua al suo mulino, e probabilmente non sarà esattamente così ma questa affermazione merita qualche riflessione.
+
+
+### I computer del passato non si programmavano, si cablavano
+
+La logica cablata  di tanti anni fa era quella dei flipper e dei jukebox, quando in mezzo agli organi meccanici si alzavano i primi vagiti dell'elettronica. La logica era abbastanza semplice: premi un tasto si accende una lampada, arriva un suono si muove un braccio etc. I circuiti più complessi potevano realizzare funzionalità più interessanti, pensiamo agli ascensori, ai televisori, agli impianti stereo etc. Cablata perché a seconda della logica che volevamo realizzare dovevamo proprio attaccare i fili in modo diverso.
+
+Poi però è arrivata l'elettronica digitale e i circuiti programmabili, in pratica invece di rimontare l'elettronica in modo diverso a secondo dell'applicazione siamo passati ad un solo tipo di circuito, il processore, capace di eseguire un programma. Il programma cambia, il processore è sempre lo stesso.
+
+### I computer del presente non si cablano, si programmano
+
+Questa rivoluzione ha portato a tutto quello che conosciamo oggi, dal circuito di controllo degli ascensori, al laptop, al cellulare, ai mega server di amazon etc. Naturalmente abbiamo avuto molte generazioni di processori, ma di fatto qualche dozzina di prodotti sono il cuore di miliardi di installazioni.
+
+Questa è stata una vera è propria rivoluzione, che di fatto ha reso l'elettronica irrilevante e ha incoronato l'informatica come tecnica assoluta per il dominio del mondo.La rete, poi, ha reso tutto questo liquido e globale e as a service. Eppure anche quest'era forse sta per giungere ad una fine.
+
+### I computer del futuro non si programmano, si addestrano
+
+e forse siamo all'alba di una nuova rivoluzione, così come la CPU è divenuto il componente definitivo nel mondo dell'elettronica, forse dobbiamo ora salutare la nascita del componente definitivo nel mondo dell'informazione. Il classificatore/decisore/regressore, insomma un modello matematico/statistico capace di ingurgitare dati e fornire predizioni. Un componente in grado di fare qualcosa simile in fondo a quello che fa il cervello umano, no non dico pensare, ma riconoscere, giudicare, valutare. Parole come deep learning, reti neurali, machine intelligence, etc. sono tutte variazioni sul tema ma il concetto è sempre lo stesso. Macchine che apprendono.
+
+![machine_learning](/images/posts/e573d-machine_learning.jpg)
+
+Apprendono a riconoscere un tumore da una tac, o lo stile di Van Gogh da un' immagine quello che conta è che queste macchine forse non pensano e non sono senzienti, ma riconoscono (riconoscenti però suona male)
+
+La conseguenza diretta di tale trasformazione avviene prima di tutto sull'hardware stesso. Abbiamo assistito all'evoluzione dei processori dallo z80 all'I7 e come questi siano divenuti delle macchine elettroniche sempre più complesse e sempre più articolate con set di istruzioni in continua crescita proprio per la loro natura general purpose. Cioè le CPU devono accomodare le esigenze di tutti i possibili programmi che potrebbero in teoria essere scritti e poi girare su di loro.
+
+Ma cosa succede quando ci si rende conto che dal brodo primordiale di tutti i programmi possibili e immaginabili comincia ad emergere una sola classe di questi, elitari e intelligenti, non nel senso che pensano, ma nel senso che rendono per sé stessi "intelligibile" e codificabile quello che per i normali programmi non lo sarebbe. Addestrabili a "giudicare" e separare vero da falso, tumore da rumore, Van Gogh da Gaguin. Tradurre il parlato, riconoscere un viso, guidare un'auto, riconoscere un pericolo, riconoscere un nemico, etc.
+
+### Invece di tanti software diversi programmati per fare cose diverse, pochi modelli addestrabili a risolvere infiniti problemi diversi.
+
+Ma allora forse ci servono CPU diverse da quelle di oggi. In fondo una volta capito come deve essere fatto il software addestrabile, quello che ci serve è un circuito elettronico tutto sommato meno generalista e più specializzato. Se la mia elettronica deve far girare un solo programma non ci interessa più che sia programmabile in senso lato, torniamo a qualcosa di "cablato".
+
+Infatti questo succede in altri settori, non necessariamente legati alla AI. il Bitcoin mining è un caso emblematico, verificare le transazioni Bitcoin e generare nuovi coin è stata un'attività altamente proficua, tant'è che per ottenere il massimo di prestazioni con il minimo consumo energetico sono stati realizzati dei computer ASIC, non più CPU generaliste, ma elettronica specializzata e pre-programmata per fare una cosa sola, il mining dei Bitcoin.
+
+### I linguaggi di programmazione diventano irrilevanti?
+
+
+Non vuol dire che non serviranno più, e quindi ci saranno sempre job opportunities per developer e architect. Ma se ritorniamo allo scenario dove invece di tanti software diversi programmati per fare cose diverse, abbiamo pochi software addestrabili a risolvere infiniti problemi diversi, non abbiamo più un programmatore che si scervella tra cicli for, chiamate a funzioni, e infiniti cicli di trial and error per vedere il suo programma eseguire tutte le linee di codice.  Abbiamo invece un software scatola nera che ingurgita dati e sputa sentenze, una rete neurale capace di classificare ad esempio ... e a questo punto non è tanto una questione tra Java, Python, C++, etc. le guerre di religione nei forum nerd saranno su Boltzmann machine Vs Convolutional network.
+
+### Dal general computing all'AI training: cosa cambia per l'hardware
+
+Se prima l'hardware era la scatola e il software il contenuto, ora avremo che l'hardware diventa il banco di lavoro, il software è la scatola ed il modello AI diventa il contenuto. Cambi il modello AI senza cambiare la scatola.
+
+Come diceva Bohr 
+> è difficile fare previsioni, specialmente sul futuro
+
+Assistiamo già alla tendenza già vista in altri settori, come appunto quello del mining delle criptovalute: perché utilizzare un processore complesso come una CPU per fare compiti elementari come operazioni aritmetiche. Meglio privilegiare il parallelismo alla ricchezza di operazioni disponibili, meglio quindi una GPU che una CPU, consuma meno ed più veloce nel fare poche cose, somme e moltiplicazioni molto banalmente. 
+
+Ma non è detto che le GPU siano la soluzione definitiva, infatti Google da diversi anni ha messo in cantiere degli Asics (ovvero elettronica specializzata ad un solo scopo, un po' come il flipper descritto all'inizio) chiamate Tensor Processing Units (TPU) per abbattere il costo in Joule per istruzione. Le Google TPU sono circuiti integrati per ad-hoc sviluppati appositamente per l'apprendimento automatico. Rispetto ai processori, sono progettati in modo esplicito per grossi volumi di dati, usano una minore precisione (8 bit) e non dispongono di hardware per rasterizzazione / texture mapping (non gli serve).
+Google ha dichiarato che le sue TPU sono state utilizzate nella sfida di Go: AlphaGo Vs Lee Sedol.
+
+![TPU](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tensor_Processing_Unit_3.0.jpg/640px-Tensor_Processing_Unit_3.0.jpg)
+
+In figura una TPU di cui esistono già [sei diverse generazioni](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)
+
+
+## Come funzionano i modelli di machine learning
+
+La figura rappresenta un diagramma schematico dei principali approcci di **apprendimento automatico (Machine Learning)** e del processo che porta alla creazione e all'uso dei modelli di intelligenza artificiale (AI). Ecco una spiegazione dei tre principali tipi di apprendimento mostrati:
+
+---
+
+![apprendimento](/images/apprendimento.png)
+
+
+### **1. TRAINING (Addestramento)**
+L'addestramento dei modelli si divide in tre tipi principali:
+
+- **Supervisionato:**
+  - I dati sono etichettati (**LABEL**) da un supervisore umano o un sistema.
+  - Il modello apprende associazioni tra input (es. immagini, testi) e output (etichetta).
+  - Si verifica la precisione: se è accurato, viene confermato; in caso contrario, si riaddestra.
+
+- **Non-Supervisionato:**
+  - I dati non sono etichettati.
+  - Il modello cerca autonomamente schemi o strutture (es. clustering o riduzione dimensionale).
+  - Non ci sono etichette, quindi il modello esplora relazioni interne nei dati.
+
+- **Reinforcement (Rinforzo):**
+  - Il modello interagisce con un ambiente.
+  - Riceve una ricompensa (**REWARD**) per azioni che migliorano l'obiettivo e penalità per errori.
+  - Questo approccio è utile per processi decisionali (es. robotica, giochi).
+
+---
+
+### **2. MODELLO**
+Dopo l'addestramento, si ottengono modelli (reti neurali rappresentate con icone "cervello") addestrati per ciascun approccio. Ogni modello è ottimizzato per il tipo di dati e il compito specifico.
+
+---
+
+### **3. INFERENZA**
+- Una volta creato, il modello viene utilizzato per fare previsioni o prendere decisioni.
+- Il sistema produce risultati che vengono valutati dall'utente o dall'ambiente.
+- L'utente finale può interagire con il modello (es. verificare i risultati o usarli per azioni successive).
+
+
+**Sintesi del processo:**
+1. Addestramento (Training): Si creano i modelli a partire dai dati.
+2. Creazione dei Modelli: I dati addestrano le reti neurali.
+3. Inferenza: Il modello viene utilizzato per compiti reali e i risultati sono valutati.
 
 
 ## Metriche dei modelli di apprendimento
