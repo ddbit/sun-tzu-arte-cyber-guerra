@@ -27,6 +27,8 @@ Ci sono diversi temi da affrontare: come l'AI potrebbe essere usata per orchestr
 Ma prima di tutto facciamo una breve panoramica di alcuni concetti legati all'AI senza i quali sarebbe vano parlarne.
 
 
+
+
 I Computer del Futuro non si programmano, si addestrano
 ----------
 
@@ -223,6 +225,55 @@ Ecco la matrice di confusione per il caso medico in formato markdown:
 
 
 Tuttavia anche le metriche più complesse illustrate qui hanno lo scopo di dare una misura quantitativa di come il modello reagisce a dati diversi da quelli usati per l'addestramento ma non dice ancora tutta la verità.
+
+
+Possiamo fidarci della AI? 
+------------
+
+Il concetto di **Trustworthy AI** si riferisce alla creazione e all'implementazione di sistemi di intelligenza artificiale che siano affidabili, responsabili e rispettosi delle normative e dei valori etici. Le quattro dimensioni principali — **Explainable, Accountable, Secure, Ethical** — rappresentano pilastri fondamentali per garantire la fiducia e la sostenibilità dell'AI. 
+
+### 1. **Explainable (Spiegabile)**  
+Un sistema di AI deve essere comprensibile dagli utenti e dagli stakeholder.  
+- **Caratteristiche principali**:
+  - **Trasparenza**: I processi decisionali devono essere chiaramente documentati.
+  - **Interpretabilità**: Gli utenti devono essere in grado di capire, almeno in termini generali, come il sistema arriva a determinate decisioni.
+  - **Auditabilità**: Gli output del sistema devono poter essere verificati per rilevare eventuali errori o bias.
+- **Benefici**:
+  - Migliora la fiducia degli utenti.
+  - Facilita la correzione di errori o bias.
+
+### 2. **Accountable (Responsabile)**  
+Il sistema deve essere progettato per consentire la responsabilità umana in ogni fase.  
+- **Caratteristiche principali**:
+  - **Attribuzione della responsabilità**: Deve essere chiaro chi è responsabile per le decisioni prese dall'AI.
+  - **Monitoraggio continuo**: I sistemi devono essere costantemente sorvegliati per garantire il rispetto delle politiche e dei risultati desiderati.
+  - **Meccanismi di ricorso**: Gli utenti devono poter contestare decisioni prese dall'AI.
+- **Benefici**:
+  - Assicura la conformità con le leggi e i regolamenti.
+  - Riduce il rischio di abusi o malfunzionamenti.
+
+### 3. **Secure (Sicuro)**  
+L'AI deve essere resistente agli attacchi, proteggendo dati e processi.  
+- **Caratteristiche principali**:
+  - **Protezione contro attacchi informatici**: Resistenza a minacce come data poisoning, iniezione di prompt o manipolazioni.
+  - **Privacy dei dati**: Protezione delle informazioni personali e sensibili degli utenti.
+  - **Integrità del sistema**: Garanzia che il sistema non venga compromesso o utilizzato in modi non previsti.
+- **Benefici**:
+  - Aumenta la resilienza contro vulnerabilità.
+  - Mantiene l'integrità delle operazioni e delle decisioni.
+
+### 4. **Ethical (Etico)**  
+Il sistema deve rispettare valori e principi morali condivisi, con un impatto positivo sulla società.  
+- **Caratteristiche principali**:
+  - **Non-discriminazione**: Prevenzione di bias che potrebbero portare a decisioni ingiuste o discriminatorie.
+  - **Benessere umano**: L'AI deve promuovere il progresso umano, evitando danni.
+  - **Sostenibilità**: Deve considerare il suo impatto ambientale ed economico.
+- **Benefici**:
+  - Promuove l'accettazione sociale dell'AI.
+  - Allinea il sistema con i principi universali di giustizia e uguaglianza.
+
+### Sintesi  
+Un'AI che sia spiegabile, responsabile, sicura ed etica rappresenta una tecnologia su cui le persone possono fare affidamento. Integrare questi principi durante la progettazione e l'implementazione garantisce un equilibrio tra innovazione tecnologica e protezione dei diritti umani, delle normative e della fiducia del pubblico.
 
 
 
