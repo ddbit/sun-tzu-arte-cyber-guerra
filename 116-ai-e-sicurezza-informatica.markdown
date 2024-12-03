@@ -232,6 +232,9 @@ Possiamo fidarci della AI?
 
 Il concetto di **Trustworthy AI** si riferisce alla creazione e all'implementazione di sistemi di intelligenza artificiale che siano affidabili, responsabili e rispettosi delle normative e dei valori etici. Le quattro dimensioni principali — **Explainable, Accountable, Secure, Ethical** — rappresentano pilastri fondamentali per garantire la fiducia e la sostenibilità dell'AI. 
 
+Un'AI che sia spiegabile, responsabile, sicura ed etica rappresenta una tecnologia su cui le persone possono fare affidamento. Integrare questi principi durante la progettazione e l'implementazione garantisce un equilibrio tra innovazione tecnologica e protezione dei diritti umani, delle normative e della fiducia del pubblico.
+
+
 ### 1. **Explainable (Spiegabile)**  
 Un sistema di AI deve essere comprensibile dagli utenti e dagli stakeholder.  
 - **Caratteristiche principali**:
@@ -271,9 +274,6 @@ Il sistema deve rispettare valori e principi morali condivisi, con un impatto po
 - **Benefici**:
   - Promuove l'accettazione sociale dell'AI.
   - Allinea il sistema con i principi universali di giustizia e uguaglianza.
-
-### Sintesi  
-Un'AI che sia spiegabile, responsabile, sicura ed etica rappresenta una tecnologia su cui le persone possono fare affidamento. Integrare questi principi durante la progettazione e l'implementazione garantisce un equilibrio tra innovazione tecnologica e protezione dei diritti umani, delle normative e della fiducia del pubblico.
 
 
 

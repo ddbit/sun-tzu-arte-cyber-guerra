@@ -31,11 +31,20 @@ In un curioso esperimento potreste provare ad iniziare una conversazione con un 
 
 Vi troverete a comporre delle frasi di senso "quasi" compiuto, diciamo dei deliri dell'algoritmo che però sembrano a chi li legge dei messaggi che forse sono un po' ambigui ma che magari scritti meglio avrebbero avuto un senso logico.
 
+Il meccanismo di **attention** consente ai modelli di linguaggio come ChatGPT di identificare e focalizzarsi sulle parti più rilevanti di un testo, migliorando la comprensione del contesto e la generazione di risposte appropriate. Questo processo valuta l'importanza di ogni parola in relazione alle altre, permettendo al modello di cogliere le dipendenze a lungo raggio all'interno della sequenza di testo. 
+
+Un **Transformer** è un'architettura di rete neurale progettata per gestire sequenze di dati, come il linguaggio naturale. Si basa su meccanismi di attention per elaborare l'intera sequenza in parallelo, senza ricorrere a strutture ricorrenti. Questo approccio consente di catturare le relazioni tra le parole in una frase, migliorando l'efficienza e l'efficacia nell'elaborazione del linguaggio naturale. 
+
+In conclusione possiamo dire che i Transformer utilizzano il meccanismo di attention per comprendere e generare testo in modo più efficiente, costituendo la base di modelli avanzati come ChatGPT. 
 
 
 
-Le allucinazioni dei modelli generativi
-------------------
+Usare con attenzione i modelli di linguaggio
+-----------------
+
+Dobbiamo prestare attenzione e validare sempre ciò che un modello di linguaggio produce. In questo senso non dobbiamo abdicare alla nostra capacità di discernere il vero dal falso e questi strumenti pur essendo molto potenti e flessibili richiedono una certa maturità per essere utilizzati a pieno. 
+
+### Le allucinazioni dei modelli generativi
 
 A proposito della correttezza dei risultati, il comico Luca Bizzarri in una puntata del suo Podcast "Non hanno un amico" racconta un'avventura curiosa che, ahimè, ha rivelato i limiti di un'intelligenza artificiale. Incuriosito da una frase del ministro Giuli che cita in un discorso pubblico il concetto di "pensiero solare" che suona importante e altisonante, chiede a ChatGPT chi ne sia l’ideatore. La risposta è rapida e senza incertezze: un certo **Giuseppe Zuccari**, altrimenti noto come **Giuliano Zuccarini**, filosofo italiano nato a **Città di Castello** nel 1942, sarebbe l’artefice di tale pensiero, con profondi aforismi come "La rigidità delle ideologie si discioglie nella luce meridiana dello spirito mediterraneo." Un pensatore, insomma, con una penna a dir poco luminosa.
 
@@ -50,38 +59,17 @@ Si può dire che Bizzarri sia stato vittima di un'allucinazione di ChatGPT, o pe
 
 In questo caso, il povero Bizzarri ha ricevuto un'immagine di un filosofo italiano perfettamente dettagliato, nato a Città di Castello, autore di citazioni memorabili, eppure... del tutto immaginario! Un caso emblematico di allucinazione digitale, dove la creatività della macchina ha superato la realtà.
 
-Il confine tra plagio e uso leggittimo della AI nella scuola e nell'università
-------------
+### Quale confine tra plagio e uso legittimo 
 
-Sono già numerosi gli episodi di tesi rigettate perché gli studenti hanno utilizzato deo tool di AI per riformulare un breve commento, sollevando temi importanti:
+Nel mondo accademico sono numerosi gli episodi di manoscritti di tesi rigettati perché gli studenti hanno utilizzato dei tool di AI per riformulare uno o più paragrafi del testo sollevando di fatto dei temi importanti:
 
-1. **Affidabilità dei tool di AI Detection**: Gli strumenti come GPT-Zero non sono precisi, con numerosi falsi positivi, e possono essere facilmente aggirati.
+1. **Affidabilità dei tool di AI Detection**: Gli strumenti come GPT-Zero non sono precisi, con numerosi falsi positivi, e possono essere facilmente aggirati. Quindi un uso troppo zelante da parte dei docenti nel valutare l'abuso di AI da parte degli studenti può portare a delle penalizzazioni ingiustificate.
 
-2. **Confini poco chiari sull'uso dell'AI**: Dov'è la linea tra "aiuto alla scrittura" e "plagio da AI"? Chi lo definisce?
+2. **Confini poco chiari sull'uso dell'AI**: Dov'è la linea tra "aiuto alla scrittura" e "plagio da AI"? Chi lo definisce? Perché non possiamo considerare l'AI uno strumento valido come lo sono stati i correttori ortografici o gli strumenti di fotoritocco? Ed inoltre è vero che l'AI viene addestrata con materiale trovato in rete ma se tale materiale è usato per addestrare il modello ma il materiale stesso non viene ridistribuito perché questa azione viene considerata una violazione del diritto d'autore. In fondo se un essere umano legge un testo altrui e lo elabora per scrivere una sintesi non sarebbe considerata una violazione, mentre se la stessa azione viene compiuta da un algoritmo gli interessati sentono il loro diritto d'autore violato.
 
 3. **Necessità di riforma del sistema educativo**: L'AI sta trasformando il mondo, ma il sistema educativo italiano sembra lontano dal gestire adeguatamente questa rivoluzione. 
 
-
-Quando all'AI diamo informazioni riservate
----------
-
-In aprile 2023, alcuni dipendenti di Samsung hanno involontariamente esposto informazioni riservate utilizzando ChatGPT. Un ingegnere ha inserito codice sorgente proprietario nel chatbot per ottimizzarlo, mentre un altro ha condiviso un algoritmo per identificare difetti nei chip. Un terzo dipendente ha inviato la trascrizione di una riunione interna per generare una presentazione. Queste azioni hanno portato alla memorizzazione di dati sensibili sui server di OpenAI, rendendoli potenzialmente accessibili a terzi. 
-
-In risposta, Samsung ha vietato l'uso di ChatGPT e di altri strumenti di intelligenza artificiale generativa sui dispositivi aziendali, esprimendo preoccupazioni riguardo alla sicurezza dei dati e alla possibilità che informazioni riservate potessero essere archiviate su server esterni. 
-
-Questo incidente evidenzia i rischi associati all'uso non controllato di strumenti AI in ambito aziendale e sottolinea l'importanza di implementare rigorose politiche di sicurezza e formazione del personale per proteggere i segreti industriali. 
-
-Quando l'AI ha troppi privilegi
-----------
-
-L’adozione di strumenti come Microsoft Copilot porta alla luce un problema cruciale nella sicurezza informatica: la gestione dei livelli di accesso. Nel caso riportato da Marc Benioff, un'azienda ha scoperto che Copilot consentiva a un dipendente di accedere a email riservate e documenti sensibili, inclusi quelli del CEO, semplicemente ereditando i permessi dell’utente. 
-
-Il problema? File mal posizionati o condivisi con permessi troppo ampi. Questo episodio dimostra quanto sia essenziale gestire accuratamente i diritti di accesso e verificare regolarmente dove e come vengono archiviati i dati sensibili. Gli strumenti AI, per quanto potenti, non possono compensare una governance carente.
-
-Serve un approccio proattivo: definire regole chiare, educare i dipendenti e applicare il principio del “minimo privilegio”, ovvero dare accesso solo alle informazioni strettamente necessarie.
-
-Quando l'AI infrange il copyright
----------
+### Quando l'AI infrange davvero il copyright
 
 Recenti studi hanno dimostrato che ChatGPT può essere indotto, attraverso prompt appositamente progettati, a rivelare informazioni personali degli utenti, sollevando preoccupazioni riguardo alla privacy e alla sicurezza dei dati. In particolare, una ricerca pubblicata su arXiv ha evidenziato come ChatGPT 4 e 4o siano vulnerabili a tali attacchi, permettendo a malintenzionati di esfiltrare dati personali senza l'uso di strumenti esterni. 
 
@@ -92,9 +80,27 @@ Per approfondire, è possibile consultare l'articolo completo disponibile su arX
 [Exfiltration of personal information from ChatGPT via prompt injection](https://arxiv.org/abs/2406.00199?utm_source=chatgpt.com)
 
 
-Quando l'utente inserisce un prompt che contiene parti malevole: la prompt injection.
----------
+### Quando all'AI diamo informazioni riservate
 
+
+In aprile 2023, alcuni dipendenti di Samsung hanno involontariamente esposto informazioni riservate utilizzando ChatGPT. Un ingegnere ha inserito codice sorgente proprietario nel chatbot per ottimizzarlo, mentre un altro ha condiviso un algoritmo per identificare difetti nei chip. Un terzo dipendente ha inviato la trascrizione di una riunione interna per generare una presentazione. Queste azioni hanno portato alla memorizzazione di dati sensibili sui server di OpenAI, rendendoli potenzialmente accessibili a terzi. 
+
+In risposta, Samsung ha vietato l'uso di ChatGPT e di altri strumenti di intelligenza artificiale generativa sui dispositivi aziendali, esprimendo preoccupazioni riguardo alla sicurezza dei dati e alla possibilità che informazioni riservate potessero essere archiviate su server esterni. 
+
+Questo incidente evidenzia i rischi associati all'uso non controllato di strumenti AI in ambito aziendale e sottolinea l'importanza di implementare rigorose politiche di sicurezza e formazione del personale per proteggere i segreti industriali. 
+
+### Quando l'AI ha troppi privilegi
+
+L’adozione di strumenti come Microsoft Copilot porta alla luce un problema cruciale nella sicurezza informatica: la gestione dei livelli di accesso. Nel caso riportato da Marc Benioff, un'azienda ha scoperto che Copilot consentiva a un dipendente di accedere a email riservate e documenti sensibili, inclusi quelli del CEO, semplicemente ereditando i permessi dell’utente. 
+
+Il problema? File mal posizionati o condivisi con permessi troppo ampi. Questo episodio dimostra quanto sia essenziale gestire accuratamente i diritti di accesso e verificare regolarmente dove e come vengono archiviati i dati sensibili. Gli strumenti AI, per quanto potenti, non possono compensare una governance carente.
+
+Serve un approccio proattivo: definire regole chiare, educare i dipendenti e applicare il principio del “minimo privilegio”, ovvero dare accesso solo alle informazioni strettamente necessarie.
+
+
+
+
+### Quando l'utente inserisce un prompt che contiene parti malevole: la prompt injection.
 
 La prompt injection rappresenta una classe emergente di exploit nella sicurezza informatica, in cui un modello di machine learning (ML), addestrato per seguire istruzioni umane, viene indotto a eseguire comandi forniti da un utente malevolo. Questo contrasta con l'operazione prevista dei sistemi basati su istruzioni, dove il modello dovrebbe seguire solo i prompt forniti dall'operatore autorizzato. 
 
@@ -134,53 +140,26 @@ Per contrastare gli attacchi di iniezione di prompt, sono state sviluppate diver
 - **Apprendimento con Rinforzo da Feedback Umano**: Addestramento dei modelli utilizzando feedback umano per migliorare la resistenza agli attacchi.
 
 
+### Quando l'AI implementa in modo maldestro il GDPR
 
-## Come si legge la scheda tecnica di un modello LLM
+Nel Novembre 2024 in rete impazza il misterioso caso "David Mayer" che chatGPT si rifiuta di trattare come prompt bloccando la chat in modo brutale se quel nome è inserito dall'utente o anche semplicemente risultante dall'output. E' stato rapidamente verificato che non si trattava un caso isolato. A quanto pare una lista di nomi proibiti era già stata individuata da diversi utenti online e tra questi anche l'italiano Guido Scorza membro del Garante Privacy.
 
+Secondo molti ChatGPT starebbe implementando le richieste di diritto all'oblio da parte di questi soggetti.
 
-Prendiamo come esempio la scheda di specifiche del modello Llama3. La scheda è visibile nel [sito hugginface](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
-
-### Cominciamo dalla licenza
-E' possibile usare Llama3 per applicazioni commerciali, ma ci sono condizioni specifiche da rispettare. Se il numero di utenti mensili attivi dei prodotti o servizi che utilizzano Llama3 **supera i 700 milioni nel mese precedente**, è necessario richiedere una licenza specifica da Meta. Questa licenza potrebbe essere concessa a discrezione di Meta. Inoltre, tutte le applicazioni commerciali devono aderire alle condizioni generali dell'accordo di licenza, incluse le norme di utilizzo e le leggi applicabili.
-
-Naturalmente è allegata una chilometrica lista di usi proibiti che in qualche modo sta all'utente rispettare.
-
-Come per i suoi predecessori, **l'uso di llama3 prevede un modulo di registrazione e i dati personali vengono spediti a Meta**.
-
-### Le violazioni del copyright?
-
-L'utente che utilizza i materiali di Llama3 è responsabile per assicurarsi che il loro uso sia conforme alle leggi vigenti, inclusi i diritti d'autore e le regolazioni del commercio. Se il modello genera output che violano i diritti d'autore, la responsabilità ricadrebbe sull'utente che ha implementato e utilizzato il modello in quel contesto specifico. Gli utenti sono anche tenuti a indennizzare e difendere Meta da qualsiasi reclamo terzo legato al loro uso dei materiali di Llama3.
-
-### Primi dati tecnici veri e propri
-
-> Model Architecture Llama 3 is an auto-regressive language model that uses an optimized transformer architecture. 
-
-Questo ci dice che tipo di modello stiamo usando.
-
-> The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align with human preferences for helpfulness and safety.
-
-Mentre qui ci informano sul fatto che l'addestramento è avvenuto in modo supervisionato e che utilizza un sistema di ri-addestramento continuo chiamato **reinforcement learning** che si nutre del feedback degli utenti.
+Il che però fa emergere due interessanti considerazioni: la prima è che per effetto Streisand migliaia di utenti hanno cominciato a scavare nel web alla ricerca di informazioni su queste persone vanificando di fatto ogni loro diritto alla privacy; la seconda invece sul diritto, violato, di ogni cittadino italiano di conoscere da chi è composto il Garante Privacy con la libertà di ottenere questa informazionedal suo bot AI preferito che invece, a seguito della richiesta dell'interessato, non può eseguire l'operazione.
 
 
-| Model       | Training Data                    | Params | Context length | GQA | Token count | Knowledge cutoff | 
-|-------------|----------------------------------|--------|----------------|-----|-------------|------------------| 
-| Llama 3 8B  | publicly available online data.  | 8B     | 8k             | Yes | 15T+        | March, 2023      | 
-| Llama 3 70B | publicly available online data.  | 70B    | 8k             | Yes | 15T+        | December, 2023   | 
+Come valutiamo un modello LLM
+----------
 
 
-La tabella ci da poi alcune informazioni quantitative molto importanti:
-
-- **I parametri**: abbiamo due versioni del modello, con 8B e 70B di parametri, se vi siete mai chiesti cosa siano questi parametri, vi invito a leggere [questo articolo](https://kelvin.legal/understanding-large-language-models-what-are-paramters/). Giusto per fare un confronto, di GPT-4, che rappresenta un po' il leader di mercato, [si vocifera](https://the-decoder.com/gpt-4-architecture-datasets-costs-and-more-leaked/) che abbia oltre 1000 miliardi di parametri. Quindi Llama3 sembra un nano in confronto, ma in realtà il numero di parametri non è sempre un indicatore diretto della qualità di un LLM.
+- **I parametri**: 
 
 - **Context lenght**, come sappiamo questa rappresenta la lunghezza massima dell'input che il modello può ingerire in fase di inferenza. Ricordiamo che GPT-4 Turbo ha un contesto fino a 128k token (circa 240 pagine da 400 parole). Anche in questo caso Llama3 sembra non poter competere con GPT-4 dato che il contesto disponibile per il modello di Meta è di **appena 8k tokens** (circa 16 pagine di scritto)
 
-- **GQA**, significa [Grouped Query Attention](https://klu.ai/glossary/grouped-query-attention), ed è una tecnica che ottimizza l'algoritmo di attenzione.
-
 - **Training set**, la scheda ci informa che Llama3 è stato addestrato con 15 mila miliardi di token provenienti da **fonti disponibili al pubblico**. Il che è una definizione vaga ma probabilmente lecita nell'attesa che la legislazione internazionale ponga dei precisi paletti sulla definizione di "disponibile" Vs "utilizzabile per addestrare algoritmi"
 
-### Instruction tuned Vs pre-Trained models
-
-Il modello viene fornito in queste due versioni. Ma cosa significa?
+- Instruction tuned Vs pre-Trained models
 
 Mentre il pre-trained è un modello che è stato addestrato attraverso il corpus di linguaggio naturale con lo scopo di apprendere la struttura delle frasi, i pattern ricorrenti, ed è capace di generare testi che "completano" l'input umano, il tipo **instruction-tuned** ha subito un successivo addestramento fine (fine-tuning), dove in modo supervisionato il modello è stato addestrato ad eseguire dei comandi e seguire istruzioni. Una spiegazione più soddisfacente di questo concetto è disponibile [nel blog di openAI](https://openai.com/research/instruction-following)
 
@@ -252,8 +231,8 @@ Di seguito una tabella riassuntiva.
 
 
 
-## Come misurare la qualità del RAG nei modelli LLM
-
+Come misurare la qualità del RAG nei modelli LLM
+----------
 
 ### Il RAG, cos'è e a cosa serve
 
