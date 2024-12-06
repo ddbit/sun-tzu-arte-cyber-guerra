@@ -98,8 +98,6 @@ Il problema? File mal posizionati o condivisi con permessi troppo ampi. Questo e
 Serve un approccio proattivo: definire regole chiare, educare i dipendenti e applicare il principio del “minimo privilegio”, ovvero dare accesso solo alle informazioni strettamente necessarie.
 
 
-
-
 ### Quando l'utente inserisce un prompt che contiene parti malevole: la prompt injection.
 
 La prompt injection rappresenta una classe emergente di exploit nella sicurezza informatica, in cui un modello di machine learning (ML), addestrato per seguire istruzioni umane, viene indotto a eseguire comandi forniti da un utente malevolo. Questo contrasta con l'operazione prevista dei sistemi basati su istruzioni, dove il modello dovrebbe seguire solo i prompt forniti dall'operatore autorizzato. 
@@ -153,31 +151,20 @@ Come valutiamo un modello LLM
 ----------
 
 
-- **I parametri**: 
+- **I parametri**: se il nostro modello fosse un semplice regressore lineare su un piano X-Y, avremmo due soli parametri, il valore di intercetta per X = 0 e la pendenza della retta di interpolazione statistica. Ma dato che stiamo parlando di un modello LLM dove una delle L sta per Large, i parametri sono molti di più e sono generalmente chiamati i "pesi". I pesi in una rete neurale rappresentano i parametri che collegano i neuroni e determinano la forza e la direzione delle connessioni, influenzando direttamente le previsioni del modello. Durante l'addestramento, i pesi vengono ottimizzati utilizzando algoritmi come la discesa del gradiente per minimizzare una funzione di perdita, adattandosi ai dati per migliorare l'accuratezza delle previsioni. Valori alti rafforzano le connessioni tra neuroni, mentre valori prossimi a zero le rendono trascurabili, consentendo al modello di identificare le caratteristiche più rilevanti nei dati di input. Quanti sono i parametri dunque di un modello LLM? Dipende, ma in generale sono tra il miliardo e mille miliardi per i modelli più complessi.
 
-- **Context lenght**, come sappiamo questa rappresenta la lunghezza massima dell'input che il modello può ingerire in fase di inferenza. Ricordiamo che GPT-4 Turbo ha un contesto fino a 128k token (circa 240 pagine da 400 parole). Anche in questo caso Llama3 sembra non poter competere con GPT-4 dato che il contesto disponibile per il modello di Meta è di **appena 8k tokens** (circa 16 pagine di scritto)
+- **Context lenght**, come sappiamo questa rappresenta la lunghezza massima dell'input che il modello può ingerire in fase di inferenza. Ad esempio, GPT-4 Turbo ha un contesto fino a 128k token (circa 240 pagine da 400 parole) mentre un modello cosiddetto open source come Llama3 ha un contesto di **appena 8k tokens** (circa 16 pagine di scritto)
 
-- **Training set**, la scheda ci informa che Llama3 è stato addestrato con 15 mila miliardi di token provenienti da **fonti disponibili al pubblico**. Il che è una definizione vaga ma probabilmente lecita nell'attesa che la legislazione internazionale ponga dei precisi paletti sulla definizione di "disponibile" Vs "utilizzabile per addestrare algoritmi"
+- **Training set**, sempre per restare su un caso di studio come Llama3, la scheda tecnica ci informa che questo è stato addestrato con 15 mila miliardi di token provenienti da **fonti disponibili al pubblico**. Il che è una definizione vaga ma probabilmente lecita nell'attesa che la legislazione internazionale ponga dei precisi paletti sulla definizione di "disponibile" Vs "utilizzabile per addestrare algoritmi"
 
 - Instruction tuned Vs pre-Trained models
 
-Mentre il pre-trained è un modello che è stato addestrato attraverso il corpus di linguaggio naturale con lo scopo di apprendere la struttura delle frasi, i pattern ricorrenti, ed è capace di generare testi che "completano" l'input umano, il tipo **instruction-tuned** ha subito un successivo addestramento fine (fine-tuning), dove in modo supervisionato il modello è stato addestrato ad eseguire dei comandi e seguire istruzioni. Una spiegazione più soddisfacente di questo concetto è disponibile [nel blog di openAI](https://openai.com/research/instruction-following)
+Mentre il pre-trained è un modello che è stato addestrato attraverso il corpus di linguaggio naturale con lo scopo di apprendere la struttura delle frasi, i pattern ricorrenti, ed è capace di generare testi che "completano" l'input umano, il tipo **instruction-tuned** è un modello che ha subito un successivo addestramento fine (fine-tuning), dove in modo supervisionato il modello è stato addestrato ad eseguire dei comandi e seguire istruzioni. Una spiegazione più soddisfacente di questo concetto è disponibile [nel blog di openAI](https://openai.com/research/instruction-following)
 
 
 ### Metriche generaliste per i modelli pre-trained
 
-In generale ogni modello pretrained viene testato con dei benchmark su vari aspetti del linguaggio dalla comprensione del testo ad aspetti più **generalisti** :
-
-| Benchmark                  | Llama 3 8B | Llama2 7B | Llama2 13B | Llama 3 70B | Llama2 70B |
-|----------------------------|------------|-----------|------------|-------------|------------|
-| MMLU (5-shot)              | 66.6       | 45.7      | 53.8       | 79.5        | 69.7       |
-| AGIEval English (3-5 shot) | 45.9       | 28.8      | 38.7       | 63          | 54.8       |
-| CommonSenseQA (7-shot)     | 72.6       | 57.6      | 67.6       | 83.8        | 78.7       |
-| Winogrande (5-shot)        | 76.1       | 73.3      | 75.4       | 83.1        | 81.8       |
-| BIG-Bench Hard (3-shot, CoT) | 61.1     | 38.1      | 47         | 81.3        | 65.7       |
-| ARC-Challenge (25-shot)    | 78.6       | 53.7      | 67.6       | 93          | 85.3       |
-
-
+In generale ogni modello pretrained viene testato con dei benchmark su vari aspetti del linguaggio dalla comprensione del testo ad aspetti più **generalisti**
 
 #### MMLU 
 
@@ -203,7 +190,16 @@ Correct answer: A
 
 CommonsenseQA è un set di dati per la risposta a domande di senso compiuto. Il dataset è composto da 12.247 domande con 5 scelte ciascuna. Il dataset è stato generato dai lavoratori di Amazon Mechanical Turk
 
+Riportiamo di seguito un confronto tra i modelli Llama2 e Llama3 con diversi numeri di parametri.
 
+| **Benchmark**                  | **Llama2 7B** | **Llama2 70B** | **Llama 3 70B** |
+|--------------------------------|---------------|----------------|-----------------|
+| **MMLU (5-shot)**              | 45.7          | 69.7           | 79.5            |
+| **AGIEval English (3-5 shot)** | 28.8          | 54.8           | 63              |
+| **CommonSenseQA (7-shot)**     | 57.6          | 78.7           | 83.8            |
+| **Winogrande (5-shot)**        | 73.3          | 81.8           | 83.1            |
+| **BIG-Bench Hard (3-shot, CoT)**| 38.1          | 65.7           | 81.3            |
+| **ARC-Challenge (25-shot)**    | 53.7          | 85.3           | 93              |
 
 ### Metriche di Comprensione del testo per i modelli pre-trained
 
@@ -220,23 +216,33 @@ SQuAD2.0 combina le 100.000 domande di SQuAD1.1 con oltre 50.000 domande senza r
 
 Di seguito una tabella riassuntiva.
 
-| Benchmark    | Llama 3 8B | Llama2 7B | Llama2 13B | Llama 3 70B | Llama2 70B |
-|--------------|------------|-----------|------------|-------------|------------|
-| SQuAD (1-shot)    | 76.4       | 72.2      | 72.1       | 85.6        | 82.6       |
-| QuAC (1-shot, F1) | 44.4       | 39.6      | 44.9       | 51.1        | 49.4       |
-| BoolQ (0-shot)    | 75.7       | 65.5      | 66.9       | 79          | 73.1       |
-| DROP (3-shot, F1) | 58.4       | 37.9      | 49.8       | 79.7        | 70.2       |
+
+| **Benchmark**              | **Llama2 7B** | **Llama2 70B** | **Llama 3 70B** |
+|----------------------------|---------------|----------------|-----------------|
+| **SQuAD (1-shot)**         | 72.2          | 82.6           | 85.6            |
+| **QuAC (1-shot, F1)**      | 39.6          | 49.4           | 51.1            |
+| **BoolQ (0-shot)**         | 65.5          | 73.1           | 79              |
+| **DROP (3-shot, F1)**      | 37.9          | 70.2           | 79.7            |
 
 
 
 
 
-Come misurare la qualità del RAG nei modelli LLM
+
+Come misurare il RAG nei modelli LLM
 ----------
 
-### Il RAG, cos'è e a cosa serve
 
 Il Retrieval-Augmented Generation (RAG) nei modelli di Large Language Models (LLM) è una tecnica che combina il recupero di informazioni (retrieval) e la generazione di testo. Il RAG prima cerca dati pertinenti in un vasto archivio di testo e poi utilizza questi dati per generare risposte più accurate e informative.
+
+Questo permette di fatto di specializzare un modello generico, addestrato su un corpus di testi generalisti, in modo che possa trovare informazioni all'interno di un database di informazioni per un dominio preciso. Ad esempio, vogliamo sfruttare un LLM generalista per darci informazioni turistiche sulla Grecia? Possiamo semplicemente caricare le informazioni dettagliate in un database, e poi trasformare i prompt dell'utente in qualcosa che ci permette di fare le query sul db, estrarre la conoscienza utile e metterla a disposizione del contesto del nostro LLM. 
+
+Tutto questo senza dover addestrare il modello attraverso un nuovo passaggio di training o fine-tuning.
+
+Una definizione di RAG molto utile la trovate sulla documentazione di Llamaindex (un famoso tool di RAG)
+
+> In RAG, your data is loaded and prepared for queries or “indexed”. User queries act on the index, which filters your data down to the most relevant context. This context and your query then go to the LLM along with a prompt, and the LLM provides a response.
+
 
 
 ### Come valutare la qualità del RAG

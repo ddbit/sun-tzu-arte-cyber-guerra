@@ -169,10 +169,7 @@ Una password forte è tecnicamente resistente agli attacchi di forza bruta, ma p
 
 ## Conservazione delle Password
 
-![the computer forgot my password, animated gif, funny](images/the-computer-forgot-my-password-password.gif)
-
-
-Le opzioni includono:
+Le opzioni per custodire le password includono:
 
 - **Memorizzazione a mente**: Sicura ma impraticabile per un grande numero di password.
 - **Scrittura su carta**: Rischi di accesso fisico non autorizzato.

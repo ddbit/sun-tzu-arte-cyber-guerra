@@ -1,6 +1,3 @@
-<!---
-status: READY
--->
 
 # Sun Tzu e l'arte della cyber guerra 
 
@@ -33,13 +30,6 @@ Iniziamo il nostro viaggio attraverso il complesso ecosistema della cybersecurit
 
 La cybersecurity è divenuta una colonna portante per la stabilità e l’integrità di aziende e pubbliche amministrazioni. In questo capitolo, esploriamo perché una robusta difesa digitale è indispensabile in un’era definita dall’informazione.
 
-**Organismi internazionali che combattono il cybercrime**
-
-Dalla Interpol all’Europol, numerosi organismi internazionali si adoperano per contrastare il cybercrime. Analizziamo il loro ruolo e come la cooperazione transnazionale sia fondamentale nella lotta contro le minacce digitali.
-
-**Cosa prevede la normativa nazionale ed internazionale**
-
-Il diritto cybernetico è in continua evoluzione per rispondere alle sfide poste dalle tecnologie emergenti. Questo capitolo fornisce una panoramica delle normative nazionali e internazionali, delineando come influenzino la gestione della cybersecurity.
 
 **Panorama delle minacce attuali a livello globale**
 

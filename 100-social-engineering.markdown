@@ -87,7 +87,8 @@ Naturalmente dovrebbe essere imperativo implementare procedure che richiedono pi
 
 L'ingegneria sociale rimane tuttavia una delle minacce più insidiose nella sicurezza informatica perché sfrutta vulnerabilità che non sono tecniche ma umane. E incredibilmente anche stimati professionisti del mondo IT vengono colpiti personalmente ogni giorno. Figuriamoci gli altri.
 
-## Phishing
+Phishing
+--------
 
 Il **phishing** è effettivamente una delle tecniche di ingegneria sociale più comuni e pericolose utilizzate dai cybercriminali per ottenere accesso non autorizzato a informazioni personali e riservate. La tecnica consiste nel mascherare un tentativo di furto di informazioni sensibili, come dettagli di login, numeri di carte di credito e altre informazioni personali, facendo apparire la richiesta come se provenisse da una fonte legittima e affidabile.
 

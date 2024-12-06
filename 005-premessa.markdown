@@ -8,7 +8,8 @@ status: READY
 
 *Nella trasposizione da trascrizioni e slide a pagine di libro è stato utilizzato ChatGPT 4o come correttore di bozze per la sua capacità di revisionare forma e struttura del linguaggio.*
 
-## La copertina
+La copertina
+------------
 
 Come molti potranno notare la figura in copertina è più simile ad un samurai giapponese che ad un generale cinese come dovrebbe essere Sun Tsu.
 
@@ -19,3 +20,19 @@ A proposito il prompt utilizzato per generare la copertina su Dall-e 3 è il seg
 > disegna un samurai con lo stile pittorico degli antichi giapponesi, ma mettigli in mano un laptop
 
 Quindi come vedete l'inacuratezza culturale è totalmente volontaria.
+
+Non si parla di normativa
+-----------
+
+Tra il serio ed il faceto mi è capitato di chiamare Normageddom l'ipertrofia normativa nella quale professionisti ed aziende devono muoversi. Ho citato l'esempio di un'ipotetica startup che avesse malauguratamente deciso di utilizzare la blockchain per facilitare pagamenti utilizzando tecniche di AI per la mitigazione delle frodi e fornire contestualmente un servizio di firma elettronica, in tal caso la suddetta dovrebbe adempiere a:
+
+- NIS2
+- MICA
+- AML/CTF
+- GDPR
+- AI ACT
+- DORA
+- PSD2
+- Data Act
+
+e sicuramente ne sto trascurando qualcuna. Scherzi a parte ci sono centinaia di professionisti che commentano i testi di legge, ritengo dunque di non poter aggiungere molto altro, ma in futuro potrei cambiare idea.

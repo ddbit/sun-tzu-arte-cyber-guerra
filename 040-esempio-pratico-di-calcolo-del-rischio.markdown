@@ -27,8 +27,7 @@ Ma in genere non è così lineare e semplice ottenere queste stime. Prendiamo il
 
 In questo capitolo ci riferiamo all'approccio di misurazione del rischio elaborato sa OWASP e disponibile online al sito [https://owasp.org/www-community/OWASP_Risk_Rating_Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology).
 
-![qr owasp risk rating](images/qrcode_owasp.org-riskrating.png)
-
+<img src="images/qrcode_owasp.org-riskrating.png" width=160px></img>
 
 Come lo stesso OWASP riconosce, esistono altri approcci più completi e maturi per la valutazione del rischio tra cui 
 

@@ -1,11 +1,5 @@
-<!---
-status: ALMOST
-note: inserire immagine della targa sullo zaino
-manca totalmente la parte realtiva a privacy e copyright, forse meglio un capitolo a parte.
--->
 
-# AI e sicurezza informatica.
-
+# AI e sicurezza informatica
 
 
 > Un sistema infallibile non può essere intelligente ed un sistema intelligente non può essere infallibile 
@@ -51,15 +45,12 @@ Questa è stata una vera è propria rivoluzione, che di fatto ha reso l'elettron
 
 ### I computer del futuro non si programmano, si addestrano
 
-e forse siamo all'alba di una nuova rivoluzione, così come la CPU è divenuto il componente definitivo nel mondo dell'elettronica, forse dobbiamo ora salutare la nascita del componente definitivo nel mondo dell'informazione. Il classificatore/decisore/regressore, insomma un modello matematico/statistico capace di ingurgitare dati e fornire predizioni. Un componente in grado di fare qualcosa simile in fondo a quello che fa il cervello umano, no non dico pensare, ma riconoscere, giudicare, valutare. Parole come deep learning, reti neurali, machine intelligence, etc. sono tutte variazioni sul tema ma il concetto è sempre lo stesso. Macchine che apprendono.
+e forse siamo all'alba di una nuova rivoluzione, così come la CPU è divenuto il componente definitivo nel mondo dell'elettronica, forse dobbiamo ora salutare la nascita del componente definitivo nel mondo dell'informazione. Il classificatore/decisore/regressore, insomma un modello matematico/statistico capace di ingurgitare dati e fornire predizioni. 
 
-![machine_learning](/images/posts/e573d-machine_learning.jpg)
+Un componente in grado di fare qualcosa simile in fondo a quello che fa il cervello umano, no non dico pensare, ma riconoscere, giudicare, valutare. Parole come deep learning, reti neurali, machine intelligence, etc. sono tutte variazioni sul tema ma il concetto è sempre lo stesso. Macchine che apprendono.
 
-Apprendono a riconoscere un tumore da una tac, o lo stile di Van Gogh da un' immagine quello che conta è che queste macchine forse non pensano e non sono senzienti, ma riconoscono (riconoscenti però suona male)
 
 La conseguenza diretta di tale trasformazione avviene prima di tutto sull'hardware stesso. Abbiamo assistito all'evoluzione dei processori dallo z80 all'I7 e come questi siano divenuti delle macchine elettroniche sempre più complesse e sempre più articolate con set di istruzioni in continua crescita proprio per la loro natura general purpose. Cioè le CPU devono accomodare le esigenze di tutti i possibili programmi che potrebbero in teoria essere scritti e poi girare su di loro.
-
-Ma cosa succede quando ci si rende conto che dal brodo primordiale di tutti i programmi possibili e immaginabili comincia ad emergere una sola classe di questi, elitari e intelligenti, non nel senso che pensano, ma nel senso che rendono per sé stessi "intelligibile" e codificabile quello che per i normali programmi non lo sarebbe. Addestrabili a "giudicare" e separare vero da falso, tumore da rumore, Van Gogh da Gaguin. Tradurre il parlato, riconoscere un viso, guidare un'auto, riconoscere un pericolo, riconoscere un nemico, etc.
 
 ### Invece di tanti software diversi programmati per fare cose diverse, pochi modelli addestrabili a risolvere infiniti problemi diversi.
 
@@ -68,7 +59,6 @@ Ma allora forse ci servono CPU diverse da quelle di oggi. In fondo una volta cap
 Infatti questo succede in altri settori, non necessariamente legati alla AI. il Bitcoin mining è un caso emblematico, verificare le transazioni Bitcoin e generare nuovi coin è stata un'attività altamente proficua, tant'è che per ottenere il massimo di prestazioni con il minimo consumo energetico sono stati realizzati dei computer ASIC, non più CPU generaliste, ma elettronica specializzata e pre-programmata per fare una cosa sola, il mining dei Bitcoin.
 
 ### I linguaggi di programmazione diventano irrilevanti?
-
 
 Non vuol dire che non serviranno più, e quindi ci saranno sempre job opportunities per developer e architect. Ma se ritorniamo allo scenario dove invece di tanti software diversi programmati per fare cose diverse, abbiamo pochi software addestrabili a risolvere infiniti problemi diversi, non abbiamo più un programmatore che si scervella tra cicli for, chiamate a funzioni, e infiniti cicli di trial and error per vedere il suo programma eseguire tutte le linee di codice.  Abbiamo invece un software scatola nera che ingurgita dati e sputa sentenze, una rete neurale capace di classificare ad esempio ... e a questo punto non è tanto una questione tra Java, Python, C++, etc. le guerre di religione nei forum nerd saranno su Boltzmann machine Vs Convolutional network.
 
@@ -84,45 +74,28 @@ Assistiamo già alla tendenza già vista in altri settori, come appunto quello d
 Ma non è detto che le GPU siano la soluzione definitiva, infatti Google da diversi anni ha messo in cantiere degli Asics (ovvero elettronica specializzata ad un solo scopo, un po' come il flipper descritto all'inizio) chiamate Tensor Processing Units (TPU) per abbattere il costo in Joule per istruzione. Le Google TPU sono circuiti integrati per ad-hoc sviluppati appositamente per l'apprendimento automatico. Rispetto ai processori, sono progettati in modo esplicito per grossi volumi di dati, usano una minore precisione (8 bit) e non dispongono di hardware per rasterizzazione / texture mapping (non gli serve).
 Google ha dichiarato che le sue TPU sono state utilizzate nella sfida di Go: AlphaGo Vs Lee Sedol.
 
-![TPU](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tensor_Processing_Unit_3.0.jpg/640px-Tensor_Processing_Unit_3.0.jpg)
-
-In figura una TPU di cui esistono già [sei diverse generazioni](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)
-
 
 ## Come funzionano i modelli di machine learning
 
-Intanto dividiamoli in due grandi categorie **regressione** e **classificazione**:
+Intanto dividiamoli in due grandi categorie, modelli per la **regressione** e modelli per la **classificazione**:
 
----
 
-### **1. REGRESSIONE (Grafico a sinistra)**
-- **Scopo:** La regressione viene utilizzata per prevedere valori continui (es. il prezzo di una casa, la temperatura, ecc.).
-- **Grafico:**
-  - L'asse x rappresenta i valori previsti dal modello (**Predicted values**).
-  - L'asse y rappresenta i valori reali osservati nel dataset (**Actual values**).
-  - I punti blu rappresentano le coppie previste/osservate.
-  - La linea tratteggiata è la linea ideale (y=x), dove i valori previsti corrispondono esattamente a quelli reali.
-  - **Residui (Residuals):** La distanza tra i punti e la linea rappresenta l'errore (differenza tra valore reale e previsto).
-  
-Questo grafico dimostra la qualità delle previsioni di un modello di regressione: quanto più i punti sono vicini alla linea, tanto più il modello è accurato.
+Questa figura mostra la differenza tra **regressione** e **classificazione** nei modelli di machine learning:
 
----
+- **Regressione (a sinistra):**
+  - La regressione prevede variabili continue. 
+  - I punti rosa rappresentano i dati, e la linea nera è una curva di previsione che si adatta ai dati.
+  - Esempio: Predire il valore di una casa basandosi sulla dimensione in metri quadrati.
 
-### **2. CLASSIFICAZIONE (Grafici a destra)**
-- **Scopo:** La classificazione è usata per assegnare etichette a categorie discrete (es. email spam/non spam, malattie presenti/assenti).
-- **Grafici:**
-  - Ogni grafico rappresenta lo spazio decisionale creato da diversi modelli di classificazione per distinguere due classi (punti blu e punti rossi).
-  - Le linee colorate (o confini decisionali) separano le due classi:
-    - I punti blu appartengono a una classe.
-    - I punti rossi appartengono a un’altra classe.
-  - I modelli mostrati includono:
-    - **Nearest Neighbors (k-NN):** Modello basato sulla vicinanza ai punti esistenti.
-    - **Linear SVM:** Modello lineare che separa le classi con un confine diritto.
-    - **RBF SVM:** Modello con un confine decisionale non lineare per gestire dati più complessi.
+- **Classificazione (a destra):**
+  - La classificazione prevede variabili discrete (categorie o classi).
+  - I punti verdi e blu rappresentano dati appartenenti a due classi, separati dalla curva nera che rappresenta il confine di decisione del modello.
+  - Esempio: Determinare se un'email è spam o non spam.
 
-Ogni riquadro illustra come i modelli si comportano su dati con distribuzioni diverse, con i numeri che indicano l'accuratezza.
+La figura mette a confronto i due approcci evidenziando le differenze visive tra previsione di valori continui e assegnazione di categorie.
 
----
+![Regressione vs classificazione](images/regression_vs_classification.png)
+
 
 **Differenza fondamentale:**
 - **Regressione**: Produce valori continui come output.
@@ -142,12 +115,14 @@ Queste fasi sono iterative: se i risultati non sono soddisfacenti, si torna al t
 
 La figura rappresenta un diagramma schematico dei principali approcci di **apprendimento automatico (Machine Learning)** e del processo che porta alla creazione e all'uso dei modelli di intelligenza artificiale (AI). Ecco una spiegazione dei tre principali tipi di apprendimento mostrati:
 
----
-
-![apprendimento](/images/apprendimento.png)
 
 
-### **1. TRAINING (Addestramento)**
+![apprendimento](images/apprendimento.png)
+
+
+Training (Addestramento)
+-----------
+
 L'addestramento dei modelli si divide in tre tipi principali:
 
 - **Supervisionato:**
@@ -165,14 +140,14 @@ L'addestramento dei modelli si divide in tre tipi principali:
   - Riceve una ricompensa (**REWARD**) per azioni che migliorano l'obiettivo e penalità per errori.
   - Questo approccio è utile per processi decisionali (es. robotica, giochi).
 
----
 
-### **2. MODELLO**
+
+
 Dopo l'addestramento, si ottengono modelli (reti neurali rappresentate con icone "cervello") addestrati per ciascun approccio. Ogni modello è ottimizzato per il tipo di dati e il compito specifico.
 
----
 
-### **3. INFERENZA**
+
+
 - Una volta creato, il modello viene utilizzato per fare previsioni o prendere decisioni.
 - Il sistema produce risultati che vengono valutati dall'utente o dall'ambiente.
 - L'utente finale può interagire con il modello (es. verificare i risultati o usarli per azioni successive).
