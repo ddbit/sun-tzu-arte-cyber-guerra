@@ -116,7 +116,6 @@ Queste fasi sono iterative: se i risultati non sono soddisfacenti, si torna al t
 La figura rappresenta un diagramma schematico dei principali approcci di **apprendimento automatico (Machine Learning)** e del processo che porta alla creazione e all'uso dei modelli di intelligenza artificiale (AI). Ecco una spiegazione dei tre principali tipi di apprendimento mostrati:
 
 
-
 ![apprendimento](images/apprendimento.png)
 
 
@@ -249,7 +248,6 @@ Il sistema deve rispettare valori e principi morali condivisi, con un impatto po
 - **Benefici**:
   - Promuove l'accettazione sociale dell'AI.
   - Allinea il sistema con i principi universali di giustizia e uguaglianza.
-
 
 
 ## Il bias

@@ -177,6 +177,56 @@ Il smishing è un metodo ingannevole efficace perché molti non sospettano dei m
 Nel 2021, il 74% delle organizzazioni ha subito attacchi di smishing, evidenziando un aumento del 13% rispetto al 2020. Questa informazione è supportata da una ricerca condotta in vari settori, dimostrando quanto sia diffuso e crescente il problema degli attacchi di smishing tra le aziende e le organizzazioni di tutto il mondo .
 
 
+
+## Quishing. Attenzione ai Pacchi Inaspettati. Lo Scam del QR Code
+
+Negli ultimi anni, un nuovo tipo di truffa ha preso piede sfruttando la curiosità e la distrazione degli utenti. Immagina di ricevere un pacco a casa tua contenente un oggetto che non hai ordinato, come un anello o un gadget apparentemente di poco valore. All’interno o sulla confezione, trovi un QR code accompagnato da istruzioni che ti invitano a “registrare” il prodotto o accedere a una pagina per maggiori informazioni. Questo tipo di frode, apparentemente innocua, nasconde pericoli significativi.
+
+
+### **Come Funziona la Truffa**
+1. **La Compromissione Iniziale**  
+   I truffatori ottengono il tuo indirizzo (spesso tramite acquisti effettuati su piattaforme non sicure, come negozi online poco affidabili su Instagram o altri social network).  
+   Molte vittime hanno in comune il fatto di aver effettuato ordini su siti che sembravano legittimi, ma che non hanno mai consegnato la merce promessa.
+
+2. **Invio del Pacco Inaspettato**  
+   Al posto del prodotto acquistato, ricevi un oggetto casuale (come un anello) insieme a un QR code. I truffatori sperano che tu lo scansioni, attratto dalla curiosità o dalla necessità di capire perché hai ricevuto l’oggetto.
+
+3. **La Minaccia del QR Code**  
+   Scansionando il codice QR:  
+   - Vieni reindirizzato a un sito dannoso, spesso progettato per sottrarre informazioni personali o installare malware sul dispositivo.  
+   - In alcuni casi, il sito potrebbe anche sembrare legittimo, inducendoti a inserire dati come nome, indirizzo o informazioni di pagamento.
+
+4. **Sfruttamento delle Vittime**  
+   I truffatori guadagnano sia attraverso le vendite iniziali dei falsi prodotti, sia dalle informazioni personali che riescono a raccogliere tramite i QR code. Questi dati possono essere rivenduti nel dark web o utilizzati per attacchi futuri.
+
+
+### **Lezioni da Imparare**
+1. **Non Scansionare QR Code Sconosciuti**  
+   Evita sempre di scansionare codici provenienti da fonti non affidabili. Anche un semplice gesto può aprire la porta a un attacco informatico.
+
+2. **Controlla la Legittimità dei Siti di Acquisto**  
+   Prima di effettuare un acquisto online:  
+   - Cerca recensioni sulla piattaforma o il venditore.  
+   - Verifica se il sito ha un protocollo HTTPS valido.  
+   - Diffida di offerte troppo vantaggiose per essere vere.
+
+3. **Usa Indirizzi Temporanei o Virtuali**  
+   Per proteggere la tua privacy, considera l’utilizzo di indirizzi virtuali o caselle postali temporanee quando acquisti da negozi online non verificati.
+
+4. **Separare Lavoro e Uso Personale**  
+   - Non utilizzare dispositivi aziendali per scopi personali.  
+   - Se possibile, crea ambienti isolati (sandbox) sul tuo dispositivo per testare file o link sospetti senza mettere a rischio i dati sensibili.
+
+
+### **Perché è Importante Segnalare**  
+Se ricevi un pacco sospetto, segnala immediatamente l’incidente:  
+- **Alle autorità competenti**: In Italia, puoi contattare la Polizia Postale.  
+- **Alla piattaforma coinvolta**: Ad esempio, segnalando il negozio su Instagram o il sito web collegato al QR code.  
+- **Ai tuoi contatti**: Condividere l’esperienza aiuta altri a riconoscere e evitare la truffa.
+
+
+Questo tipo di truffa sfrutta la curiosità e la fiducia degli utenti. Ricorda: non tutti i QR code sono sicuri, e non tutti gli acquisti online sono affidabili. Un po’ di cautela e consapevolezza può fare la differenza tra essere vittima di una frode o evitare un attacco informatico.
+
 ## USB Malevole
 
 Le USB malevole, o **malicious USB drives**, sono dispositivi di memoria USB che sono stati modificati o programmati per eseguire operazioni dannose quando collegati a un computer. Questi attacchi sfruttano la naturale tendenza delle persone a fidarsi dei dispositivi USB e la curiosità di vedere cosa contengano i dispositivi trovati.
@@ -258,3 +308,67 @@ L'attacco utilizza tecniche di **spear phishing** avanzate, una forma di ingegne
 L'efficacia di questi attacchi di spear phishing si basa sull'elemento sorpresa e sulla pressione psicologica. Mantenere una vigilanza costante e promuovere una cultura di sicurezza informatica consapevole e proattiva sono le migliori difese contro queste minacce sofisticate. Inoltre, l'implementazione di politiche aziendali che incoraggiano la verifica e la comunicazione aperta possono significativamente ridurre il rischio di cadere vittima di tali attacchi.
 
 
+## La Truffa del "Code Challenge": Quando il Colloquio Tecnico Diventa un Tentativo di Attacco
+
+Il mondo dei colloqui di lavoro è spesso stressante, ma pochi si aspettano che un’opportunità professionale possa nascondere una minaccia informatica. Tuttavia, i cybercriminali stanno trovando modi sempre più sofisticati per sfruttare la fiducia dei candidati. Una truffa emergente coinvolge proprio i colloqui tecnici, dove i candidati vengono indotti a eseguire codice malevolo durante una presunta "prova tecnica". Ecco un caso reale che mostra come avviene questa truffa e quali insegnamenti possiamo trarne.
+
+
+### **Il Processo di Adescamento**
+1. **L'Offerta di Lavoro**  
+   La truffa inizia con un messaggio su una piattaforma professionale, come LinkedIn, dove un reclutatore propone un'opportunità lavorativa. L'approccio può sembrare un po' diretto, ma spesso il profilo del reclutatore e l'azienda sembrano legittimi.  
+   Il candidato, fidandosi della reputazione della piattaforma e della normalità apparente del processo, accetta di partecipare.
+
+2. **Il Colloquio Iniziale**  
+   La fase preliminare include un'intervista standard, in cui vengono discusse esperienze, competenze tecniche e progetti personali. Questa parte del processo sembra autentica, mettendo il candidato a suo agio.
+
+
+### **La Prova Tecnica: Il Vettore dell'Attacco**
+Durante la fase tecnica, al candidato viene fornito un link a un repository che contiene il progetto da completare. Apparentemente si tratta di un esercizio standard, con istruzioni nel file README e file di backend/frontend.
+
+Tuttavia, il repository contiene codice malevolo nascosto che si attiva quando il progetto viene eseguito. Ecco come opera l’attacco:
+
+1. **Codice Nascosto**  
+   - Nel caso specifico, il codice malevolo era posizionato in una cartella nascosta chiamata `.svn`. Le cartelle che iniziano con un punto sono spesso invisibili nei file explorer, come quello di VSCode, rendendo il codice difficile da individuare.
+   - Il codice era obfuscato (offuscato), il che rendeva la sua funzione non immediatamente comprensibile.
+
+2. **Esecuzione del Codice Malevolo**  
+   - Quando il candidato avvia il backend, il codice nascosto comincia a raccogliere informazioni dal computer dell'utente.  
+   - Nel caso analizzato, il malware cercava dati relativi a portafogli di criptovalute, ma un attacco simile potrebbe mirare a rubare credenziali, file sensibili o altre informazioni.
+
+3. **Comportamento Sospetto**  
+   - Un segnale d’allarme è stato il comportamento anomalo del server: non apparivano log dopo le richieste, suggerendo che qualcosa di nascosto stava interferendo.
+
+
+### **Errori Comuni e Come Evitarli**
+Anche candidati esperti possono cadere in queste trappole a causa della pressione del colloquio o della fiducia nell'intervistatore. Ecco cosa si può fare per evitare simili situazioni:
+
+1. **Rivedere Sempre il Codice Prima di Eseguirlo**  
+   - Ispeziona il codice per individuare file o cartelle sospette (come `.svn` o `.git` in questo caso).
+   - Cerca istruzioni offuscate, come script apparentemente illeggibili o funzioni che eseguono chiamate a indirizzi IP sconosciuti.
+
+2. **Usare un Ambiente Isolato**  
+   - Mai eseguire codice sconosciuto direttamente sul computer personale o aziendale. Utilizza macchine virtuali o container per proteggere il sistema principale.
+
+3. **Attenzione ai File e Cartelle Nascosti**  
+   - Configura il tuo IDE per mostrare tutti i file, inclusi quelli nascosti. Questo ti permette di identificare cartelle o file che non dovrebbero essere presenti.
+
+4. **Verifica i Repository**  
+   - Analizza l’attività del repository (commits, contributor, ecc.) per cercare segnali di allarme. Un repository creato di recente o con uno storico sospetto potrebbe essere pericoloso.
+
+
+### **Cosa Fare in Caso di Compromissione**
+Se ti accorgi di aver eseguito codice malevolo, agisci immediatamente:
+1. **Disconnetti il Dispositivo dalla Rete**  
+   - Questo limita l’eventuale trasmissione di dati sensibili a server remoti.
+
+2. **Analizza il Codice**  
+   - Usa strumenti online per de-offuscare eventuali script e capire cosa è stato eseguito.
+
+3. **Cambia Tutte le Password**  
+   - Anche se il malware non sembra aver avuto accesso diretto, è sempre meglio prevenire.
+
+4. **Ripristina il Sistema**  
+   - Se sospetti che il malware abbia infettato il tuo dispositivo, esegui un ripristino completo da un backup sicuro.
+
+
+Questo caso evidenzia quanto sia importante mantenere un approccio critico e cauto anche in contesti apparentemente sicuri come un colloquio di lavoro. I cybercriminali sfruttano sempre più spesso la fiducia e le emozioni, trasformando opportunità legittime in strumenti di attacco. La chiave per proteggersi è rimanere vigili, adottare buone pratiche di sicurezza e non fidarsi ciecamente, anche quando tutto sembra normale.

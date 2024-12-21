@@ -71,7 +71,7 @@ Ecco una **tabella riepilogativa** che evidenzia le principali differenze tra la
 | **Settori inclusi**          | - Energia, trasporti, sanità, infrastrutture critiche, acqua, banche e mercati finanziari.                      | - Oltre ai settori precedenti: cloud, data center, piattaforme online, social media, produttori di tecnologie ICT.|
 
 
-Quali aziende o enti sono soggetti alla NIS 2
+Quali aziende e organizzazioni sono soggetti alla NIS2
 ------------
 
 Sarebbe bello che fosse scritto in modo semplice ma come sempre questa diventerà il solito campo di battaglia dove consulenti e avvocati daranno il meglio senza contare che l'approccio prudenziale porterà i suddetti a suggerire l'applicazione piuttosto che il contrario.
