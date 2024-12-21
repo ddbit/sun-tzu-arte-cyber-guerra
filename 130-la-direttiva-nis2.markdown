@@ -1,4 +1,40 @@
 
+Ci si potrebbe interrogare sul perché la sicurezza informatica sia diventata sempre più una questione che coinvolge avvocati e giuristi, lasciando un po’ meno spazio agli informatici rispetto al passato, che vengono magari chiamati per occuparsi di questioni spicciole come fare il pentration testing o il debugging di codice.
+
+Questo cambiamento si deve principalmente al fatto che oggi la sicurezza non è più solo una questione tecnica, ma anche legale e regolamentare. Con normative come il GDPR in Europa o il CCPA negli Stati Uniti, le aziende devono seguire regole molto precise su come gestire i dati e proteggere la privacy. E quando ci sono leggi così complesse in gioco, è naturale che gli avvocati entrino in scena per garantire che tutto sia fatto a norma.
+
+Inoltre, la sicurezza informatica è diventata una parte importante della governance aziendale. Non si tratta più solo di proteggere i server o i dati, ma di gestire rischi che possono influire sulla reputazione dell’azienda, sul suo bilancio e persino sulle decisioni del consiglio di amministrazione. Questo significa che avvocati e consulenti legali hanno un ruolo chiave nel definire strategie e controllare i contratti con fornitori di tecnologia o servizi cloud. Questi accordi spesso includono clausole complicate sulla responsabilità in caso di attacchi o violazioni, e solo chi conosce bene il linguaggio legale può navigarli senza rischi.
+
+La parola **rischio** torna prepotente a risuonare. Gli informatici "parlano" con i computer ma sono gli esseri umani a subire danni e chiedere la testa dei responsabili. Questo spiega almeno in parte il fenomeno.
+
+Quando si verifica un incidente di sicurezza, la parte tecnica da sola non basta. Serve un piano per notificare le autorità, comunicare con clienti e partner, e gestire le possibili ripercussioni legali. Ad esempio, molte normative obbligano a segnalare le violazioni entro tempi stretti e in modi specifici, e sbagliare può costare caro. Anche qui, il ruolo degli avvocati è fondamentale.
+
+Questo però non significa che gli informatici siano meno importanti. Anzi, il loro lavoro rimane fondamentale per progettare e implementare soluzioni tecniche efficaci. Tuttavia, i rischi legati alla sicurezza non si limitano più ai sistemi informatici: oggi coinvolgono anche la reputazione, le finanze e il rispetto delle normative. Ecco perché c’è sempre più bisogno di un lavoro di squadra tra tecnici e avvocati, ognuno con le proprie competenze.
+
+In poche parole, la sicurezza informatica è diventata un campo dove non basta più essere bravi con la tecnologia. Bisogna anche sapersi muovere in un panorama legale sempre più complesso.
+
+I Parlamenti salgono in cattedra?
+-----------
+
+L’idea che i parlamenti, con iniziative come la direttiva NIS2, “salgano in cattedra” per spiegare alle aziende come gestire la sicurezza informatica può sembrare paradossale, considerando che molte aziende dispongono di competenze tecniche avanzate. Tuttavia, ci sono alcune ragioni dietro questo fenomeno.
+
+**Le aziende sono davvero sempre così competenti?**
+
+Nonostante molte grandi aziende abbiano team di cybersecurity altamente qualificati, non tutte le imprese raggiungono lo stesso livello di preparazione. Le PMI, che rappresentano una larga fetta del tessuto economico, spesso non dispongono di risorse sufficienti per implementare misure di sicurezza adeguate. Questo crea una vulnerabilità sistemica, poiché gli attaccanti tendono a colpire i punti deboli della catena di approvvigionamento o partner aziendali meno protetti per infiltrarsi nelle reti delle grandi organizzazioni.
+
+Anche tra le aziende più avanzate, la sicurezza informatica è spesso percepita come un costo piuttosto che come un investimento strategico. Questo può portare a una sottovalutazione del rischio o al rinvio di aggiornamenti e miglioramenti necessari, lasciando spazio a vulnerabilità che potrebbero essere prevenute.
+
+
+**Protezione dell’interesse collettivo**
+
+I parlamenti e le istituzioni non si limitano a regolamentare per le aziende, ma mirano a tutelare interessi che vanno oltre il singolo ente. La cybersecurity non è solo una questione privata: un attacco a un’infrastruttura critica, come la rete elettrica o il settore sanitario, può avere ripercussioni su milioni di cittadini. La direttiva NIS2, ad esempio, nasce con l’obiettivo di proteggere infrastrutture essenziali e servizi chiave per la collettività, definendo standard minimi che tutte le organizzazioni coinvolte devono rispettare.
+
+**Cosa sanno i governi che le aziende non vedono?**
+
+I governi spesso hanno una visione più ampia del panorama delle minacce, grazie all’accesso a informazioni di intelligence, statistiche nazionali e rapporti internazionali. Questa prospettiva consente loro di identificare trend emergenti e rischi sistemici che potrebbero sfuggire a un’azienda concentrata principalmente sulla propria sicurezza.
+
+Un altro aspetto è che le normative come la NIS2 non si limitano alla tecnica, ma includono aspetti di governance e responsabilità. Per esempio, obbligare le aziende a identificare chi, nel consiglio di amministrazione, è responsabile della sicurezza informatica aiuta a spostare il tema dal livello tecnico-operativo a quello strategico-decisionale.
+
 
 
 Perché nasce la direttiva NIS 2
@@ -38,4 +74,24 @@ Ecco una **tabella riepilogativa** che evidenzia le principali differenze tra la
 Quali aziende o enti sono soggetti alla NIS 2
 ------------
 
-tbd
+Sarebbe bello che fosse scritto in modo semplice ma come sempre questa diventerà il solito campo di battaglia dove consulenti e avvocati daranno il meglio senza contare che l'approccio prudenziale porterà i suddetti a suggerire l'applicazione piuttosto che il contrario.
+
+La cosa che trovo più triste è che le aziende finiranno per adeguarsi alla direttiva per paura delle sanzioni e non tanto perchè sono soggette a rischi di sicurezza informatica ancora non valutati.
+
+Cominciamo dal primo comma dell'art. 2 (che barba)
+
+> La presente direttiva si applica ai soggetti pubblici o privati delle tipologie di cui all'allegato I o II che sono considerati medie imprese ai sensi all'articolo 2, paragrafo 1, dell'allegato alla raccomandazione 2003/361/CE, o che superano i massimali per le medie imprese di cui al paragrafo 1 di tale articolo, e che prestano i loro servizi o svolgono le loro attività all'interno dell'Unione.
+
+Tutto chiaro? No?
+
+Uno si va a scorrere l'allegato I o II che sono curiosamente intitolati "settori critici" e l'altro "altri settori critici" (ndr. ma non potevano fare un allegato unico "tutti i settori critici"??)
+
+Facciamo un esempio: ti occupi di petrolio? Ok, gestisci un oleodotto? Sei una media impresa ai sensi di (...risparmio il seguito delle verbose citazioni) allora sì, sei soggetto alla Direttiva.
+
+Ma questo era un esempio facile.
+
+Vediamo quest'altro: sei una pmi che fornisce un servizio di caselle di posta elettronica ma fattura solo 100 mila euro l'anno. 
+
+Siccome fornisci un *servizio di comunicazione elettronica accessibile al pubblico* anche se sei molto piccolo non importa. Ricadi nell'ambito di applicazine della Direttiva. O forse no?
+
+Sarebbe bello se il Parlamento costruisse un bel software online dove mettere i dati della propria attività e dare una valutazione sul fatto che la stessa ricada o meno nell'ambito di applicazione della Direttiva.
