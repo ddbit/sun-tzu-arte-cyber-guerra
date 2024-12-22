@@ -1,4 +1,19 @@
 
+Una volta per scherzo in un post su Social ho parlato di Normageddom riferendomi all'ipertrofia normativa nella quale professionisti ed aziende devono muoversi. 
+
+Ho citato l'esempio di un'ipotetica startup che avesse malauguratamente deciso di utilizzare la blockchain per facilitare pagamenti utilizzando tecniche di AI per la mitigazione delle frodi e fornire contestualmente un servizio di firma elettronica, in tal caso la suddetta dovrebbe adempiere a:
+
+- NIS2
+- MICA
+- AML/CTF
+- GDPR
+- AI ACT
+- DORA
+- PSD2
+- Data Act
+
+e sicuramente ne sto trascurando qualcuna.
+
 Ci si potrebbe interrogare sul perché la sicurezza informatica sia diventata sempre più una questione che coinvolge avvocati e giuristi, lasciando un po’ meno spazio agli informatici rispetto al passato, che vengono magari chiamati per occuparsi di questioni spicciole come fare il pentration testing o il debugging di codice.
 
 Questo cambiamento si deve principalmente al fatto che oggi la sicurezza non è più solo una questione tecnica, ma anche legale e regolamentare. Con normative come il GDPR in Europa o il CCPA negli Stati Uniti, le aziende devono seguire regole molto precise su come gestire i dati e proteggere la privacy. E quando ci sono leggi così complesse in gioco, è naturale che gli avvocati entrino in scena per garantire che tutto sia fatto a norma.

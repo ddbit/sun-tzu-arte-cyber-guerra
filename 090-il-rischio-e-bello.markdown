@@ -4,9 +4,9 @@ status: READY
 
 # Il rischio è bello (se sai come prenderlo)
 
-> *Football is evolving. It’s no longer the game it used to be. Everybody looks to win games no matter what, even if it means taking risks*.
+> (una società) con una enorme asimmetria tra chi non rischia nulla e chi deve farsi carico anche dei rischi altrui è destinata ad implodere.
 
-> (Gianfranco Zola)
+> (Nassim Nicholas Taleb)
 
 
 Il titolo di questo capitolo potrebbe suonare strano, ma in realtà il concetto di rischio è fondamentale e la sua gestione potrebbe diventare uno strumento molto potente nelle nostre mani. 
