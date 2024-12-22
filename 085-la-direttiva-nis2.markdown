@@ -71,27 +71,110 @@ Ecco una **tabella riepilogativa** che evidenzia le principali differenze tra la
 | **Settori inclusi**          | - Energia, trasporti, sanità, infrastrutture critiche, acqua, banche e mercati finanziari.                      | - Oltre ai settori precedenti: cloud, data center, piattaforme online, social media, produttori di tecnologie ICT.|
 
 
-Quali aziende e organizzazioni sono soggetti alla NIS2
-------------
+Quali aziende e organizzazioni sono soggette alla NIS2?
+--------
 
-Sarebbe bello che fosse scritto in modo semplice ma come sempre questa diventerà il solito campo di battaglia dove consulenti e avvocati daranno il meglio senza contare che l'approccio prudenziale porterà i suddetti a suggerire l'applicazione piuttosto che il contrario.
+Parlare di NIS2 significa inevitabilmente entrare in un terreno dove consulenti e avvocati trovano terreno fertile per dibattiti interminabili. Come sempre, un approccio prudenziale porterà molti di loro a consigliare l’adeguamento “per sicurezza” piuttosto che rischiare di escluderlo. 
 
-La cosa che trovo più triste è che le aziende finiranno per adeguarsi alla direttiva per paura delle sanzioni e non tanto perchè sono soggette a rischi di sicurezza informatica ancora non valutati.
+Il problema più evidente è che molte aziende finiranno per adeguarsi alla direttiva più per paura delle sanzioni che per una reale valutazione dei rischi legati alla sicurezza informatica. E questo è un peccato, perché il focus dovrebbe essere sulla gestione dei rischi e non solo sulla conformità normativa.
 
-Cominciamo dal primo comma dell'art. 2 (che barba)
+Ma vediamo il cuore della questione. Partiamo dall’articolo 2, comma 1 (sì, lo so, è noioso, ma ci tocca):
 
 > La presente direttiva si applica ai soggetti pubblici o privati delle tipologie di cui all'allegato I o II che sono considerati medie imprese ai sensi all'articolo 2, paragrafo 1, dell'allegato alla raccomandazione 2003/361/CE, o che superano i massimali per le medie imprese di cui al paragrafo 1 di tale articolo, e che prestano i loro servizi o svolgono le loro attività all'interno dell'Unione.
 
-Tutto chiaro? No?
+Chiaro, vero? Probabilmente no. Quindi, per capirci meglio, andiamo a consultare gli allegati I e II. Uno si intitola “settori critici” e l’altro “altri settori critici” (nota a margine: non potevano fare un unico allegato chiamato semplicemente “tutti i settori critici”?). 
 
-Uno si va a scorrere l'allegato I o II che sono curiosamente intitolati "settori critici" e l'altro "altri settori critici" (ndr. ma non potevano fare un allegato unico "tutti i settori critici"??)
+Facciamo un esempio pratico: ti occupi di petrolio? Gestisci un oleodotto? Bene, sei una media impresa secondo le definizioni che non cito per evitarti un’altra dose di tecnicismi inutili. In questo caso, sì, rientri pienamente nel campo di applicazione della Direttiva.
 
-Facciamo un esempio: ti occupi di petrolio? Ok, gestisci un oleodotto? Sei una media impresa ai sensi di (...risparmio il seguito delle verbose citazioni) allora sì, sei soggetto alla Direttiva.
+Ma non tutti i casi sono così semplici. Supponiamo che tu sia una piccola azienda che fornisce caselle di posta elettronica e fatturi solo 100 mila euro all’anno. Potresti pensare che, essendo così piccolo, la Direttiva non ti riguardi. Ma se il tuo servizio rientra nella definizione di *comunicazione elettronica accessibile al pubblico*, allora sì, sei soggetto alla NIS2. Oppure no? Dipende, e qui torna la confusione.
 
-Ma questo era un esempio facile.
+Non sarebbe fantastico se il Parlamento mettesse a disposizione un semplice software online? Potresti inserire i dati della tua attività e scoprire in modo chiaro e rapido se rientri o meno nel campo di applicazione della Direttiva. Forse un giorno arriveremo anche a questo, ma per ora dobbiamo accontentarci di interpretare articoli e allegati, sperando di non perdere troppo tempo (o pazienza) nel processo.
 
-Vediamo quest'altro: sei una pmi che fornisce un servizio di caselle di posta elettronica ma fattura solo 100 mila euro l'anno. 
 
-Siccome fornisci un *servizio di comunicazione elettronica accessibile al pubblico* anche se sei molto piccolo non importa. Ricadi nell'ambito di applicazine della Direttiva. O forse no?
+Quale impatto per le aziende? 
+----------
 
-Sarebbe bello se il Parlamento costruisse un bel software online dove mettere i dati della propria attività e dare una valutazione sul fatto che la stessa ricada o meno nell'ambito di applicazione della Direttiva.
+La Direttiva NIS2 amplia notevolmente il numero di aziende e organizzazioni coinvolte rispetto alla normativa precedente, e probabilmente ti starai chiedendo se la tua azienda rientra tra queste. Ecco qualche dato che potrebbe aiutarti a orientarti.
+
+**In Italia**, si stima che con l’introduzione della NIS2 saranno coinvolti circa 50.000 nuovi soggetti. Questo significa che molte realtà, prima escluse, ora dovranno adeguarsi agli obblighi di cybersecurity previsti dalla direttiva. Alcune fonti parlano di almeno 20.000 aziende italiane che, nei prossimi mesi, saranno direttamente interessate e dovranno rivedere le proprie strategie di sicurezza informatica.
+
+**A livello europeo**, la portata della NIS2 è ancora più impressionante: si prevede che oltre 160.000 entità saranno sottoposte a questi nuovi obblighi. Questo include aziende di settori critici e fornitori di servizi essenziali, indipendentemente dalla loro dimensione, se la loro attività è considerata fondamentale per l’economia o la sicurezza della società.
+
+Se ti trovi in uno dei settori indicati dagli allegati della direttiva (come energia, sanità, trasporti, o servizi digitali), è probabile che tu debba valutare attentamente il tuo livello di conformità. Anche se sei una PMI, non puoi dare per scontato di esserne escluso. La NIS2 non guarda solo alle dimensioni dell’azienda, ma alla criticità delle attività che svolgi.
+
+Ma quanto costa adeguarsi alla Direttiva?
+--------------
+
+Ovviamente non esiste una risposta univoca, d'altronde abbiamo detto in altre occasioni che la sicurezza informatica non è un prodotto che si compra ma un processo continuo che se non esiste in azienda richiede la trasformazione dell'azienda stessa. 
+
+Tuttavia, secondo una ricerca condotta da Veeam, il 95% delle aziende interessate ha dovuto riallocare fondi da altre aree per soddisfare i requisiti della NIS2. In particolare:
+
+Il 34% ha attinto dai budget destinati alla gestione del rischio.
+Il 30% ha ridotto le risorse per il reclutamento.
+Il 29% ha utilizzato fondi previsti per la gestione delle crisi.
+Il 25% ha impiegato riserve d'emergenza.
+
+Questa riallocazione evidenzia come l'adeguamento alla NIS2 stia esercitando una pressione significativa sui budget aziendali, spesso già limitati a causa di tagli o stagnazione dovuti all'aumento dei costi operativi e all'inflazione.
+
+**Allocazione dei Budget IT**
+
+Nonostante la NIS2 sia solo al decimo posto nelle priorità dei leader IT, l'80% dei budget IT nell'area EMEA è ora destinato alla cybersecurity e alla conformità normativa. Le principali preoccupazioni dei responsabili IT includono:
+
+Il divario di competenze (24%).
+Preoccupazioni sulla redditività (23%).
+Trasformazione digitale (23%).
+Aumento dei costi operativi (20%).
+Carenza di risorse (20%).
+Azioni Intrapprese per la Conformità
+
+Per conformarsi alla NIS2, le aziende stanno adottando diverse misure, tra cui:
+
+Audit IT (29%).
+Revisione dei processi e delle best practice di cybersecurity (29%).
+Sviluppo di nuove politiche e procedure (28%).
+Investimenti in nuove tecnologie (28%).
+Incremento del budget per la cybersecurity (28%).
+
+
+La Direttiva NIS2 introduce sanzioni pesanti per chi non rispetta i suoi requisiti in materia di sicurezza informatica. Queste possono variare in base alla gravità della violazione e alla tipologia di azienda coinvolta.
+
+**Per le entità essenziali**, come quelle che operano in settori critici (energia, trasporti, sanità, ecc.), le multe possono arrivare fino a **10 milioni di euro** o al **2% del fatturato annuo globale**, a seconda di quale importo sia più alto.
+
+**Per le entità importanti**, che comprendono aziende di dimensioni minori ma comunque rilevanti, le multe possono raggiungere i **7 milioni di euro** o l’**1,4% del fatturato annuo globale**, sempre scegliendo l’importo più alto.
+
+Ma non si tratta solo di multe. La Direttiva prevede anche altre misure per chi non si adegua, come:
+
+- **Sospensione temporanea di certificazioni o autorizzazioni**, il che potrebbe limitare le operazioni dell’azienda fino a quando non vengono messe in regola le lacune.
+- **Conseguenze personali per dirigenti e amministratori**, che possono includere provvedimenti disciplinari e, nei casi più gravi, la sospensione temporanea dalle loro funzioni.
+
+
+La situazione in Italia
+-----------
+
+
+Il 16 ottobre 2024 è entrato in vigore in Italia il **c**, che recepisce la Direttiva UE 2022/2555, nota come NIS2.  Questo decreto ridefinisce le regole per la sicurezza delle reti e dei sistemi informativi, ampliando l'ambito di applicazione e introducendo obblighi più stringenti per le organizzazioni italiane.
+
+**Differenze tra il Decreto Legislativo italiano e la Direttiva NIS2:**
+
+1. **Ambito di Applicazione Esteso:**
+   - Il decreto italiano amplia l'ambito di applicazione rispetto alla direttiva europea, includendo specificamente:
+     - **Pubbliche Amministrazioni**, individuate sulla base di criteri come l'evoluzione del grado di esposizione al rischio e la probabilità di incidenti.
+     - **Soggetti indipendentemente dalle dimensioni**, quali:
+       - Fornitori di servizi di trasporto pubblico locale.
+       - Istituti di istruzione che svolgono attività di ricerca.
+       - Soggetti che svolgono attività di interesse culturale.
+       - Società in house, società partecipate e società a controllo pubblico, come definite nel decreto legislativo 19 agosto 2016, n. 175. 
+
+2. **Tempistiche di Conformità:**
+   - Il decreto stabilisce scadenze specifiche per l'adeguamento:
+     - **Entro il 17 gennaio 2025:** Le entità devono valutare se rientrano tra i soggetti essenziali o importanti e registrarsi sulla piattaforma dell'Agenzia per la Cybersicurezza Nazionale (ACN).
+     - **Entro 12 mesi dall'entrata in vigore:** Implementazione delle misure organizzative e tecniche minime previste.
+     - **Entro 24 mesi:** Piena conformità, incluse attività di audit e formazione del personale. 
+
+3. **Obblighi di Notifica:**
+   - Il decreto prevede che gli incidenti significativi debbano essere notificati:
+     - **Entro 24 ore** dalla rilevazione iniziale.
+     - **Report dettagliato entro 72 ore**, fornendo informazioni approfondite sull'incidente e sulle misure adottate. 
+
+ 
+

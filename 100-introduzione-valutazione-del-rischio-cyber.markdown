@@ -56,5 +56,25 @@ La valutazione del rischio cyber è un processo metodico che si articola in quat
 
 ![Modello di Ciclo di Valutazione del Rischio](images/ciclo-gestione-rischio.png)
 
-## Conclusioni
-La valutazione del rischio cyber è un aspetto critico della gestione della sicurezza informatica. Non solo consente alle organizzazioni di prepararsi e rispondere efficacemente alle minacce, ma funge anche da base per un approccio olistico e informato alla sicurezza. Attraverso una valutazione del rischio accurata, le organizzazioni possono non solo proteggere le loro operazioni e dati ma anche migliorare la resilienza contro le minacce cyber in continua evoluzione.
+## Il rischio e la Direttiva NIS2
+
+Se non siete ancora convinti dell'importanza della valutazione e gestione del rischio il legislatore ha pensato di rendere questa pratica un obbligo.
+
+Il concetto di **rischio** come base fondamentale della Direttiva NIS2 è espresso chiaramente nel **Considerando 8** del testo della direttiva. Questo considerando sottolinea come la gestione del rischio e l'adozione di misure proporzionate siano centrali nell'approccio della NIS2.
+
+### **Estratto dal Considerando 8 della NIS2:**
+> "Gli Stati membri dovrebbero assicurare che le entità adottino misure tecniche, operative e organizzative adeguate e proporzionate per gestire i rischi alla sicurezza delle reti e dei sistemi informativi che utilizzano nello svolgimento delle loro operazioni."
+
+Questo passaggio evidenzia due principi fondamentali:
+1. **Gestione del rischio**: Le entità devono identificare, valutare e gestire i rischi informatici che possono compromettere la sicurezza delle loro reti e sistemi.
+2. **Misure proporzionate**: Le misure di sicurezza devono essere commisurate al livello di rischio, riflettendo l'importanza delle operazioni e dei servizi forniti.
+
+### **Approfondimento sul ruolo del rischio**
+Oltre al Considerando 8, il rischio è una costante in tutto il testo della NIS2, specialmente nei capitoli dedicati agli obblighi per le entità essenziali e importanti. Per esempio:
+- **Articolo 21**: Stabilisce che le entità devono implementare politiche di gestione del rischio, includendo:
+  - La valutazione delle vulnerabilità.
+  - La pianificazione di strategie di prevenzione e mitigazione.
+- **Articolo 7**: Introduce l’obbligo per gli Stati membri di monitorare e valutare i rischi settoriali e intersettoriali.
+
+La NIS2 si basa sul concetto di rischio come fulcro per definire le responsabilità delle entità. Questo approccio rende il quadro normativo più flessibile e adattabile, in quanto spinge le organizzazioni a concentrarsi su ciò che rappresenta la minaccia maggiore per la loro specifica attività. Allo stesso tempo, garantisce che le risorse vengano utilizzate in modo mirato, massimizzando l'efficacia delle misure di sicurezza.
+
