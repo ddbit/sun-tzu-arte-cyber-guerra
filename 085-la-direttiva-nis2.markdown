@@ -167,7 +167,7 @@ La situazione in Italia
 -----------
 
 
-Il 16 ottobre 2024 è entrato in vigore in Italia il **c**, che recepisce la Direttiva UE 2022/2555, nota come NIS2.  Questo decreto ridefinisce le regole per la sicurezza delle reti e dei sistemi informativi, ampliando l'ambito di applicazione e introducendo obblighi più stringenti per le organizzazioni italiane.
+Il 16 ottobre 2024 è entrato in vigore in Italia il **D.Lgs. 138/2024**, che recepisce la Direttiva UE 2022/2555, nota come NIS2.  Questo decreto ridefinisce le regole per la sicurezza delle reti e dei sistemi informativi, ampliando l'ambito di applicazione e introducendo obblighi più stringenti per le organizzazioni italiane.
 
 **Differenze tra il Decreto Legislativo italiano e la Direttiva NIS2:**
 
@@ -193,3 +193,20 @@ Il 16 ottobre 2024 è entrato in vigore in Italia il **c**, che recepisce la Dir
 
  
 
+Riepilogando in una tabella ordinata dalla scadenza più vicina alla più lontana:
+
+| **Obbligo**                                                                                   | **Periodo/Scadenza**                                                                                   |
+|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Registrazione o aggiornamento delle informazioni sulla Piattaforma                            | Ogni anno, dal **1° gennaio al 28 febbraio**                                                          |
+| Registrazione sulla Piattaforma di specifici soggetti operanti in settori altamente critici    | Entro il **17 gennaio 2025**                                                                          |
+| Compilazione dell’elenco dei soggetti essenziali e importanti da parte dell’ACN               | Entro il **31 marzo 2025**                                                                            |
+| Comunicazione delle informazioni sui servizi e attività svolte                                | Ogni anno, dal **1° maggio al 30 giugno**, a partire dalla ricezione della prima comunicazione dell’ACN |
+| Comunicazione delle informazioni richieste dal Decreto                                        | Ogni anno, dal **15 aprile al 31 maggio**, a partire dal 2025                                         |
+
+
+
+La governance aziendale come prevista dal Decreto
+------------
+
+tbd
+il punto di contatto
