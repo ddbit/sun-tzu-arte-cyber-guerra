@@ -163,11 +163,12 @@ Ma non si tratta solo di multe. La Direttiva prevede anche altre misure per chi 
 - **Conseguenze personali per dirigenti e amministratori**, che possono includere provvedimenti disciplinari e, nei casi più gravi, la sospensione temporanea dalle loro funzioni.
 
 
-La situazione in Italia
+Da Direttiva a Legge nazionale. Il D.Lgs. 138/2024
 -----------
 
+A differenza dei Regolamenti Europei, le Direttive diventano legge solo quando recepite da un parlamento nazionale.
 
-Il 16 ottobre 2024 è entrato in vigore in Italia il **D.Lgs. 138/2024**, che recepisce la Direttiva UE 2022/2555, nota come NIS2.  Questo decreto ridefinisce le regole per la sicurezza delle reti e dei sistemi informativi, ampliando l'ambito di applicazione e introducendo obblighi più stringenti per le organizzazioni italiane.
+Il 16 ottobre 2024 è entrato in vigore in Italia il **D.Lgs. 138/2024**  che ridefinisce le regole per la sicurezza delle reti e dei sistemi informativi, ampliando l'ambito di applicazione e introducendo obblighi più stringenti per le organizzazioni italiane rispetto a quanto già previsto dalla Direttiva.
 
 **Differenze tra il Decreto Legislativo italiano e la Direttiva NIS2:**
 
@@ -205,8 +206,59 @@ Riepilogando in una tabella ordinata dalla scadenza più vicina alla più lontan
 
 
 
-La governance aziendale come prevista dal Decreto
+Impatto sulla governace aziendale
 ------------
 
-tbd
-il punto di contatto
+Gli organi di amministrazione e direttivi (come i consigli di amministrazione o i comitati esecutivi) dei soggetti essenziali e importanti devono:
+
+a) Approvare le modalità di gestione dei rischi di sicurezza informatica: Devono dare il via libera ai metodi e alle politiche utilizzate dall'organizzazione per gestire i rischi legati alla sicurezza informatica..
+
+b) Supervisionare l'implementazione degli obblighi normativi: Hanno il compito di vigilare sull'applicazione delle disposizioni stabilite dal decreto.
+
+c) Essere responsabili delle violazioni: Gli organi direttivi possono essere ritenuti responsabili in caso di mancato rispetto delle normative previste dal decreto. Questo implica una responsabilità anche legale e amministrativa.
+
+
+Gli organi direttivi sono chiamati a garantire un livello adeguato di competenza in materia di sicurezza informatica, attraverso due principali direttrici:
+
+a) **Formazione personale**: È loro dovere partecipare a percorsi formativi specifici nell'ambito della sicurezza informatica, al fine di acquisire le conoscenze necessarie per identificare, comprendere e gestire efficacemente i rischi associati.
+
+b) **Promozione della formazione dei dipendenti**: Gli organi direttivi hanno la responsabilità di incentivare e sostenere l’organizzazione di corsi di formazione periodici rivolti al personale. Tali percorsi sono finalizzati a sviluppare le competenze indispensabili per:
+   - Riconoscere e individuare i rischi informatici;
+   - Valutare le strategie e le pratiche di gestione del rischio;
+   - Comprendere le implicazioni che i rischi possono avere sulle attività dell'organizzazione e sui servizi offerti.
+
+Questo duplice impegno è volto a diffondere una cultura aziendale della sicurezza informatica, essenziale per affrontare le sfide del contesto tecnologico contemporaneo.
+
+
+Sanzioni
+--------
+L'articolo 38 è quello che definisce le sanzioni e stabilisce anche perentoriamente:
+
+> *Qualsiasi persona fisica responsabile di un soggetto  essenziale o che agisca in qualita' di suo rappresentante legale con l'autorita' di  rappresentarlo,  di  prendere  decisioni  per  suo  conto  o  di esercitare un controllo sul soggetto  stesso,  assicura  il  rispetto delle disposizioni di cui al presente decreto. Tali  persone  fisiche possono essere ritenute responsabili dell'inadempimento  in  caso di violazione del presente decreto da parte del soggetto  di  cui  hanno rappresentanza*
+
+Ecco una tabella riassuntiva delle sanzioni amministrative pecuniarie previste dall'articolo:
+
+| **Categoria Violazione**                                                  | **Tipologia di Soggetto**                     | **Sanzione Massima**                                                   | **Sanzione Minima**                     | **Riduzioni o Specifiche**                                       |
+|---------------------------------------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------|
+| Mancata osservanza obblighi di gestione del rischio, sicurezza informatica, e notifiche di incidenti (artt. 23, 24, 25) | Soggetti essenziali (escluse PA)              | € 10.000.000 o 2% del fatturato annuo mondiale, se superiore           | 1/20 del massimo (€ 500.000)            | -                                                                |
+|                                                                           | Soggetti importanti (escluse PA)              | € 7.000.000 o 1,4% del fatturato annuo mondiale, se superiore          | 1/30 del massimo (€ 233.333)            | -                                                                |
+|                                                                           | Pubbliche Amministrazioni (PA) essenziali     | € 125.000                                                              | € 25.000                                | -                                                                |
+|                                                                           | PA importanti                                 | Riduzione di 1/3 rispetto alla sanzione per PA essenziali (€ 83.333)   | Riduzione di 1/3 rispetto alla minima (€ 16.666) |                                                        |
+| Inottemperanza alle disposizioni dell'Autorità NIS o alle diffide         | Stesse categorie di cui sopra                 | Idem sopra                                                            | Idem sopra                              | -                                                                |
+| Mancata registrazione/comunicazione/aggiornamento di dati (art. 7, commi 1, 3, 4, 5, 7) | Soggetti essenziali                          | 0,1% del fatturato annuo mondiale                                      | Vedi minimi edittali del comma 9        | -                                                                |
+|                                                                           | Soggetti importanti                          | 0,07% del fatturato annuo mondiale                                     | Vedi minimi edittali del comma 9        | -                                                                |
+|                                                                           | PA essenziali                                | € 50.000                                                               | € 10.000                                | -                                                                |
+|                                                                           | PA importanti                                | Riduzione di 1/3 rispetto alla sanzione per PA essenziali (€ 33.333)   | Riduzione di 1/3 rispetto alla minima (€ 6.666) |                                                        |
+| Mancata collaborazione con CSIRT Italia o Autorità NIS                    | Stesse categorie di cui sopra                 | Idem sopra                                                            | Idem sopra                              | -                                                                |
+
+### **Legenda**
+- **Soggetti essenziali**: Aziende o enti la cui attività è considerata fondamentale per settori critici.
+- **Soggetti importanti**: Aziende o enti con ruoli rilevanti, ma non fondamentali come i soggetti essenziali.
+- **PA**: Pubbliche amministrazioni o enti sottoposti a controllo pubblico.
+
+### **Note**
+- Le sanzioni per i soggetti privati sono proporzionali al fatturato annuo mondiale.
+- Per le PA, le sanzioni sono calcolate in importi fissi, con riduzioni previste per i soggetti "importanti".
+- In caso di violazioni multiple, è possibile che si applichino sanzioni cumulative.
+
+
