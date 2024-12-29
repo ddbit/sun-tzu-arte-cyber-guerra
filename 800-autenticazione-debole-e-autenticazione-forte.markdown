@@ -12,6 +12,7 @@ status: READY
 
 > (Tratto dal film "Ghostbusters". 1984)
 
+
 La **Strong Customer Authentication (SCA)** è una misura di sicurezza critica che rafforza la protezione degli utenti nell'ambito dei servizi finanziari e delle transazioni online. Questa pratica è parte integrante della seconda Direttiva sui Servizi di Pagamento (PSD2) promossa dall'Unione Europea, che mira a incrementare la sicurezza e il dinamismo del mercato dei pagamenti digitali.
 
 ## Caratteristiche della Strong Customer Authentication (SCA)

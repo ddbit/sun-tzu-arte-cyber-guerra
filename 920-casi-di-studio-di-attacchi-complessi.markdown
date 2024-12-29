@@ -1,5 +1,9 @@
 # Casi studio di attacchi complessi
 
+E' arduo decidere quali attacchi portare in evidenza come casi studio. Il panorama offre una tale varietà e quantità che da qualunque parte si cominci si ha l'impressione di sbagliare e di non includere dei casi "più" importanti e significativi.
+
+
+
 ## L'attacco al Processore di cripto pagamenti Coinspaid
 
 Il caso coinvolge un attacco sofisticato contro una società di pagamenti processore di valute virtuali, probabilmente eseguito dal gruppo Lazarus nel 2023. Questo attacco evidenzia la metodologia avanzata e il livello di preparazione impiegato dai cybercriminali nelle loro operazioni di cyber-spionaggio e furto. Ecco una ricostruzione dettagliata e analisi di questo attacco:

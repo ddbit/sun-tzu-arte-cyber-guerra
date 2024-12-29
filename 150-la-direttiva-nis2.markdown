@@ -1,5 +1,6 @@
+Se non vi siete ancora convinti che il rischio è inevitabile e che è assolutamente necessario saperlo valutare, nel caso della sicurezza informatica così come in ogni altro aspetto della vita, ecco che arriva la Legge. Perché infatti mentre scriviamo queste righe siamo già entrati in quella fase di preparazione che aziende e pubbliche amministrazioni *devono* per forza avviare per arrivare pronti agli adempimenti che si presentano per il 2025 in ambito cyber security.
 
-Una volta per scherzo in un post su Social ho parlato di Normageddom riferendomi all'ipertrofia normativa nella quale professionisti ed aziende devono muoversi. 
+Qualche mese fa, per scherzo, in un post su Social ho parlato di Normageddom riferendomi all'ipertrofia normativa nella quale professionisti ed aziende devono muoversi. 
 
 Ho citato l'esempio di un'ipotetica startup che avesse malauguratamente deciso di utilizzare la blockchain per facilitare pagamenti utilizzando tecniche di AI per la mitigazione delle frodi e fornire contestualmente un servizio di firma elettronica, in tal caso la suddetta dovrebbe adempiere a:
 
