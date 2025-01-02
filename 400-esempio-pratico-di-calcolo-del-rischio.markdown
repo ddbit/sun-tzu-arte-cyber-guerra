@@ -7,9 +7,7 @@ inserire altre metodologie per valutazione rischio? NIST800-30?
 
 # Esempio di calcolo del Rischio
 
-> *Se non lo puoi misurare non lo puoi migliorare*
-
-> (Lord Kelvin)
+> *Se non lo puoi misurare non lo puoi migliorare* (Lord Kelvin)
 
 Abbiamo visto come dare una valutazione più o meno quantitativa della nostra superficie d'attacco e della forza dell'attaccante. Ora nel nostro percorso di calcolo 
 
@@ -35,7 +33,6 @@ Come lo stesso OWASP riconosce, esistono altri approcci più completi e maturi p
 - [Government of Canada - Harmonized TRA Methodology](https://cyber.gc.ca/en/guidance/harmonized-tra-methodology-tra-1)
 
 Riteniamo comunque il metodo OWASP molto istruttivo per costruire un calcolo quantitativo a partire da elementi che non sempre sono facilmente quantificabili.
-
 
 
 ## Impatto
@@ -195,3 +192,21 @@ Naturalmente questo è un calcolo molto diretto e anche molto brutale, ma è una
 
 Questo risultato potrebbe suggerire il rafforzamento della sicurezza del database, migliorando le pratiche di sviluppo sicuro, aumentando la sorveglianza dei tentativi di accesso sospetti, e formando il personale su pratiche di sicurezza migliori. Inoltre, l'implementazione di soluzioni di backup e disaster recovery aiuterà a mitigare gli impatti dell'eventuale perdita di disponibilità.
 
+
+
+La Direttiva NIS2 che indicazioni pratiche ci fornisce?
+-----------------------------------
+
+Abbiamo messo l'accendo sulla valutazione e mitigazione del rischio durante tutta la stesura di questo libro. Ma la Direttiva come suggerisce di procedere?
+
+Naturalmente la Direttiva e agnostica rispetto a metodi e strumenti e si limita a specificare che:
+
+> I soggetti essenziali e i soggetti  importanti  adottano  misure tecniche [...] proporzionate  al grado  di  esposizione  a  rischi  delsoggetto, alle dimensioni del soggetto e  alla  probabilita'  che  si verifichino incidenti, nonche' alla loro gravita', compreso  il  loro impatto sociale ed economico.
+
+Come abbiamo già visto `rischio = probabilità * gravità`.
+
+Nell'art. 27 arriva una sorta di avvertimento:
+
+> l'Autorita' [...] puo' imporre ai soggetti essenziali e ai soggetti importanti di utilizzare categorie di prodotti TIC, servizi TIC e processi TIC [...] sviluppati [...] o acquistati da terze parti, che siano certificati nell'ambito dei sistemi europei di certificazione della cybersicurezza di cui all'articolo 49 del regolamento (UE) 2019/881.
+
+e ancora nello stesso articolo si stabilisce che nelle  more  dell'adozione  di  pertinenti  sistemi  europei  di certificazione si debbano usare prodotti o servizi che siano almeno certificati nell'ambito di schemi di  certificazione  riconosciuti  a livello nazionale o europeo

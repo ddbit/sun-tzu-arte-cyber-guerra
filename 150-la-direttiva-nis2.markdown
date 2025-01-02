@@ -1,21 +1,12 @@
+La Direttiva NIS2
+=================
+
+> *Dura lex, sed lex*.
+
+
 Se non vi siete ancora convinti che il rischio è inevitabile e che è assolutamente necessario saperlo valutare, nel caso della sicurezza informatica così come in ogni altro aspetto della vita, ecco che arriva la Legge. Perché infatti mentre scriviamo queste righe siamo già entrati in quella fase di preparazione che aziende e pubbliche amministrazioni *devono* per forza avviare per arrivare pronti agli adempimenti che si presentano per il 2025 in ambito cyber security.
 
-Qualche mese fa, per scherzo, in un post su Social ho parlato di Normageddom riferendomi all'ipertrofia normativa nella quale professionisti ed aziende devono muoversi. 
-
-Ho citato l'esempio di un'ipotetica startup che avesse malauguratamente deciso di utilizzare la blockchain per facilitare pagamenti utilizzando tecniche di AI per la mitigazione delle frodi e fornire contestualmente un servizio di firma elettronica, in tal caso la suddetta dovrebbe adempiere a:
-
-- NIS2
-- MICA
-- AML/CTF
-- GDPR
-- AI ACT
-- DORA
-- PSD2
-- Data Act
-
-e sicuramente ne sto trascurando qualcuna.
-
-Ci si potrebbe interrogare sul perché la sicurezza informatica sia diventata sempre più una questione che coinvolge avvocati e giuristi, lasciando un po’ meno spazio agli informatici rispetto al passato, che vengono magari chiamati per occuparsi di questioni spicciole come fare il pentration testing o il debugging di codice.
+Ci si potrebbe interrogare sul perché la sicurezza informatica sia diventata sempre più una questione che coinvolge avvocati e giuristi, lasciando un po’ meno spazio agli informatici rispetto al passato, che vengono magari chiamati per occuparsi di questioni più spicciole come fare il pentration testing o il debugging di codice.
 
 Questo cambiamento si deve principalmente al fatto che oggi la sicurezza non è più solo una questione tecnica, ma anche legale e regolamentare. Con normative come il GDPR in Europa o il CCPA negli Stati Uniti, le aziende devono seguire regole molto precise su come gestire i dati e proteggere la privacy. E quando ci sono leggi così complesse in gioco, è naturale che gli avvocati entrino in scena per garantire che tutto sia fatto a norma.
 
@@ -193,7 +184,6 @@ Il 16 ottobre 2024 è entrato in vigore in Italia il **D.Lgs. 138/2024**  che ri
      - **Entro 24 ore** dalla rilevazione iniziale.
      - **Report dettagliato entro 72 ore**, fornendo informazioni approfondite sull'incidente e sulle misure adottate. 
 
- 
 
 Riepilogando in una tabella ordinata dalla scadenza più vicina alla più lontana:
 
@@ -206,7 +196,6 @@ Riepilogando in una tabella ordinata dalla scadenza più vicina alla più lontan
 | Comunicazione delle informazioni richieste dal Decreto                                        | Ogni anno, dal **15 aprile al 31 maggio**, a partire dal 2025                                         |
 
 
-
 Impatto sulla governace aziendale
 ------------
 
@@ -217,7 +206,6 @@ a) Approvare le modalità di gestione dei rischi di sicurezza informatica: Devon
 b) Supervisionare l'implementazione degli obblighi normativi: Hanno il compito di vigilare sull'applicazione delle disposizioni stabilite dal decreto.
 
 c) Essere responsabili delle violazioni: Gli organi direttivi possono essere ritenuti responsabili in caso di mancato rispetto delle normative previste dal decreto. Questo implica una responsabilità anche legale e amministrativa.
-
 
 Gli organi direttivi sono chiamati a garantire un livello adeguato di competenza in materia di sicurezza informatica, attraverso due principali direttrici:
 
@@ -261,5 +249,7 @@ Ecco una tabella riassuntiva delle sanzioni amministrative pecuniarie previste d
 - Le sanzioni per i soggetti privati sono proporzionali al fatturato annuo mondiale.
 - Per le PA, le sanzioni sono calcolate in importi fissi, con riduzioni previste per i soggetti "importanti".
 - In caso di violazioni multiple, è possibile che si applichino sanzioni cumulative.
+
+
 
 
