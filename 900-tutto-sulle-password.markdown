@@ -282,3 +282,6 @@ Come utenti siamo ormai avvezzi a queste procedure. Ogni servizio online ci rich
 - **Pratiche di Sicurezza**: Un servizio sicuro non invierà mai la password originale dimenticata. Invece, chiederà all'utente di impostare una nuova password. Nei servizi di pagamento, il cambiamento dovrebbe includere un'autenticazione forte. Inoltre, potrebbe essere introdotto un periodo di inattività forzata dopo il cambiamento della password per motivi di sicurezza.
 
 Questo documento fornisce una guida essenziale per comprendere come le password vengono gestite in modo sicuro nei sistemi informatici e quali misure possono essere adottate per proteggere le credenziali degli utenti da vari tipi di attacchi informatici.
+
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

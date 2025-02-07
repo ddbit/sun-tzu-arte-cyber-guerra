@@ -1,6 +1,0 @@
----
-title: "Sun Tzu e l'arte della cyber guerra"
-author: Davide Carboni
-date: 26/07/2024
-cover-image: images/cover.jpg
----

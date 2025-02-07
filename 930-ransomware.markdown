@@ -202,3 +202,7 @@ Il Remote ransomware si distingue da altri attacchi simili, come il ransomware t
 Per mitigare un attacco di remote ransomware, è essenziale adottare una serie di misure preventive. Innanzitutto, implementare strumenti di endpoint moderni che possano analizzare i file per segni di crittografia malevola, **indipendentemente da dove vengono eseguiti i processi**. È utile bloccare sia gli attacchi locali che quelli remoti concentrandosi sul contenuto dei file piuttosto che sul codice dannoso. 
 
 Per il resto valgono le stesse misure valide per gli attacchi di ransomware tradizionali. 
+
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->
+

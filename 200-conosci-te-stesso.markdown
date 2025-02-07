@@ -225,3 +225,6 @@ https://owasp.org/www-project-top-ten/
 
 
 <img src="images/qrcode_owasp.org.png" width=160px></img>
+
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

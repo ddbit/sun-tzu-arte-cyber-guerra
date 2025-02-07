@@ -107,3 +107,5 @@ L'attacco SolarWinds rappresenta un chiaro segnale di come la sofisticazione deg
 
 In risposta a questo evento, le organizzazioni sono chiamate a rivedere e rafforzare le proprie misure di sicurezza, considerando attentamente la gestione dei rischi e la resilienza contro le minacce persistenti avanzate.
 
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

@@ -1,0 +1,11 @@
+---
+title: "Sun Tzu e l'arte della cyber guerra"
+author: Davide Carboni
+date: \today{}
+cover-image: images/cover.jpg
+geometry: c5paper,margin=3cm
+header-includes:
+    - \usepackage{setspace}
+    - \onehalfspacing
+---
+

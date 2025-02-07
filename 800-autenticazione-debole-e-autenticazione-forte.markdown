@@ -131,3 +131,5 @@ La biometria rappresenta una tecnologia sempre più centrale nella sicurezza e a
 - **Affidabilità**: Sensibile a fattori ambientali come il rumore di fondo.
 - **Sicurezza**: Vulnerabile agli attacchi di deep fake e imitazioni, specialmente con l'avanzare delle tecnologie di sintesi vocale.
 
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

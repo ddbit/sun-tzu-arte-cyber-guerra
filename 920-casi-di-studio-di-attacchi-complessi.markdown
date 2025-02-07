@@ -79,3 +79,5 @@ Questo attacco ha sottolineato la necessità per le istituzioni finanziarie di r
 
 Questo caso serve come un potente monito delle potenziali vulnerabilità all'interno dei sistemi finanziari globali e dell'importanza di una vigilanza costante contro le minacce di cyber-attacco.
 
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

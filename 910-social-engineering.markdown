@@ -372,3 +372,6 @@ Se ti accorgi di aver eseguito codice malevolo, agisci immediatamente:
 
 
 Questo caso evidenzia quanto sia importante mantenere un approccio critico e cauto anche in contesti apparentemente sicuri come un colloquio di lavoro. I cybercriminali sfruttano sempre più spesso la fiducia e le emozioni, trasformando opportunità legittime in strumenti di attacco. La chiave per proteggersi è rimanere vigili, adottare buone pratiche di sicurezza e non fidarsi ciecamente, anche quando tutto sembra normale.
+
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

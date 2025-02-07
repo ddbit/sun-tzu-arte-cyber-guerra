@@ -78,3 +78,5 @@ L’autenticazione a più fattori (MFA) aggiunge un ulteriore strato di sicurezz
 **Tecniche di attacco legate alla AI**
 
 Con l’ascesa dell’intelligenza artificiale, emergono nuove tecniche di attacco. Vediamo come la AI viene utilizzata in ambito cyber e le contromisure possibili
+
+\newpage

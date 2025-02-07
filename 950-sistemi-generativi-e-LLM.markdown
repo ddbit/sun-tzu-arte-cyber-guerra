@@ -271,7 +271,8 @@ Ecco una breve descrizione di alcuni paper sui modelli Retrieval-Augmented Gener
 4. **"Advanced RAG 01: Small-to-Big Retrieval"**: Un write-up pratico sulle tecniche Child-Parent RecursiveRetriever e Sentence Window Retrieval con esempi pratici basati su LlamaIndex. [Advanced RAG 01: Small-to-Big Retrieval](https://towardsdatascience.com/advanced-rag-01-small-to-big-retrieval-172181b396d4)
 
 
-
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->
 
 
 

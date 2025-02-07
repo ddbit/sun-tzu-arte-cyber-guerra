@@ -119,3 +119,5 @@ Questa tabella consente di analizzare e valutare i rischi associati a diversi pr
 
 Questa classificazione aiuta le organizzazioni a comprendere le varie minacce e a progettare difese su misura che indirizzino specificamente il tipo di attaccante e le vulnerabilità che potrebbero sfruttare. Identificare dove si concentrano le risorse per la difesa in base a questa analisi può migliorare significativamente l'efficacia delle strategie di sicurezza.
 
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

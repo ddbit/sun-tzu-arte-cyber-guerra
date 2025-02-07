@@ -41,3 +41,6 @@ Se volete sapere di più ecco un QR (sicuro se avete una copia originale del lib
 
 
 <img src="images/qrcode_digitaldavide.me.png" width=160px></img>
+
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

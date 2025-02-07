@@ -296,5 +296,6 @@ Ecco una lista di casi che possiamo definire "inquietanti":
 
 Questi esempi dimostrano l'impatto reale che il bias AI può avere in settori critici come la giustizia penale, la sanità, l'occupazione e la sorveglianza.
 
-
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->
 

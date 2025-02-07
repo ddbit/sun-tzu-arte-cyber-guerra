@@ -103,3 +103,6 @@ I Shadow Brokers sono diventati noti per la divulgazione di numerosi strumenti d
 Carbanak, noto anche come Anunak, è un gruppo di cybercriminali che ha condotto attacchi sofisticati contro istituzioni finanziarie dal 2013. Utilizzando tecniche come lo spear phishing, l'iniezione di malware e l'exploit di vulnerabilità di rete, Carbanak ha rubato centinaia di milioni di dollari da oltre 100 banche, principalmente in Europa e Asia. Questi attacchi hanno incluso il monitoraggio delle operazioni delle banche per massimizzare i trasferimenti di denaro fraudolenti senza rilevamento immediato.
 
 Questi gruppi rappresentano una varietà di minacce nel panorama della sicurezza informatica globale, ognuno con motivazioni e metodi distinti che riflettono le ampie capacità e le sfide nel contrastarli efficacemente.
+
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

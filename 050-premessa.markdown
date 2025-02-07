@@ -21,4 +21,5 @@ A proposito il prompt utilizzato per generare la copertina su Dall-e 3 è il seg
 
 Quindi come vedete l'inacuratezza culturale è totalmente volontaria.
 
-
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

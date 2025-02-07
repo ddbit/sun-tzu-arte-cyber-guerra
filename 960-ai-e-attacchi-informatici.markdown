@@ -105,7 +105,5 @@ Le contromisure agli adversarial attacks includono lo sviluppo di algoritmi di d
 
 Questo tipo di attacco evidenzia l'importanza di integrare considerazioni di sicurezza durante la progettazione e lo sviluppo di sistemi basati su IA, specialmente per applicazioni critiche.
 
-
-## Conclusione
-
-TBD
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

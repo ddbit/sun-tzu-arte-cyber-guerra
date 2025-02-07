@@ -37,3 +37,6 @@ Come vedremo, è essenziale imparare a misurare il rischio. Se da un lato il ris
 Esistono molti tipi di rischio, inclusi quelli legati agli aspetti tecnici, finanziari o imprenditoriali. Ci sono anche rischi legati alla sicurezza sul lavoro e alla sicurezza dei sistemi, siano essi fisici o digitali. Non è insolito sentire parlare di "valutazione del rischio" o "responsabile del rischio" negli ambienti di lavoro, poiché tutta la normativa sulla sicurezza è incentrata su questo concetto.
 
 Questo libro non parlerà di volatilità degli investimenti o della valutazione del rischio nei luoghi di lavoro. Come avrai intuito, si concentrerà sul rischio nel mondo cyber. Non possiamo difenderci nel mondo digitale senza sapere quali rischi corriamo quando utilizziamo un determinato servizio, o quale livello di esposizione ha la nostra azienda quando opera online.
+
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

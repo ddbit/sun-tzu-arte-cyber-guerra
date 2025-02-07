@@ -60,6 +60,7 @@ Il progetto Worldcoin rappresenta un esperimento audace nel campo delle criptova
 
 Tra le tecniche di autenticazioni a più fattori, la biometria offre notevoli vantaggi in termini di sicurezza e convenienza, ma porta con sé sfide significative, in particolare riguardanti la privacy e la sicurezza dei dati. È essenziale che l'implementazione di tecnologie biometriche sia accompagnata da robuste misure di protezione dei dati e normative chiare per tutelare i diritti degli individui. La continua evoluzione delle minacce informatiche richiede un aggiornamento costante delle tecniche di sicurezza biometrica per mantenere l'efficacia contro le nuove vulnerabilità.
 
-
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->
 
 

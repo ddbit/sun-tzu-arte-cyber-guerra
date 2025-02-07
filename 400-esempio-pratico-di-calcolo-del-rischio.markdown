@@ -209,4 +209,7 @@ Nell'art. 27 arriva una sorta di avvertimento:
 
 > l'Autorita' [...] puo' imporre ai soggetti essenziali e ai soggetti importanti di utilizzare categorie di prodotti TIC, servizi TIC e processi TIC [...] sviluppati [...] o acquistati da terze parti, che siano certificati nell'ambito dei sistemi europei di certificazione della cybersicurezza di cui all'articolo 49 del regolamento (UE) 2019/881.
 
-e ancora nello stesso articolo si stabilisce che nelle  more  dell'adozione  di  pertinenti  sistemi  europei  di certificazione si debbano usare prodotti o servizi che siano almeno certificati nell'ambito di schemi di  certificazione  riconosciuti  a livello nazionale o europeo
+e ancora nello stesso articolo si stabilisce che nelle  more  dell'adozione  di  pertinenti  sistemi  europei  di certificazione si debbano usare prodotti o servizi che siano almeno certificati nell'ambito di schemi di  certificazione  riconosciuti  a livello nazionale o europeo.
+
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->

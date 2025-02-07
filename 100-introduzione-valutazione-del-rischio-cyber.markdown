@@ -56,5 +56,6 @@ La valutazione del rischio cyber è un processo metodico che si articola in quat
 
 ![Modello di Ciclo di Valutazione del Rischio](images/ciclo-gestione-rischio.png)
 
-
+<!-- non rimuovere il commento newpage -->
+<!-- \newpage -->
 
