@@ -224,7 +224,7 @@ Per ulteriori dettagli, è possibile consultare il sito ufficiale di OWASP.
 https://owasp.org/www-project-top-ten/
 
 
-<img src="images/qrcode_owasp.org.png" width=160px></img>
+![owasp.org/www-project-top-ten](images/qrcode_owasp.org.png)
 
 <!-- non rimuovere il commento newpage -->
 <!-- \newpage -->

@@ -241,11 +241,11 @@ Creare un database di password sicuro implica l'uso di pratiche avanzate di crit
 
 ### Esempio di Struttura di un Database di Password
 
-| UserID | Username  | Password Hash                          | Salt                           | Data Creazione Account | Ultimo Cambio Password |
-|--------|-----------|----------------------------------------|--------------------------------|------------------------|-----------------------|
-| 1      | user1     | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 | 5f4dcc3b5aa765d61d8327deb882cf99 | 2021-01-15             | 2023-01-01            |
-| 2      | user2     | a5bfc9e07964f8dddeb95fc584cd965d982d034af7da2baad7c5fbb078710c55 | aab9e1de16f38176f86d7a92ba337a8d | 2021-02-20             | 2023-01-10            |
-| 3      | user3     | b6fcd1ee8a3c48b1385b6b51bde54efc567901233ef8c3207b1485206e2e3553 | 68b329da9893e34099c7d8ad5cb9c940 | 2021-03-11             | 2023-01-15            |
+| ID | User  | Hash         | Salt         | Creata il    | Modifica     |
+|----|-------|--------------|--------------|--------------|--------------|
+| 1  | user1 | e3b0c4..     | 5f4dcc..     | 2021-01-15   | 2023-01-01   |
+| 2  | user2 | a5bfc9..     | aab9e1..     | 2021-02-20   | 2023-01-10   |
+| 3  | user3 | b6fcd1..     | 68b329..     | 2021-03-11   | 2023-01-15   |
 
 ### Descrizione delle Colonne
 
