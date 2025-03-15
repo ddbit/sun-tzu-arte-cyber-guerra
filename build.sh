@@ -6,7 +6,7 @@ export DATETIME=`date +"%Y-%m-%d %H:%M:%S"`
 cat frontmatter.txt | envsubst > frontmatter.tmp
 
 
-cat frontmatter.tmp *.markdown  > book.tmp
+cat frontmatter.tmp content/*.markdown  > book.tmp
 
 # uncomment for epub
 # pandoc book.tmp -o book.epub 
