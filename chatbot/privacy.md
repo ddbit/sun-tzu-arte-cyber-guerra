@@ -1,8 +1,7 @@
-Ecco la tua **Informativa Privacy** per il chatbot, basata sulle informazioni che hai fornito.  
 
 ---
 
-## **Informativa Privacy per il Chatbot**  
+## **Informativa Privacy per Chatbot AI**  
 
 **Ultimo aggiornamento:** 15 marzo 2025 
 
