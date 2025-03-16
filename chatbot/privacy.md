@@ -4,14 +4,14 @@ Ecco la tua **Informativa Privacy** per il chatbot, basata sulle informazioni ch
 
 ## **Informativa Privacy per il Chatbot**  
 
-**Ultimo aggiornamento:** [inserire data]  
+**Ultimo aggiornamento:** 15 marzo 2025 
 
 ### **1. Titolare del Trattamento**  
 Il titolare del trattamento dei dati è:  
 
 **Uncommon Digital Srl a socio unico**  
 Viale dei Pittori Europei 4, Quartu Sant’Elena (CA)  
-Email di contatto: [inserire email]  
+Email di contatto: carboni.d@uncommon-digital.it 
 
 ---
 
@@ -61,7 +61,7 @@ L’utente ha il diritto di:
 - **Richiedere la cancellazione** dei dati (se memorizzati).  
 - **Opporsi al trattamento** in qualsiasi momento.  
 
-Per esercitare questi diritti, è possibile contattare il titolare all’indirizzo email: [inserire email]  
+Per esercitare questi diritti, è possibile contattare il titolare all’indirizzo email indicato in questa informativa 
 
 ---
 
