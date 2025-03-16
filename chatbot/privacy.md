@@ -68,5 +68,3 @@ Per esercitare questi diritti, è possibile contattare il titolare all’indiriz
 Questa informativa può essere aggiornata periodicamente. Eventuali modifiche verranno comunicate tramite i canali ufficiali del chatbot.  
 
 ---
-
-Questa informativa è chiara e conforme al GDPR. Vuoi aggiungere o modificare qualcosa? 😊
