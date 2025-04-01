@@ -3,6 +3,8 @@ La Direttiva NIS2
 
 > *Dura lex, sed lex*.
 
+<!-- non rimuovere il commento newpage -->
+<!-- \vspace{1cm} -->
 
 Se non vi siete ancora convinti che il rischio è inevitabile e che è assolutamente necessario saperlo valutare, nel caso della sicurezza informatica così come in ogni altro aspetto della vita, ecco che arriva la Legge. Perché infatti mentre scriviamo queste righe siamo già entrati in quella fase di preparazione che aziende e pubbliche amministrazioni *devono* per forza avviare per arrivare pronti agli adempimenti che si presentano per il 2025 in ambito cyber security.
 
@@ -62,20 +64,20 @@ Infine, NIS 2 punta a colmare i gap legati alla **cooperazione tra Stati membri*
 
 Ecco una **tabella riepilogativa** che evidenzia le principali differenze tra la **Direttiva NIS (2016/1148)** e la **Direttiva NIS 2 (2022/2555)**:
 
-| **Aspetto**                  | **Direttiva NIS (2016/1148)**                                                                                  | **Direttiva NIS 2 (2022/2555)**                                                                                   |
-|-------------------------------|----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **Campo di applicazione**    | - Focus su operatori di servizi essenziali (OES) e fornitori di servizi digitali (DSP).                         | - Include più settori, come cloud, data center, piattaforme online, social media, e pubblica amministrazione.     |
-|                               | - Ogni Stato membro identificava i propri OES.                                                                | - Criteri armonizzati per definire soggetti essenziali e importanti (EE ed EI).                                   |
-| **Requisiti di sicurezza**   | - Misure minime, con margine di interpretazione per gli Stati membri.                                           | - Requisiti dettagliati su gestione vulnerabilità, supply chain, monitoraggio, e risposta agli incidenti.         |
-| **Notifica degli incidenti** | - Nessun tempo definito per notifiche.                                                                          | - Notifica iniziale entro **24 ore**; valutazione completa entro **72 ore**.                                      |
-|                               | - Criteri poco chiari per identificare un "incidente significativo".                                           | - Criteri uniformi per determinare la gravità dell’incidente.                                                     |
-| **Governance e supervisione**| - Ogni Stato organizzava autonomamente le autorità competenti.                                                 | - Maggiore coordinamento e poteri rafforzati per le autorità nazionali e UE.                                      |
-|                               | - Nessuna responsabilità diretta del management aziendale.                                                     | - Responsabilità diretta dei dirigenti aziendali per la conformità.                                               |
-| **Sanzioni**                 | - Ogni Stato definiva il proprio regime sanzionatorio, creando disparità.                                       | - Sanzioni armonizzate: fino al **2% del fatturato globale annuo** o **10 milioni di euro**.                      |
-| **Cooperazione tra Stati**   | - Gruppo di cooperazione e CSIRT (rete di team di risposta agli incidenti).                                     | - Rafforzamento del ruolo del CERT-EU e CSIRT, con piattaforme per condivisione rapida di informazioni.            |
-|                               | - Cooperazione limitata e frammentata.                                                                         | - Simulazioni di crisi e strategie congiunte per migliorare la resilienza.                                        |
-| **Supply Chain Security**    | - Nessun requisito specifico.                                                                                  | - Obbligo di monitorare e gestire la sicurezza della catena di approvvigionamento ICT.                            |
-| **Settori inclusi**          | - Energia, trasporti, sanità, infrastrutture critiche, acqua, banche e mercati finanziari.                      | - Oltre ai settori precedenti: cloud, data center, piattaforme online, social media, produttori di tecnologie ICT.|
+| **Direttiva NIS (2016/1148)**                                                                                  | **Direttiva NIS 2 (2022/2555)**                                                                                   |
+|----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| - Focus su operatori di servizi essenziali (OES) e fornitori di servizi digitali (DSP).                         | - Include più settori, come cloud, data center, piattaforme online, social media, e pubblica amministrazione.     |
+| - Ogni Stato membro identificava i propri OES.                                                                | - Criteri armonizzati per definire soggetti essenziali e importanti (EE ed EI).                                   |
+| - Misure minime, con margine di interpretazione per gli Stati membri.                                           | - Requisiti dettagliati su gestione vulnerabilità, supply chain, monitoraggio, e risposta agli incidenti.         |
+| - Nessun tempo definito per notifiche di incidente                                                                          | - Notifica iniziale entro **24 ore**; valutazione completa entro **72 ore**.                                      |
+| - Criteri poco chiari per identificare un "incidente significativo".                                           | - Criteri uniformi per determinare la gravità dell’incidente.                                                     |
+| - Ogni Stato organizzava autonomamente le autorità competenti.                                                 | - Maggiore coordinamento e poteri rafforzati per le autorità nazionali e UE.                                      |
+| - Nessuna responsabilità diretta del management aziendale.                                                     | - Responsabilità diretta dei dirigenti aziendali per la conformità.                                               |
+| - Ogni Stato definiva il proprio regime sanzionatorio, creando disparità.                                       | - Sanzioni armonizzate: fino al **2% del fatturato globale annuo** o **10 milioni di euro**.                      |
+| - Gruppo di cooperazione e CSIRT (rete di team di risposta agli incidenti).                                     | - Rafforzamento del ruolo del CERT-EU e CSIRT, con piattaforme per condivisione rapida di informazioni.            |
+| - Cooperazione limitata e frammentata.                                                                         | - Simulazioni di crisi e strategie congiunte per migliorare la resilienza.                                        |
+| - Nessun requisito specifico per supply chain.                                                                                  | - Obbligo di monitorare e gestire la sicurezza della catena di approvvigionamento ICT.                            |
+| - Energia, trasporti, sanità, infrastrutture critiche, acqua, banche e mercati finanziari.                      | - Oltre ai settori precedenti: cloud, data center, piattaforme online, social media, produttori di tecnologie ICT.|
 
 
 Quali aziende e organizzazioni sono soggette alla NIS2?
@@ -123,7 +125,6 @@ Il 25% ha impiegato riserve d'emergenza.
 
 Questa riallocazione evidenzia come l'adeguamento alla NIS2 stia esercitando una pressione significativa sui budget aziendali, spesso già limitati a causa di tagli o stagnazione dovuti all'aumento dei costi operativi e all'inflazione.
 
-**Allocazione dei Budget IT**
 
 Nonostante la NIS2 sia solo al decimo posto nelle priorità dei leader IT, l'80% dei budget IT nell'area EMEA è ora destinato alla cybersecurity e alla conformità normativa. Le principali preoccupazioni dei responsabili IT includono:
 
@@ -164,25 +165,34 @@ Il 16 ottobre 2024 è entrato in vigore in Italia il **D.Lgs. 138/2024**  che ri
 
 **Differenze tra il Decreto Legislativo italiano e la Direttiva NIS2:**
 
-1. **Ambito di Applicazione Esteso:**
-   - Il decreto italiano amplia l'ambito di applicazione rispetto alla direttiva europea, includendo specificamente:
-     - **Pubbliche Amministrazioni**, individuate sulla base di criteri come l'evoluzione del grado di esposizione al rischio e la probabilità di incidenti.
-     - **Soggetti indipendentemente dalle dimensioni**, quali:
-       - Fornitori di servizi di trasporto pubblico locale.
-       - Istituti di istruzione che svolgono attività di ricerca.
-       - Soggetti che svolgono attività di interesse culturale.
-       - Società in house, società partecipate e società a controllo pubblico, come definite nel decreto legislativo 19 agosto 2016, n. 175. 
 
-2. **Tempistiche di Conformità:**
-   - Il decreto stabilisce scadenze specifiche per l'adeguamento:
-     - **Entro il 17 gennaio 2025:** Le entità devono valutare se rientrano tra i soggetti essenziali o importanti e registrarsi sulla piattaforma dell'Agenzia per la Cybersicurezza Nazionale (ACN).
-     - **Entro 12 mesi dall'entrata in vigore:** Implementazione delle misure organizzative e tecniche minime previste.
-     - **Entro 24 mesi:** Piena conformità, incluse attività di audit e formazione del personale. 
+Il decreto italiano amplia l'ambito di applicazione rispetto alla direttiva europea, includendo specificamente:
 
-3. **Obblighi di Notifica:**
-   - Il decreto prevede che gli incidenti significativi debbano essere notificati:
-     - **Entro 24 ore** dalla rilevazione iniziale.
-     - **Report dettagliato entro 72 ore**, fornendo informazioni approfondite sull'incidente e sulle misure adottate. 
+   - **Pubbliche Amministrazioni**, individuate sulla base di criteri come l'evoluzione del grado di esposizione al rischio e la probabilità di incidenti.
+
+   - **Soggetti indipendentemente dalle dimensioni**, quali:
+
+      - Fornitori di servizi di trasporto pubblico locale.
+      - Istituti di istruzione che svolgono attività di ricerca.
+      - Soggetti che svolgono attività di interesse culturale.
+      - Società in house, società partecipate e società a controllo pubblico, come definite nel decreto legislativo 19 agosto 2016, n. 175. 
+
+
+Il decreto stabilisce scadenze specifiche per l'adeguamento:
+
+   - **Entro il 17 gennaio 2025:** Le entità devono valutare se rientrano tra i soggetti essenziali o importanti e registrarsi sulla piattaforma dell'Agenzia per la Cybersicurezza Nazionale (ACN).
+
+   - **Entro 12 mesi dall'entrata in vigore:** Implementazione delle misure organizzative e tecniche minime previste.
+
+   - **Entro 24 mesi:** Piena conformità, incluse attività di audit e formazione del personale. 
+
+
+Il decreto prevede che gli incidenti significativi debbano essere notificati:
+
+   - **Entro 24 ore** dalla rilevazione iniziale.
+
+   - **Report dettagliato entro 72 ore**, fornendo informazioni approfondite sull'incidente e sulle misure adottate. 
+
 
 
 Riepilogando in una tabella ordinata dalla scadenza più vicina alla più lontana:
@@ -227,18 +237,18 @@ L'articolo 38 è quello che definisce le sanzioni e stabilisce anche perentoriam
 
 Ecco una tabella riassuntiva delle sanzioni amministrative pecuniarie previste dall'articolo:
 
-| **Categoria Violazione**                                                  | **Tipologia di Soggetto**                     | **Sanzione Massima**                                                   | **Sanzione Minima**                     | **Riduzioni o Specifiche**                                       |
-|---------------------------------------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------|
-| Mancata osservanza obblighi di gestione del rischio, sicurezza informatica, e notifiche di incidenti (artt. 23, 24, 25) | Soggetti essenziali (escluse PA)              | € 10.000.000 o 2% del fatturato annuo mondiale, se superiore           | 1/20 del massimo (€ 500.000)            | -                                                                |
-|                                                                           | Soggetti importanti (escluse PA)              | € 7.000.000 o 1,4% del fatturato annuo mondiale, se superiore          | 1/30 del massimo (€ 233.333)            | -                                                                |
-|                                                                           | Pubbliche Amministrazioni (PA) essenziali     | € 125.000                                                              | € 25.000                                | -                                                                |
-|                                                                           | PA importanti                                 | Riduzione di 1/3 rispetto alla sanzione per PA essenziali (€ 83.333)   | Riduzione di 1/3 rispetto alla minima (€ 16.666) |                                                        |
-| Inottemperanza alle disposizioni dell'Autorità NIS o alle diffide         | Stesse categorie di cui sopra                 | Idem sopra                                                            | Idem sopra                              | -                                                                |
-| Mancata registrazione/comunicazione/aggiornamento di dati (art. 7, commi 1, 3, 4, 5, 7) | Soggetti essenziali                          | 0,1% del fatturato annuo mondiale                                      | Vedi minimi edittali del comma 9        | -                                                                |
-|                                                                           | Soggetti importanti                          | 0,07% del fatturato annuo mondiale                                     | Vedi minimi edittali del comma 9        | -                                                                |
-|                                                                           | PA essenziali                                | € 50.000                                                               | € 10.000                                | -                                                                |
-|                                                                           | PA importanti                                | Riduzione di 1/3 rispetto alla sanzione per PA essenziali (€ 33.333)   | Riduzione di 1/3 rispetto alla minima (€ 6.666) |                                                        |
-| Mancata collaborazione con CSIRT Italia o Autorità NIS                    | Stesse categorie di cui sopra                 | Idem sopra                                                            | Idem sopra                              | -                                                                |
+| **Categoria Violazione**                                                  | **Tipologia di Soggetto**                     | **Sanzione Massima**                                                   | **Sanzione Minima**                     |
+|---------------------------------------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------|-----------------------------------------|
+| Mancata osservanza obblighi di gestione del rischio, sicurezza informatica, e notifiche di incidenti (artt. 23, 24, 25) | Soggetti essenziali (escluse PA)              | € 10.000.000 o 2% del fatturato annuo mondiale, se superiore           | 1/20 del massimo (€ 500.000)            |
+|                                                                           | Soggetti importanti (escluse PA)              | € 7.000.000 o 1,4% del fatturato annuo mondiale, se superiore          | 1/30 del massimo (€ 233.333)            |
+|                                                                           | Pubbliche Amministrazioni (PA) essenziali     | € 125.000                                                              | € 25.000                                |
+|                                                                           | PA importanti                                 | Riduzione di 1/3 rispetto alla sanzione per PA essenziali (€ 83.333)   | Riduzione di 1/3 rispetto alla minima (€ 16.666) |
+| Inottemperanza alle disposizioni dell'Autorità NIS o alle diffide         | Stesse categorie di cui sopra                 | Idem sopra                                                            | Idem sopra                              |
+| Mancata registrazione/comunicazione/aggiornamento di dati (art. 7, commi 1, 3, 4, 5, 7) | Soggetti essenziali                          | 0,1% del fatturato annuo mondiale                                      | Vedi minimi edittali del comma 9        |
+|                                                                           | Soggetti importanti                          | 0,07% del fatturato annuo mondiale                                     | Vedi minimi edittali del comma 9        |
+|                                                                           | PA essenziali                                | € 50.000                                                               | € 10.000                                |
+|                                                                           | PA importanti                                | Riduzione di 1/3 rispetto alla sanzione per PA essenziali (€ 33.333)   | Riduzione di 1/3 rispetto alla minima (€ 6.666) |
+| Mancata collaborazione con CSIRT Italia o Autorità NIS                    | Stesse categorie di cui sopra                 | Idem sopra                                                            | Idem sopra                              |
 
 ### **Legenda**
 - **Soggetti essenziali**: Aziende o enti la cui attività è considerata fondamentale per settori critici.

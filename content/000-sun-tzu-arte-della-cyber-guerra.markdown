@@ -7,7 +7,6 @@
 > *Sun Tzu. L’Arte della guerra.*
 
 
-
 Nell'arena digitale moderna, dove cybercriminali e difensori digitali danzano un tango incessante di attacchi e difese, le strategie di un antico maestro cinese, Sun Tzu, trovano una risonanza sorprendente. Sun Tzu, il leggendario generale, stratega e filosofo vissuto nel V secolo a.C., ha lasciato in eredità "L'arte della guerra", un trattato che trascende il suo contesto storico per offrire perle di saggezza applicabili anche nella lotta alla cybercriminalità odierna.
 
 Il concetto fondamentale di Sun Tzu è la conoscenza: conoscere se stessi e il nemico è la chiave per la vittoria in ogni battaglia. Tradotto nel linguaggio della sicurezza informatica, questo si traduce nell'importanza di avere una comprensione approfondita delle proprie vulnerabilità di sistema e delle tecniche di attacco degli avversari. In altre parole, non basta installare l'antivirus più costoso e dimenticarsi la password su un post-it attaccato al monitor.

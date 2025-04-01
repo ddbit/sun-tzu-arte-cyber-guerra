@@ -35,11 +35,11 @@ Un **exploit** è una tecnica o un pezzo di codice che, sfruttando una vulnerabi
 
 Un **attacco** si verifica quando un exploit viene utilizzato contro un sistema per comprometterlo, rubare dati o causare un danno. Gli attacchi possono essere automatizzati e diffusi, come nel caso di worm e attacchi ransomware, o possono essere mirati e complessi, come avviene nei casi di attacchi diretti a specifiche organizzazioni o individui. La fase di attacco è quella in cui le minacce diventano effettive e le vulnerabilità vengono sfruttate per realizzare gli obiettivi dannosi degli attaccanti. Strategie di difesa efficaci contro gli attacchi includono il monitoraggio continuo dei sistemi, la formazione degli utenti sulla sicurezza, e la pronta risposta agli incidenti quando vengono identificati.
 
-### Modello di Dolev-Yao: Analisi dell'Attaccante
+## Modello di Dolev-Yao: Analisi dell'Attaccante
 
 Il Modello Dolev-Yao è un approccio all'analisi della sicurezza informatica che pone particolare attenzione sulle capacità dell'attaccante di manipolare e intercettare la comunicazione all'interno di un sistema. Questo approccio è noto come il Modello di Dolev-Yao, che è un modello teorico utilizzato per analizzare la sicurezza dei protocolli di comunicazione. Ecco una discussione più approfondita sul modello e sulle sue implicazioni pratiche nella sicurezza informatica.
 
-#### Definizione e Capacità dell'Attaccante
+### Definizione e Capacità dell'Attaccante
 
 Nel Modello di Dolev-Yao, l'attaccante è considerato onnipotente nel contesto della rete. Si suppone che abbia il controllo totale sui canali di comunicazione, permettendogli di:
 - **Leggere tutti i messaggi** che transitano nella rete, indipendentemente dal loro mittente o destinatario.
@@ -48,11 +48,11 @@ Nel Modello di Dolev-Yao, l'attaccante è considerato onnipotente nel contesto d
 
 Queste capacità offrono all'attaccante un potere estremamente elevato, rendendo il modello utile per testare la sicurezza dei protocolli nelle peggiori condizioni possibili.
 
-#### Limitazioni dell'Attaccante
+### Limitazioni dell'Attaccante
 
 Nonostante le sue ampie capacità, il modello impone anche una limitazione significativa: l'attaccante **non può decifrare i messaggi criptati** senza la chiave appropriata. Questo assunto è fondamentale perché stabilisce che la crittografia rimane un metodo efficace per proteggere la confidenzialità e l'integrità dei dati, anche di fronte a un avversario potente.
 
-#### Implicazioni Pratiche
+### Implicazioni Pratiche
 
 Il Modello di Dolev-Yao è particolarmente utile nello sviluppo e nell'analisi di protocolli di sicurezza, come quelli usati per la comunicazione sicura su internet (ad esempio, SSL/TLS). Esso aiuta i progettisti di sistemi di sicurezza a:
 - **Valutare la resilienza** dei protocolli di sicurezza contro attacchi sofisticati.
@@ -93,25 +93,25 @@ Dalla tabella "Misurare i Fattori di attacco", possiamo vedere come vengono clas
 Questa tabella consente di analizzare e valutare i rischi associati a diversi profili di attaccanti, facilitando la pianificazione e l'implementazione di misure di sicurezza appropriate. Puoi inserire questi dati in un foglio di calcolo per visualizzare e manipolare facilmente le informazioni a seconda delle tue necessità di sicurezza.
 
 
-### 1. **Skill Level (Livello di abilità)**
+### **Skill Level (Livello di abilità)**
    - **0-1:** No technical skills - Individui senza competenze tecniche, spesso automazioni o utenti che potrebbero involontariamente innescare minacce.
    - **2-3:** Some technical skills - Utenti con competenze tecniche di base che possono eseguire attacchi semplici o sfruttare vulnerabilità note senza necessità di competenze avanzate.
    - **4-5:** Advanced computer user - Utenti con competenze informatiche avanzate che comprendono i sistemi a un livello più profondo e possono eseguire attacchi più complessi.
    - **6-7:** Network and programming skills - Professionisti con abilità tecniche specifiche nel networking e nella programmazione, capaci di sfruttare sistemi complessi.
    - **9:** Security penetration skills - Esperti di sicurezza e penetratori etici con capacità avanzate per testare e violare le misure di sicurezza.
 
-### 2. **Motive (Motivo)**
+### **Motive (Motivo)**
    - **Low or no reward:** Attaccanti che non ricavano un grande beneficio economico o di altra natura, spesso mossi da curiosità o per sfida personale.
    - **Possible reward:** Attaccanti che potrebbero ottenere un certo vantaggio, sebbene non garantito, dalle loro azioni.
    - **High reward:** Attaccanti motivati da significativi guadagni finanziari, politici o sociali, inclusi gruppi di criminalità organizzata o sponsorizzati da stati.
 
-### 3. **Opportunity (Opportunità)**
+### **Opportunity (Opportunità)**
    - **Full access or costly resources required:** Situazioni in cui sono necessarie risorse significative o accessi esclusivi per portare a termine un attacco.
    - **Special access or resources required:** Richiede accessi speciali, come quelli interni a un'organizzazione, o risorse meno comuni ma non proibitive.
    - **Some access or resources required:** Attaccanti che necessitano di un accesso limitato o di risorse moderate per eseguire un attacco.
    - **No access or resources required:** Attaccanti che possono operare completamente da remoto, senza bisogno di risorse speciali.
 
-### 4. **Size (Dimensione)**
+### **Size (Dimensione)**
    - **Developers, system administrators:** Gruppi piccoli ma con elevato livello di accesso e competenze.
    - **Intranet users, partners:** Utenti interni o esterni che hanno accesso a risorse limitate dell'organizzazione.
    - **Authenticated users:** Utenti che hanno accesso legittimo ai sistemi ma con restrizioni su ciò che possono vedere o fare.

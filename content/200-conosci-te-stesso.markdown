@@ -109,7 +109,7 @@ Un sistema efficace di monitoraggio e risposta è vitale per identificare e miti
 
 - **Piani di Risposta agli Incidenti Dettagliati:** Preparazione di piani di risposta pronti all'uso che delineano procedure specifiche per vari tipi di incidenti di sicurezza.
 
-#### Esempio: Implementazione di una Strategia di Riduzione in un'Organizzazione Finanziaria
+**Esempio: Implementazione di una Strategia di Riduzione in un'Organizzazione Finanziaria**
 
 Un istituto finanziario ha ristrutturato la sua infrastruttura di rete per migliorare la sicurezza. Il processo ha incluso la revisione di tutte le porte di rete e l'implementazione di un robusto programma di gestione delle patch per assicurarsi che tutti i sistemi fossero aggiornati.
 
@@ -167,19 +167,19 @@ Questa tabella può essere utilizzata per valutare la sicurezza di vari componen
 
 La tabella  offre una panoramica su come misurare la superficie di attacco in base a diversi criteri, come la facilità di scoperta, la facilità di sfruttamento, la consapevolezza delle vulnerabilità e la capacità di rilevamento delle intrusioni. Ognuno di questi criteri gioca un ruolo cruciale nel determinare non solo la robustezza delle difese di un'organizzazione ma anche la potenziale forza degli attaccanti. Ecco come possiamo utilizzare questi criteri per valutare la forza di un potenziale attaccante:
 
-### 1. **Facilità di Scoperta (Ease of Discovery)**
+### **Facilità di Scoperta (Ease of Discovery)**
    - **Indicatore:** Questo criterio misura quanto sia facile per un attaccante identificare una vulnerabilità all'interno del sistema. Se è "Praticamente impossibile" scoprire vulnerabilità, ciò suggerisce che un attaccante deve possedere competenze molto avanzate o risorse significative per identificarle.
    - **Implicazioni:** Una vulnerabilità difficile da scoprire richiede che l'attaccante abbia capacità tecniche elevate o accesso a strumenti sofisticati, aumentando così la sua "forza" percepita.
 
-### 2. **Facilità di Sfruttamento (Ease of Exploit)**
+### **Facilità di Sfruttamento (Ease of Exploit)**
    - **Indicatore:** Valuta quanto sia semplice per un attaccante sfruttare una vulnerabilità una volta scoperta. Una vulnerabilità che può essere sfruttata solo teoricamente o con grande difficoltà suggerisce che gli attaccanti debbano essere particolarmente capaci o determinati.
    - **Implicazioni:** Un attaccante che può facilmente sfruttare vulnerabilità con strumenti automatizzati potrebbe non essere necessariamente forte in termini di competenze tecniche, ma è pericoloso per la capacità di sfruttare rapidamente e in larga scala le vulnerabilità note.
 
-### 3. **Consapevolezza (Awareness)**
+### **Consapevolezza (Awareness)**
    - **Indicatore:** Misura quanto sia comune la conoscenza di una vulnerabilità. Se una vulnerabilità è di "conoscenza pubblica", gli attaccanti hanno un facile accesso alle informazioni su come sfruttarla.
    - **Implicazioni:** La forza dell'attaccante può variare. Attaccanti meno qualificati possono sfruttare vulnerabilità ben conosciute, mentre quelli più esperti possono cercare di trovare e utilizzare vulnerabilità meno note o addirittura sconosciute.
 
-### 4. **Rilevamento delle Intrusioni (Intrusion Detection)**
+### **Rilevamento delle Intrusioni (Intrusion Detection)**
    - **Indicatore:** Valuta l'efficacia con cui le attività di intrusione possono essere rilevate e gestite all'interno del sistema. Una mancanza di logging o revisione indica vulnerabilità nella postura di sicurezza di un'organizzazione.
    - **Implicazioni:** La forza dell'attaccante è anche misurata dalla sua capacità di evitare il rilevamento. Attaccanti che possono manovrare senza essere rilevati dimostrano una capacità superiore di evitare o neutralizzare i sistemi di sicurezza esistenti.
 

@@ -25,7 +25,7 @@ Ma in genere non è così lineare e semplice ottenere queste stime. Prendiamo il
 
 In questo capitolo ci riferiamo all'approccio di misurazione del rischio elaborato sa OWASP e disponibile online al sito [https://owasp.org/www-community/OWASP_Risk_Rating_Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology).
 
-<img src="images/qrcode_owasp.org-riskrating.png" width=160px></img>
+![OWASP Risk Rating](images/qrcode_owasp.org-riskrating.png)
 
 Come lo stesso OWASP riconosce, esistono altri approcci più completi e maturi per la valutazione del rischio tra cui 
 
@@ -153,35 +153,35 @@ Questa classificazione aiuta le aziende a comprendere non solo le conseguenze te
 
 Per realizzare una valutazione del rischio per un sistema di database clienti di un'agenzia di viaggi online, dobbiamo considerare vari fattori che influenzano la probabilità di un attacco e l'impatto di tale attacco. Ecco come potremmo procedere basandoci sulle tabelle fornite per "superficie di attacco", "capacità dell'attaccante", e l'impatto "tecnico e non tecnico".
 
-### 1. Analisi della Superficie di Attacco
+### Analisi della Superficie di Attacco
 Per un'agenzia di viaggi online, la superficie di attacco potrebbe includere:
 - **Interfaccia web pubblica**: Punto di accesso per la prenotazione e gestione dei viaggi.
 - **Database dei clienti**: Contiene informazioni sensibili come nomi, indirizzi, dettagli di pagamento.
 - **API per partner**: Interfacce per altre aziende nel settore del turismo.
 
-### 2. Capacità dell'Attaccante
+### Capacità dell'Attaccante
 Supponiamo che il sistema sia esposto a Internet e possa attirare attaccanti con diverse competenze:
 - **Skill Level 6-9**: Attaccanti con abilità di programmazione e capacità di penetrazione della sicurezza potrebbero essere attratti dalla ricchezza di dati personali e di pagamento.
 
-### 3. Probabilità di Attacco
+### Probabilità di Attacco
 Utilizzando la tavola delle "capacità dell'attaccante":
 - **Opportunità e Motivazione**: Dati i dati sensibili conservati, ci sono forti motivazioni economiche per attaccare questo sistema. La probabilità di attacco è elevata, data la disponibilità di strumenti automatizzati che possono identificare e sfruttare vulnerabilità comuni in sistemi simili.
 
-### 4. Impatto Tecnico e Non Tecnico
+### Impatto Tecnico e Non Tecnico
 Utilizzando le tabelle di impatto:
 - **Loss of Confidentiality (8)**: Quasi tutti i dati divulgati potrebbero portare a un'enorme perdita di fiducia e problemi legali.
 - **Loss of Integrity (6)**: Dati seriamente corrotti potrebbero portare a decisioni operative errate, influenzando le prenotazioni e i pagamenti.
 - **Loss of Availability (6)**: Interruzione estesa dei servizi primari influenzerebbe gravemente le operazioni giornaliere.
 - **Loss of Accountability (5)**: La violazione dei dati di molti clienti renderebbe l'azienda soggetta a sanzioni per non conformità.
 
-### 5. Calcolo del Rischio
+### Calcolo del Rischio
 Supponendo che la probabilità di attacco sia alta (valutata come 0.8 su una scala da 0 a 1) e l'impatto complessivo (basato sulla media degli impatti tecnici e non tecnici) sia anche alto (valutato come 0.9 su una scala da 0 a 1), il rischio può essere calcolato come:
 
 ```
 Risk = Probability * Harm = 0.8 * 0.9 = 0.72
 ```
 
-### Conclusione
+
 Il risultato indica un rischio molto elevato, suggerendo la necessità di interventi immediati per migliorare le misure di sicurezza. 
 
 In realtà per avere una reale quantificazione del rischio dobbiamo ragionare in termini economici. La stima del danno che può causare un certo evento è anche, e forse soprattutto, economica.
@@ -203,7 +203,9 @@ Naturalmente la Direttiva e agnostica rispetto a metodi e strumenti e si limita 
 
 > I soggetti essenziali e i soggetti  importanti  adottano  misure tecniche [...] proporzionate  al grado  di  esposizione  a  rischi  delsoggetto, alle dimensioni del soggetto e  alla  probabilita'  che  si verifichino incidenti, nonche' alla loro gravita', compreso  il  loro impatto sociale ed economico.
 
-Come abbiamo già visto `rischio = probabilità * gravità`.
+Come abbiamo già visto 
+
+`rischio = probabilità * gravità`.
 
 Nell'art. 27 arriva una sorta di avvertimento:
 
