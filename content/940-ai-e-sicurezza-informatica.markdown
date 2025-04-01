@@ -2,10 +2,9 @@ AI e sicurezza informatica
 ==========================
 
 
-> Un sistema infallibile non può essere intelligente ed un sistema intelligente non può essere infallibile 
+> *Un sistema infallibile non può essere intelligente ed un sistema intelligente non può essere infallibile *
 
-(Alan Turing)
-
+*(Alan Turing)*
 
 **Anche l'AI sbaglia, anzi se è AI allora sbaglia**
 

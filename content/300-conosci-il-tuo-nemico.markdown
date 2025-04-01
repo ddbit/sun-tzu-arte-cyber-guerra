@@ -7,7 +7,7 @@ inserire OWASP top 10
 
 > *Se conosci il nemico e conosci te stesso, non devi temere il risultato di cento battaglie*.
 
-> (Sun Tzu. L'Arte della guerra)
+> *(Sun Tzu. L'Arte della guerra)*
 
 
 

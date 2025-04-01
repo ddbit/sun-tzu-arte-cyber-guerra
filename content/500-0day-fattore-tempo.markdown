@@ -6,7 +6,7 @@ status: READY
 
 > *Il mondo sta cambiando rapidamente. Non sarà più il grande a vincere sul piccolo, ma sarà il veloce a battere il lento.*
 
-> (Rupert Murdoch)
+> *(Rupert Murdoch)*
 
 
 Una vulnerabilità zero-day si riferisce a una falla di sicurezza in un software che è sconosciuta al fornitore del software stesso. Questo tipo di vulnerabilità è particolarmente pericolosa perché non esiste ancora una correzione (patch) disponibile. Gli autori degli attacchi scoprono queste vulnerabilità prima dei fornitori e le sfruttano per compromettere i sistemi informatici.

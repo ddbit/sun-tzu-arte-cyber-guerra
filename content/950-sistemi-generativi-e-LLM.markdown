@@ -5,12 +5,11 @@ status: ALMOST
 
 # AI Generativa ed i suoi rischi
 
-> Thot: "La scrittura renderà gli egiziani più sapienti e aumenterà la loro memoria"
+> *Thot: "La scrittura renderà gli egiziani più sapienti e aumenterà la loro memoria"*
 
-> Thamus: "Senza l’insegnamento orale del maestro non si avrà mai la conoscenza, ma l’arroganza del sapere e sarà impossibile arrivare alla verità"
+> *Thamus: "Senza l’insegnamento orale del maestro non si avrà mai la conoscenza, ma l’arroganza del sapere e sarà impossibile arrivare alla verità"*
 
-(Dialogo tra il dio Thot e il faraone Thamus, ricavato da "Fedro" di Platone)
-
+*(Dialogo tra il dio Thot e il faraone Thamus, ricavato da "Fedro" di Platone)*
 
 
 In questa sezione ci focalizziamo sui sistemi di AI generativa, ed in particolare su quelli chiamati in gergo LLM (Large Language Models).

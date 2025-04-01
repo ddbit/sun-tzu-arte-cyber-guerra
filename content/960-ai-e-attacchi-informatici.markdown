@@ -4,7 +4,7 @@
 
 > *“Un robot non può ferire un essere umano o, per inerzia, permettere che un essere umano venga danneggiato“*
 
-> (Prima legge della Robotica. Isaac Asimov)
+> *(Prima legge della Robotica. Isaac Asimov)*
 
 L'ascesa dell'intelligenza artificiale (AI) ha portato notevoli benefici in molti settori, ma ha anche aperto nuove vie per gli attacchi informatici. Gli aggressori utilizzano l'AI per sviluppare metodi di attacco più sofisticati e automatizzati. Di seguito, esploriamo alcune di queste tecniche di attacco legate alla AI e le possibili contromisure.
 

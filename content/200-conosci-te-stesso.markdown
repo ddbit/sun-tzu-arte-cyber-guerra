@@ -8,7 +8,7 @@ che usa normalmente pc e cellulare.
 
 > *Se non conosci né il nemico né te stesso, soccomberai in ogni battaglia*.
 
-> (Sun Tzu. L'Arte della guerra)
+> *(Sun Tzu. L'Arte della guerra)*
 
 Per rimediare cominciamo a conoscere noi stessi
 

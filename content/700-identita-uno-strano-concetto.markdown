@@ -5,9 +5,8 @@ status: READY
 # Identità e Autenticazione: dalle password alla biometria.
 
 
-> *Nessuno, amici, m’uccide d’inganno e non con la forza*
+> *Nessuno, amici, Nessuno m’uccide d’inganno e non con la forza*
 
-> (Polifemo nell'Odissea)
 
 
 Così come il "vero nome" di un eroe, di un demone o di un dio è il suo punto debole, svelato il quale esorcismi e incantesimi possono essere efficaci su di lui, il concetto di **identità** nel contesto digitale è fondamentale per la sicurezza informatica, la gestione delle informazioni e le interazioni online. L'identità digitale di un individuo, un dispositivo o un'applicazione è composta da un insieme di attributi unici che la rendono riconoscibile e distinta all'interno di un sistema o una rete. Questi attributi possono includere nome, indirizzo email, numero di telefono, e altre specifiche personali o tecniche.

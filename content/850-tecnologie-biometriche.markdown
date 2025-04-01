@@ -6,7 +6,7 @@ status: READY
 
 > *La lingua può nascondere la verità ma gli occhi mai* 
 
-> (Mikhail Bulgakov, da "Il Maestro e Margherita")
+> *(Mikhail Bulgakov, da "Il Maestro e Margherita")*
 
 
 Nel precedente capitolo abbiamo introdotto la biometria come possibile soluzione per la doppia autenticazione. Vediamo alcune caratteristiche delle principali soluzioni presenti sul mercato.
