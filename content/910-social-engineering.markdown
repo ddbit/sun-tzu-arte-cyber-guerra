@@ -1,7 +1,5 @@
-<!---
-status: ALMOST
-inserire attacco via QR
--->
+<!-- \cleardoublepage -->
+
 
 # Social Engineering. L'Arma più efficace in mano agli Hacker
 
@@ -31,19 +29,19 @@ Alcune delle tecniche più comuni includono:
 
 Gli attacchi di social engineering seguono generalmente una metodologia strutturata che consente agli attaccanti di manipolare le vittime in modo efficace. Ecco le fasi tipiche di un attacco di social engineering:
 
-### 1. Raccolta Informazioni
+### Raccolta Informazioni
 La prima fase di un attacco di social engineering è dedicata alla raccolta di informazioni sulla vittima. Gli attaccanti impiegano varie settimane per raccogliere dati cruciali che possono includere dettagli personali, professionali e qualsiasi informazione utile per rendere i loro tentativi di inganno più credibili. Utilizzano fonti pubbliche come social media, siti web, pubblicazioni aziendali e altri database disponibili al pubblico per raccogliere quante più informazioni possibili.
 
-### 2. Verifica delle Informazioni
+### Verifica delle Informazioni
 Dopo aver raccolto i dati, gli attaccanti passano alla fase di verifica per assicurarsi che le informazioni raccolte siano accurate e utili per il loro scopo. Questo può includere attività come l'osservazione discreta della vittima, l'interazione con la vittima attraverso canali indiretti, o il test delle informazioni per verificare la loro autenticità. Questo passaggio è cruciale perché aumenta la probabilità di successo dell'attacco.
 
-### 3. Contatto Diretto
+### Contatto Diretto
 Con le informazioni verificate, gli attaccanti procedono poi a stabilire un contatto diretto con la vittima. Questo può avvenire tramite telefonate, email, messaggi di testo, o anche attraverso piattaforme di social media. In questa fase, l'attaccante spesso si finge una persona di fiducia o un'autorità, come un collega di lavoro, un responsabile IT, o un rappresentante del servizio clienti, cercando di ingannare la vittima per ottenere accesso a informazioni sensibili o per indurla a compiere azioni specifiche.
 
-### 4. Sfruttamento
+### Sfruttamento
 Dopo aver guadagnato la fiducia della vittima o averla ingannata con successo, gli attaccanti sfruttano la situazione per raggiungere il loro obiettivo finale. Questo può includere il furto di credenziali di accesso, dati sensibili, o la manipolazione della vittima per farle eseguire azioni che possono compromettere ulteriormente la sicurezza, come l'installazione di malware o il trasferimento di fondi.
 
-### 5. Uscita
+### Uscita
 Una volta raggiunti i loro obiettivi, gli attaccanti cercano di terminare l'interazione senza lasciare tracce. Questo può includere la cancellazione di tutte le comunicazioni, il mascheramento delle loro tracce digitali, e l'assicurarsi che la vittima non sia consapevole di essere stata ingannata.
 
 
@@ -54,26 +52,26 @@ Cosa ci rende vulnerabili agli attacchi di social engineering?
 
 Gli attacchi di social engineering sfruttano varie vulnerabilità psicologiche umane per manipolare le persone affinché compiano azioni che non farebbero normalmente, come rivelare informazioni sensibili o concedere l'accesso a sistemi protetti. Ecco alcune delle vulnerabilità umane comunemente sfruttate:
 
-### 1. Rispetto dell’Autorità
+### Rispetto dell’Autorità
 Le persone tendono a obbedire a figure di autorità. Gli attaccanti si fingono spesso superiori o esperti per sfruttare questa tendenza, convincendo le vittime a fornire informazioni confidenziali o ad eseguire azioni rischiose.
 
-### 2. Senso di Colpa
+### Senso di Colpa
 Gli attaccanti possono manipolare le emozioni per far sentire in colpa le vittime, spingendole a "riparare" commettendo errori come trasferire fondi o rivelare informazioni sensibili, spesso sotto la pressione di non deludere o di risolvere un problema urgente.
 
-### 3. Panico
+### Panico
 Creare una falsa sensazione di urgenza o di emergenza può portare le persone a prendere decisioni affrettate e irrazionali. Gli attaccanti spesso comunicano scenari di crisi che richiedono una risposta immediata per superare il normale processo decisionale critico.
 
-### 4. Ignoranza
+### Ignoranza
 La mancanza di conoscenza o consapevolezza su specifici argomenti di sicurezza può rendere le persone particolarmente vulnerabili agli attacchi di social engineering. Gli attaccanti possono sfruttare questa lacuna per ingannare le vittime con termini tecnici o procedure inventate.
 
-### 5. Avidità
+### Avidità
 La promessa di guadagni facili o di benefici personali può essere un potente leva per influenzare il comportamento. Gli attaccanti possono offrire ricompense finanziarie o altri incentivi per indurre le vittime a compiere azioni come cliccare su link dannosi o rivelare credenziali di accesso.
 
-### 6. Desiderio
+### Desiderio
 Similmente all'avidità, il desiderio di qualcosa di desiderabile (come un lavoro, una relazione o un status sociale) può essere sfruttato dagli attaccanti. Questi possono presentarsi come capaci di soddisfare tale desiderio in cambio di azioni che compromettono la sicurezza.
 
 
-### Prevenzione e Mitigazione
+### Prevenzione e Mitigazione del Social Engineering
 
 Per prevenire gli attacchi di social engineering, le organizzazioni e gli individui dovrebbero adottare misure come la formazione continua sulla sicurezza, l'implementazione di politiche di sicurezza robuste, e l'uso di tecnologie che aiutano a identificare e bloccare tentativi di phishing e altre forme di inganno.
 
@@ -117,7 +115,7 @@ Il phishing rimane una minaccia significativa nella sicurezza informatica a caus
 Di recente ho esaurito lo spazio disco sul servizio iCloud. Quindi ho cominciato a ricevere dei messaggi leciti da parte della Apple che mi invitavano a estendere lo spazio facendo un acquisto.
 
 
-![vero messaggio Apple](images/phishing-0.png)
+![Vero messaggio Apple iCloud](images/phishing-0.png)
 
 Nella figura ho messo in evidenza i domini internet da cui arrivavano i messaggi e a cui rimandavano i link contenuti nel corpo del messaggio stesso.
 
@@ -127,7 +125,7 @@ Questi messaggi apparivano con una certa frequenza, più o meno ogni volta che u
 
 In mezzo ai vari messaggi nella mia posta elettronica uno mi ha incuriosito:
 
-![phishing mail](images/phishing-1.png)
+![Phishing mail](images/phishing-1.png)
 
 Era un messaggio all'apparenza autentico, e in fondo arrivava in un momento in cui questi messaggi da parte di Apple erano frequenti nella mia mailbox.
 
@@ -135,9 +133,9 @@ Ad una più attenta ispezione dei link tuttavia emergeva qualcosa di strano.
 
 Il link non era verso un dominio di Apple o iCloud ma verso Linkedin, comunque un dominio per me affidabile. Ma allora cosa stava succedendo? Dovevo fidarmi?
 
-![phising mail](images/phishing-2.png)
+![Phishing mail](images/phishing-2.png)
 
-No, ⚠️ Il link Linkedin viene visto come “legale” dai tool anti malware, ma è un trucco, **il link incapsula un altro link ad un sito pericoloso**.
+**No**, il link Linkedin viene visto come “legale” dai tool anti malware, ma è un trucco, **il link incapsula un altro link ad un sito pericoloso**.
 
 Questa tecnica si chiama smart link abuse, ed in pratica è basata sul fatto che le piattaforme come Linkedin quando gli utenti creano dei post contenenti dei link a risorse esterne, di fatto "riscrivono" i link originali esterni con dei link interni.
 
@@ -339,7 +337,8 @@ Tuttavia, il repository contiene codice malevolo nascosto che si attiva quando i
    - Un segnale d’allarme è stato il comportamento anomalo del server: non apparivano log dopo le richieste, suggerendo che qualcosa di nascosto stava interferendo.
 
 
-### **Errori Comuni e Come Evitarli**
+### Come Evitare la Trappola del Code Challenge
+
 Anche candidati esperti possono cadere in queste trappole a causa della pressione del colloquio o della fiducia nell'intervistatore. Ecco cosa si può fare per evitare simili situazioni:
 
 1. **Rivedere Sempre il Codice Prima di Eseguirlo**  

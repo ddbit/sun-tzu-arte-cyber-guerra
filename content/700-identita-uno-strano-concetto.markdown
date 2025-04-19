@@ -1,6 +1,5 @@
-<!---
-status: READY
--->
+<!-- \cleardoublepage -->
+
 
 # Identità e Autenticazione: dalle password alla biometria.
 

@@ -1,7 +1,4 @@
-<!---
-status: ALMOST
-inserire QR al posto del link finale.
--->
+<!-- \cleardoublepage -->
 
 # Licenza
 
@@ -34,4 +31,5 @@ Non sono fornite garanzie. La licenza può non conferirti tutte le autorizzazion
 [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.it](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.it)
 
 <!-- non rimuovere il commento newpage -->
+<!-- \newpage -->
 <!-- \newpage -->

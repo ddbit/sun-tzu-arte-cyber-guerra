@@ -1,6 +1,5 @@
-<!---
-status: READY
--->
+<!-- \cleardoublepage -->
+
 
 Le Password
 =======================
@@ -56,43 +55,62 @@ In conclusione, mentre la stratificazione delle password può sembrare una soluz
 
 Gli errori nella scelta delle password sono tra i più comuni e pericolosi. Questi comportamenti aumentano notevolmente il rischio di subire violazioni di dati e altre forme di attacchi informatici. Ecco un'analisi dettagliata degli errori e alcune raccomandazioni su come evitarli:
 
-### 1. Password Semplici e Prevedibili
+### Password Semplici e Prevedibili
+
 **Problema:** Utilizzare password comuni e facilmente indovinabili, come sequenze numeriche semplici o parole banali.
+
 **Soluzione:** Usare password lunghe e complesse, generate casualmente, che combinano lettere maiuscole e minuscole, numeri e simboli.
 
-### 2. Informazioni Personali
+### Informazioni Personali
+
 **Problema:** Includere dettagli personali facilmente accessibili pubblicamente.
+
 **Soluzione:** Evitare l'uso di qualsiasi informazione personalmente identificabile nelle password.
 
-### 3. Password Identiche
+### Password Identiche
+
 **Problema:** Usare la stessa password per più account, il che può portare a una cascata di violazioni da un singolo punto di fallimento.
+
 **Soluzione:** Utilizzare una password unica per ogni account, idealmente gestite attraverso un gestore di password.
 
-### 4. Password Brevi
+### Password Brevi
+
 **Problema:** Le password corte sono più suscettibili agli attacchi di forza bruta.
+
 **Soluzione:** Creare password che siano almeno 12-16 caratteri di lunghezza.
 
-### 5. Mancanza di Caratteri Speciali o Numeri
+### Mancanza di Caratteri Speciali o Numeri
+
 **Problema:** Password composte solo da lettere sono meno complesse e più facili da craccare.
+
 **Soluzione:** Includere una varietà di caratteri speciali, numeri e lettere.
 
-### 6. Non Aggiornare le Password
+### Non Aggiornare le Password
+
 **Problema:** Mantenere la stessa password per lunghi periodi aumenta il rischio che venga scoperta.
+
 **Soluzione:** Cambiare le password regolarmente, almeno una volta all'anno o dopo ogni violazione di dati.
 
-### 7. Condivisione delle Password
+### Condivisione delle Password
+
 **Problema:** Condividere le password può portare a un accesso non autorizzato.
+
 **Soluzione:** Non condividere mai le password. Utilizzare strumenti come la condivisione di credenziali gestita o i permessi per delegare l'accesso senza condividere le proprie credenziali.
 
-### 8. Password Scritte su Carta
+### Password Scritte su Carta
+
 **Problema:** Annotare le password le rende vulnerabili al furto fisico.
+
 **Soluzione:** Utilizzare un gestore di password digitale invece di appunti fisici.
 
-### 9. Ignorare l'Autenticazione Multi-Fattore
+### Ignorare l'Autenticazione Multi-Fattore
+
 **Problema:** Non utilizzare MFA lascia l'utente vulnerabile anche se la password viene scoperta.
+
 **Soluzione:** Abilitare l'autenticazione a più fattori su tutti i servizi che offrono questa funzionalità per un livello aggiuntivo di sicurezza.
 
 ## Peggiori Password del 2021
+
 Le password che hai elencato, come "123456" o "password", sono esempi perfetti di come non dovrebbero essere scelte le password. Questi esempi mostrano la necessità di aumentare la consapevolezza sulla sicurezza e l'importanza di seguire le buone pratiche nella creazione e gestione delle password.
 
 In sintesi, la scelta di password sicure e l'adozione di buone pratiche di sicurezza sono essenziali per proteggere l'accesso ai dati e agli account online. Utilizzare un gestore di password e abilitare l'autenticazione multi-fattore dovrebbe essere considerato essenziale in qualsiasi strategia di sicurezza personale o aziendale.
@@ -103,7 +121,10 @@ In sintesi, la scelta di password sicure e l'adozione di buone pratiche di sicur
 L'immagine che hai condiviso fornisce statistiche interessanti sull'uso delle password tra gli adulti statunitensi. Ecco un riepilogo dettagliato delle statistiche estratte dall'immagine:
 
 ### Statistiche Generali sull'Uso delle Password
-- **24%** degli americani ha utilizzato alcune delle password più comuni o loro varianti. Queste includono:
+
+
+Secondo alcuni studi risulta che il **24%** degli americani ha utilizzato alcune delle password più comuni o loro varianti. Queste includono:
+
   - abc123
   - Password
   - 123456
@@ -113,14 +134,16 @@ L'immagine che hai condiviso fornisce statistiche interessanti sull'uso delle pa
   - Admin
   - Welcome
 
-### Uso di Nomi e Date di Compleanno nelle Password
-- **59%** degli adulti statunitensi ha incluso un nome o una data di compleanno nelle loro password per account online, suddiviso come segue:
+
+Sempre secondo gli stessi ricercatori, il **59%** degli adulti statunitensi ha incluso un nome o una data di compleanno nelle loro password per account online, suddiviso come segue:
+
   - **33%** ha usato il nome di un animale domestico.
   - **22%** ha usato il proprio nome.
   - **15%** ha usato il nome del coniuge o partner.
   - **14%** ha usato il nome di uno o più figli.
 
-### Analisi delle Statistiche
+
+
 Queste statistiche rivelano una tendenza preoccupante nell'uso di password facilmente indovinabili che mettono a rischio la sicurezza degli account online. Utilizzare informazioni personali come nomi di famiglia, date di compleanno, o altri dettagli facilmente reperibili può rendere gli account vulnerabili ad attacchi di guessing o di dizionario. 
 
 L'uso di questi dati personali nelle password riflette una mancanza di consapevolezza o di attenzione verso le migliori pratiche di sicurezza, che raccomandano di evitare informazioni facilmente accessibili o indovinabili. La formazione e la sensibilizzazione sulla sicurezza informatica sono cruciali per migliorare queste abitudini e rafforzare la protezione degli account personali e lavorativi.
@@ -180,7 +203,7 @@ Le opzioni per custodire le password includono:
 
 Ogni metodo ha i suoi vantaggi e svantaggi:
 
-### 1. Memorizzazione Mentale
+### Memorizzazione Mentale
 **Pro:**
 - Teoricamente il più sicuro poiché non lascia tracce fisiche o digitali.
 
@@ -188,7 +211,7 @@ Ogni metodo ha i suoi vantaggi e svantaggi:
 - Impraticabile per un grande numero di password.
 - Tende a portare all'uso di password semplici e al loro riutilizzo per facilitarne il ricordo.
 
-### 2. Scrittura su Pezzo di Carta
+### Scrittura su Pezzo di Carta
 **Pro:**
 - Semplice e accessibile.
 - Non richiede tecnologia, quindi meno vulnerabile a attacchi cibernetici diretti.
@@ -198,7 +221,7 @@ Ogni metodo ha i suoi vantaggi e svantaggi:
 - Non pratico se si viaggia spesso.
 - Vulnerabile a danni fisici come incendi o allagamenti.
 
-### 3. File nel Computer
+### File nel Computer
 **Pro:**
 - Centralizza la conservazione delle password in un unico luogo facilmente accessibile.
 
@@ -207,7 +230,7 @@ Ogni metodo ha i suoi vantaggi e svantaggi:
 - Se si utilizzano cartelle condivise online, il file è esposto a una maggiore superficie d’attacco.
 - La perdita o il guasto del computer può portare alla perdita delle password, a meno che non si disponga di backup adeguati.
 
-### 4. Algoritmo Mentale
+### Algoritmo Mentale
 **Pro:**
 - Genera password che possono essere ricreate se necessario senza doverle memorizzare o scrivere.
 
@@ -216,7 +239,7 @@ Ogni metodo ha i suoi vantaggi e svantaggi:
 - Difficile gestire il cambio frequente di password senza ricadere nello stesso output.
 - Cambiando l'algoritmo nel tempo, si possono dimenticare le password generate con versioni precedenti.
 
-### 5. Password Manager
+### Password Manager
 **Pro:**
 - Centralizza e cripta le password in un unico luogo.
 - Offre funzionalità avanzate come la generazione automatica di password forti e l'auto-riempimento nei form online.
@@ -235,7 +258,7 @@ Il documento che hai allegato fornisce una panoramica completa sulla gestione de
 
 Vediamo come vengono gestite le nostre password dai servizi che ci chiedono di inserirle.
 
-- **Hashing delle Password**: Le password non vengono conservate in forma leggibile nei database. Invece, vengono trasformate in una stringa di caratteri non leggibile tramite un algoritmo di hashing. Questo processo è fondamentale per la sicurezza, poiché anche se il database viene compromesso, le password originali non sono direttamente esposte.
+**Hashing delle Password**: Le password non vengono conservate in forma leggibile nei database. Invece, vengono trasformate in una stringa di caratteri non leggibile tramite un algoritmo di hashing. Questo processo è fondamentale per la sicurezza, poiché anche se il database viene compromesso, le password originali non sono direttamente esposte.
 
 Creare un database di password sicuro implica l'uso di pratiche avanzate di crittografia e hashing per proteggere le credenziali degli utenti. Qui di seguito, offro un esempio semplificato di come potrebbe essere strutturato un database di password sicuro. La struttura include l'uso di hash e salt per ogni password. Come vedremo, il salt è un piccolo dato aggiunto alla password che la rende unica anche rispetto a quella di un utente che dovesse scegliere una password uguale alla nostra. 
 
@@ -264,24 +287,30 @@ Questo esempio mostra un modo in cui i database di password possono essere strut
 
 
 ### Attacco del Dizionario
-- **Definizione e Descrizione**: Questo attacco utilizza un elenco predefinito di parole comuni o frasi per accedere non autorizzato a sistemi o account, sfruttando password deboli o comuni.
-- **Efficacia**: Gli attacchi del dizionario sono generalmente inefficaci contro sistemi online moderni che bloccano tentativi ripetuti dallo stesso IP, ma possono essere efficaci se l'attaccante ha accesso a una copia del database delle password, nonostante siano in forma hash.
+
+Questo attacco utilizza un elenco predefinito di parole comuni o frasi per accedere non autorizzato a sistemi o account, sfruttando password deboli o comuni.
+
+**Efficacia**: Gli attacchi del dizionario sono generalmente inefficaci contro sistemi online moderni che bloccano tentativi ripetuti dallo stesso IP, ma possono essere efficaci se l'attaccante ha accesso a una copia del database delle password, nonostante siano in forma hash.
 
 ### Rainbow Table
-- **Descrizione**: Le Rainbow Table sono database precalcolati che contengono hash di password comuni e le corrispondenti password in chiaro. Questi strumenti sono usati per decifrare rapidamente le password hashate.
-- **Protezione**: Si può proteggere da queste tabelle utilizzando il "salt", un metodo che aggiunge dati casuali alle password prima del processo di hashing, rendendo le Rainbow Table meno efficaci, anzi praticamente inutili.
+
+Le Rainbow Table sono database precalcolati che contengono hash di password comuni e le corrispondenti password in chiaro. Questi strumenti sono usati per decifrare rapidamente le password hashate.
+
+**Protezione**: Ci si può proteggere da queste tabelle utilizzando il "salt", un metodo che aggiunge dati casuali alle password prima del processo di hashing, rendendo le Rainbow Table meno efficaci, anzi praticamente inutili.
 
 ## Processo di Registrazione e Reset Password
 
 Come utenti siamo ormai avvezzi a queste procedure. Ogni servizio online ci richiede di fare una registrazione e nei casi in cui ad un accesso successivo non ricordassimo la password, questi servizi in genere consentono di annullare la vecchia password per permetterci di sceglierne una nuova.
 
-- **Registrazione**: Il processo include l'inserimento delle credenziali dall'utente, l'invio di un link di conferma da parte del sistema, e l'attivazione dell'account dopo la conferma dell'utente.
-- **Reset della Password**: Inizia con una richiesta di reset da parte dell'utente, seguita dall'invio di un link di reset al suo indirizzo email. L'utente crea una nuova password tramite il link ricevuto, e il sistema aggiorna e conferma il cambiamento.
+**Registrazione**: Il processo include l'inserimento delle credenziali dall'utente, l'invio di un link di conferma da parte del sistema, e l'attivazione dell'account dopo la conferma dell'utente.
+
+**Reset della Password**: Inizia con una richiesta di reset da parte dell'utente, seguita dall'invio di un link di reset al suo indirizzo email. L'utente crea una nuova password tramite il link ricevuto, e il sistema aggiorna e conferma il cambiamento.
 
 ### Nota Finale sul Recupero delle Password
-- **Pratiche di Sicurezza**: Un servizio sicuro non invierà mai la password originale dimenticata. Invece, chiederà all'utente di impostare una nuova password. Nei servizi di pagamento, il cambiamento dovrebbe includere un'autenticazione forte. Inoltre, potrebbe essere introdotto un periodo di inattività forzata dopo il cambiamento della password per motivi di sicurezza.
 
-Questo documento fornisce una guida essenziale per comprendere come le password vengono gestite in modo sicuro nei sistemi informatici e quali misure possono essere adottate per proteggere le credenziali degli utenti da vari tipi di attacchi informatici.
+Un servizio sicuro non invierà mai la password originale dimenticata. Invece, chiederà all'utente di impostare una nuova password. Nei servizi di pagamento, il cambiamento dovrebbe includere un'autenticazione forte. Inoltre, potrebbe essere introdotto un periodo di inattività forzata dopo il cambiamento della password per motivi di sicurezza.
+
+
 
 <!-- non rimuovere il commento newpage -->
 <!-- \newpage -->

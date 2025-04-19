@@ -1,13 +1,10 @@
-<!---
-status: ALMOST
+<!-- \cleardoublepage -->
 
-inserire QR al posto dei link interi
-inserire altre metodologie per valutazione rischio? NIST800-30?
--->
 
 # Esempio di calcolo del Rischio
 
-> *Se non lo puoi misurare non lo puoi migliorare* (Lord Kelvin)
+> *Se non lo puoi misurare non lo puoi migliorare* 
+> (Lord Kelvin)
 
 Abbiamo visto come dare una valutazione più o meno quantitativa della nostra superficie d'attacco e della forza dell'attaccante. Ora nel nostro percorso di calcolo 
 
@@ -155,23 +152,33 @@ Per realizzare una valutazione del rischio per un sistema di database clienti di
 
 ### Analisi della Superficie di Attacco
 Per un'agenzia di viaggi online, la superficie di attacco potrebbe includere:
+
 - **Interfaccia web pubblica**: Punto di accesso per la prenotazione e gestione dei viaggi.
+
 - **Database dei clienti**: Contiene informazioni sensibili come nomi, indirizzi, dettagli di pagamento.
+
 - **API per partner**: Interfacce per altre aziende nel settore del turismo.
 
 ### Capacità dell'Attaccante
+
 Supponiamo che il sistema sia esposto a Internet e possa attirare attaccanti con diverse competenze:
+
 - **Skill Level 6-9**: Attaccanti con abilità di programmazione e capacità di penetrazione della sicurezza potrebbero essere attratti dalla ricchezza di dati personali e di pagamento.
 
 ### Probabilità di Attacco
 Utilizzando la tavola delle "capacità dell'attaccante":
+
 - **Opportunità e Motivazione**: Dati i dati sensibili conservati, ci sono forti motivazioni economiche per attaccare questo sistema. La probabilità di attacco è elevata, data la disponibilità di strumenti automatizzati che possono identificare e sfruttare vulnerabilità comuni in sistemi simili.
 
 ### Impatto Tecnico e Non Tecnico
 Utilizzando le tabelle di impatto:
+
 - **Loss of Confidentiality (8)**: Quasi tutti i dati divulgati potrebbero portare a un'enorme perdita di fiducia e problemi legali.
+
 - **Loss of Integrity (6)**: Dati seriamente corrotti potrebbero portare a decisioni operative errate, influenzando le prenotazioni e i pagamenti.
+
 - **Loss of Availability (6)**: Interruzione estesa dei servizi primari influenzerebbe gravemente le operazioni giornaliere.
+
 - **Loss of Accountability (5)**: La violazione dei dati di molti clienti renderebbe l'azienda soggetta a sanzioni per non conformità.
 
 ### Calcolo del Rischio

@@ -1,13 +1,11 @@
-<!---
-status: ALMOST
-inserire OWASP top 10
--->
+<!-- \cleardoublepage -->
+
 
 # Modello dell'Attaccante - "Conosci il Tuo Nemico"
 
 > *Se conosci il nemico e conosci te stesso, non devi temere il risultato di cento battaglie*.
 
-> *(Sun Tzu. L'Arte della guerra)*
+> (Sun Tzu. L'Arte della guerra)
 
 
 

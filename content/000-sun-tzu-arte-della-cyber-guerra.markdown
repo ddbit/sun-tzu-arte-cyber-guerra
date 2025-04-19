@@ -1,10 +1,11 @@
 
-\newpage
+<!-- \newpage -->
+
 # Sun Tzu e l'arte della cyber guerra 
 
 > *Se conosci il nemico e conosci te stesso, non devi temere il risultato di cento battaglie. Se conosci te stesso ma non il nemico, per ogni vittoria ottenuta subirai anche una sconfitta. Se non conosci né il nemico né te stesso, soccomberai in ogni battaglia*
 
-> *Sun Tzu. L’Arte della guerra.*
+> Sun Tzu. L’Arte della guerra.
 
 
 Nell'arena digitale moderna, dove cybercriminali e difensori digitali danzano un tango incessante di attacchi e difese, le strategie di un antico maestro cinese, Sun Tzu, trovano una risonanza sorprendente. Sun Tzu, il leggendario generale, stratega e filosofo vissuto nel V secolo a.C., ha lasciato in eredità "L'arte della guerra", un trattato che trascende il suo contesto storico per offrire perle di saggezza applicabili anche nella lotta alla cybercriminalità odierna.

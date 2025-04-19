@@ -1,6 +1,5 @@
-<!---
-status: READY
--->
+<!-- \cleardoublepage -->
+
 
 # Ransomware
 
@@ -52,7 +51,7 @@ In definitiva, il ransomware rimane una delle più grandi minacce per la sicurez
 
 L'immagine rappresenta una torta grafica che mostra la distribuzione delle varie tipologie di malware rilevate nel 2020, secondo il Rapporto 2021 sulla Sicurezza ICT in Italia di Clusit. Ecco un'analisi dei dati mostrati:
 
-![Distribuzione delle tipologie di Malware, 2020](images/malware.png)
+![Distribuzione delle tipologie di Malware, 2020](images/malware-hist.png)
 
 
 - **Ransomware (67%)**: Questa categoria domina nettamente il grafico, indicando che il ransomware è stato il tipo di malware più prevalente nel 2020. Questo sottolinea l'importanza crescente delle campagne di ransomware che mirano a criptare i dati delle vittime e richiedere un riscatto per il loro sblocco.
@@ -156,24 +155,24 @@ Va sottolineata l'importanza della preparazione e della resilienza contro gli at
 
 Le misure di protezione dal ransomware sono essenziali per difendere le organizzazioni e gli individui da uno dei tipi di attacchi informatici più devastanti e in rapida crescita. Ecco alcune delle strategie più efficaci per proteggere i dati e i sistemi informatici:
 
-### 1. Aggiornamenti Regolari di Software e Antivirus
+### Aggiornamenti Regolari di Software e Antivirus
 - **Sistema Operativo e Software**: Mantenere aggiornato il sistema operativo e tutti i software è fondamentale. Gli aggiornamenti spesso includono patch di sicurezza che chiudono le vulnerabilità che i ransomware potrebbero sfruttare.
 - **Antivirus e Antimalware**: Assicurarsi che le soluzioni antivirus e antimalware siano sempre aggiornate e configurate per eseguire scansioni regolari. Questi strumenti possono rilevare e isolare i ransomware prima che causino danni.
 
-### 2. Sistemi di Protezione e Rilevamento Avanzati
+### Sistemi di Protezione e Rilevamento Avanzati
 - **IDS (Intrusion Detection System)**: Un IDS monitora il traffico di rete per attività sospette che potrebbero indicare un tentativo di intrusione, inclusi gli attacchi di ransomware.
 - **IPS (Intrusion Prevention System)**: L'IPS non solo rileva le intrusioni ma interviene attivamente per bloccarle prima che causino danni.
 - **EDR (Endpoint Detection and Response)**: Gli strumenti EDR offrono una protezione avanzata per i dispositivi finali monitorando e rispondendo a minacce come il malware. Possono identificare comportamenti sospetti, contenere infezioni e ripristinare i dispositivi a uno stato sicuro.
 
-### 3. Backup dei Dati
+### Backup dei Dati
 - **Backup Regolari**: Eseguire backup regolari e automatici di tutti i dati importanti. Questi backup devono essere frequenti abbastanza da minimizzare la perdita di dati in caso di attacco.
 - **Isolamento dei Backup**: Proteggere i backup in modo che non siano accessibili dalla rete principale. Questo può includere l'uso di dischi esterni, cloud storage con autenticazione forte o sistemi di storage fisicamente separati.
 
-### 4. Protezione del Backup
+### Protezione del Backup
 - **Cifratura dei Backup**: Assicurarsi che i backup siano cifrati per prevenire l'accesso non autorizzato in caso siano compromessi.
 - **Controllo di Accesso**: Limitare l'accesso ai backup solo al personale che ne ha effettivamente bisogno, riducendo così il rischio di attacchi interni o di furto di credenziali.
 
-### 5. Formazione e Sensibilizzazione degli Utenti
+### Formazione e Sensibilizzazione degli Utenti
 - **Consapevolezza sui Ransomware**: Formare regolarmente i dipendenti sui rischi del ransomware, le tecniche comuni usate dagli attaccanti, come il phishing, e le migliori pratiche per evitarli.
 - **Simulazioni di Phishing**: Condurre test di phishing simulati per valutare la preparazione dei dipendenti e identificare aree di miglioramento nella sicurezza comportamentale.
 

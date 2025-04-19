@@ -1,10 +1,12 @@
+<!-- \cleardoublepage -->
+
 AI e sicurezza informatica
 ==========================
 
 
 > *Un sistema infallibile non può essere intelligente ed un sistema intelligente non può essere infallibile *
 
-*(Alan Turing)*
+> (Alan Turing)
 
 **Anche l'AI sbaglia, anzi se è AI allora sbaglia**
 
@@ -78,6 +80,7 @@ Google ha dichiarato che le sue TPU sono state utilizzate nella sfida di Go: Alp
 
 Intanto dividiamoli in due grandi categorie, modelli per la **regressione** e modelli per la **classificazione**:
 
+![Confronto tra Regressione e Classificazione](images/regression_vs_classification_2.png)
 
 Questa figura mostra la differenza tra **regressione** e **classificazione** nei modelli di machine learning:
 
@@ -93,13 +96,7 @@ Questa figura mostra la differenza tra **regressione** e **classificazione** nei
 
 La figura mette a confronto i due approcci evidenziando le differenze visive tra previsione di valori continui e assegnazione di categorie.
 
-![Regressione vs classificazione](images/regression_vs_classification.png)
-
-
-**Differenza fondamentale:**
-- **Regressione**: Produce valori continui come output.
-- **Classificazione**: Assegna i dati a categorie o classi discrete.
-
+La differenza fondamentale è che mentre la **Regressione** produce valori continui come output, la **Classificazione** assegna i dati a categorie o classi discrete.
 
 Le fasi di **training**, **testing** e **inferenza** rappresentano il ciclo vitale di un modello di apprendimento automatico.
 
@@ -115,7 +112,7 @@ Queste fasi sono iterative: se i risultati non sono soddisfacenti, si torna al t
 La figura rappresenta un diagramma schematico dei principali approcci di **apprendimento automatico (Machine Learning)** e del processo che porta alla creazione e all'uso dei modelli di intelligenza artificiale (AI). Ecco una spiegazione dei tre principali tipi di apprendimento mostrati:
 
 
-![apprendimento](images/apprendimento.png)
+![Apprendimento](images/apprendimento.png)
 
 
 Training (Addestramento)
@@ -163,11 +160,11 @@ Quando si tratta di codice sappiamo che la sua correttezza è molto importante p
 
 L'Institute of Electrical and Electronics Engineers (IEEE) ha catalogato gli errori nel software in tre diverse categorie a seconda della natura degli errori stessi:
 
-Error: è un errore umano verificatosi durante il processo di interpretazione delle specifiche oppure durante l'uso di un metodo o nel tentativo di risoluzione di un problema.
+- Error: è un errore umano verificatosi durante il processo di interpretazione delle specifiche oppure durante l'uso di un metodo o nel tentativo di risoluzione di un problema.
 
-Failure: è un comportamento del software imprevisto e incongruo rispetto alle specifiche del programma stesso.
+- Failure: è un comportamento del software imprevisto e incongruo rispetto alle specifiche del programma stesso.
 
-Fault: è un difetto del codice sorgente.
+- Fault: è un difetto del codice sorgente.
 
 
 In altre parole possiamo distinguere gli errori che derivano da una cattiva implementazione delle specifiche funzionali e che quindi portano a comportamenti non previsti a chi ha commissionato il software ad guasti o malfunzionamenti che portano al blocco o rallentamento del sistema, alla violazione di privatezza e fino alla distruzione dei dati.
@@ -188,7 +185,7 @@ Ecco la matrice di confusione per il caso medico in formato markdown:
 | **Malattia Presente (Reale)** | 80                          | 20                          |
 | **Malattia Assente (Reale)**  | 15                          | 85                          |
 
-### Spiegazione:
+
 - **80**: Veri Positivi (TP) - Pazienti malati correttamente diagnosticati.
 - **20**: Falsi Negativi (FN) - Pazienti malati che il modello non ha rilevato.
 - **15**: Falsi Positivi (FP) - Pazienti sani diagnosticati erroneamente come malati.
@@ -208,43 +205,63 @@ Il concetto di **Trustworthy AI** si riferisce alla creazione e all'implementazi
 Un'AI che sia spiegabile, responsabile, sicura ed etica rappresenta una tecnologia su cui le persone possono fare affidamento. Integrare questi principi durante la progettazione e l'implementazione garantisce un equilibrio tra innovazione tecnologica e protezione dei diritti umani, delle normative e della fiducia del pubblico.
 
 
-### 1. **Explainable (Spiegabile)**  
+### **Explainable (Spiegabile)**  
 Un sistema di AI deve essere comprensibile dagli utenti e dagli stakeholder.  
-- **Caratteristiche principali**:
-  - **Trasparenza**: I processi decisionali devono essere chiaramente documentati.
-  - **Interpretabilità**: Gli utenti devono essere in grado di capire, almeno in termini generali, come il sistema arriva a determinate decisioni.
-  - **Auditabilità**: Gli output del sistema devono poter essere verificati per rilevare eventuali errori o bias.
-- **Benefici**:
+
+**Caratteristiche principali**:
+
+- **Trasparenza**: I processi decisionali devono essere chiaramente documentati.
+
+- **Interpretabilità**: Gli utenti devono essere in grado di capire, almeno in termini generali, come il sistema arriva a determinate decisioni.
+  
+- **Auditabilità**: Gli output del sistema devono poter essere verificati per rilevare eventuali errori o bias.
+
+**Benefici**:
   - Migliora la fiducia degli utenti.
   - Facilita la correzione di errori o bias.
 
-### 2. **Accountable (Responsabile)**  
+### **Accountable (Responsabile)**  
 Il sistema deve essere progettato per consentire la responsabilità umana in ogni fase.  
-- **Caratteristiche principali**:
-  - **Attribuzione della responsabilità**: Deve essere chiaro chi è responsabile per le decisioni prese dall'AI.
-  - **Monitoraggio continuo**: I sistemi devono essere costantemente sorvegliati per garantire il rispetto delle politiche e dei risultati desiderati.
-  - **Meccanismi di ricorso**: Gli utenti devono poter contestare decisioni prese dall'AI.
-- **Benefici**:
-  - Assicura la conformità con le leggi e i regolamenti.
-  - Riduce il rischio di abusi o malfunzionamenti.
 
-### 3. **Secure (Sicuro)**  
+**Caratteristiche principali**:
+
+- **Attribuzione della responsabilità**: Deve essere chiaro chi è responsabile per le decisioni prese dall'AI.
+
+- **Monitoraggio continuo**: I sistemi devono essere costantemente sorvegliati per garantire il rispetto delle politiche e dei risultati desiderati.
+
+- **Meccanismi di ricorso**: Gli utenti devono poter contestare decisioni prese dall'AI.
+
+**Benefici**:
+- Assicura la conformità con le leggi e i regolamenti.
+- Riduce il rischio di abusi o malfunzionamenti.
+
+###  **Secure (Sicuro)**  
 L'AI deve essere resistente agli attacchi, proteggendo dati e processi.  
-- **Caratteristiche principali**:
+**Caratteristiche principali**:
+
   - **Protezione contro attacchi informatici**: Resistenza a minacce come data poisoning, iniezione di prompt o manipolazioni.
+
   - **Privacy dei dati**: Protezione delle informazioni personali e sensibili degli utenti.
+
   - **Integrità del sistema**: Garanzia che il sistema non venga compromesso o utilizzato in modi non previsti.
-- **Benefici**:
+
+
+**Benefici**:
   - Aumenta la resilienza contro vulnerabilità.
   - Mantiene l'integrità delle operazioni e delle decisioni.
 
-### 4. **Ethical (Etico)**  
+### **Ethical (Etico)**  
 Il sistema deve rispettare valori e principi morali condivisi, con un impatto positivo sulla società.  
-- **Caratteristiche principali**:
+
+**Caratteristiche principali**:
+
   - **Non-discriminazione**: Prevenzione di bias che potrebbero portare a decisioni ingiuste o discriminatorie.
+
   - **Benessere umano**: L'AI deve promuovere il progresso umano, evitando danni.
+
   - **Sostenibilità**: Deve considerare il suo impatto ambientale ed economico.
-- **Benefici**:
+
+**Benefici**:
   - Promuove l'accettazione sociale dell'AI.
   - Allinea il sistema con i principi universali di giustizia e uguaglianza.
 

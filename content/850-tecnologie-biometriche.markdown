@@ -1,27 +1,75 @@
-<!---
-status: READY
--->
+<!-- \cleardoublepage -->
 
-# Esempi di Tecnologie biometriche.
+
+# Tecnologie biometriche.
 
 > *La lingua può nascondere la verità ma gli occhi mai* 
 
 > *(Mikhail Bulgakov, da "Il Maestro e Margherita")*
 
 
-Nel precedente capitolo abbiamo introdotto la biometria come possibile soluzione per la doppia autenticazione. Vediamo alcune caratteristiche delle principali soluzioni presenti sul mercato.
+
+
+La biometria rappresenta una tecnologia sempre più centrale nella sicurezza e autenticazione, sfruttando le caratteristiche uniche fisiche o comportamentali delle persone per identificarle. 
+
+Possiamo spingerci a dire che quando la biometria diventa uno strumento nelle mani dell'utente, come ad esempio inserita in uno smartphone e senza un'esfiltrazione dei dati biometrici da parte del costruttore del dispositivo, il dispositivo stesso diventa una forte componente di controllo dell'identità dell'utente. 
+
+All'estremo potremmo dire che lo scopo ultimo di uno smartphone dotato di biometria potrebbe essere la gestione della nostra identità.
+
+Posto infatti che ogni applicazione installata sul nostro smartphone può essere remotamente controllata, gestita e manipolata dallo sviluppatore della app stessa, la nostra identità sul dispositivo è il vero valore unico che il dispositivo stesso ci fornisce.
+
+Ecco un approfondimento sui diversi tipi di tecnologie biometriche e le loro applicazioni:
+
+## Riconoscimento Facciale
+
+**Tecnologia**: Utilizza algoritmi avanzati per analizzare i tratti del viso e identificare gli individui in modo rapido e intuitivo. 
+**Vantaggi**:
+- Velocità e intuitività nell'uso quotidiano.
+- Ampia applicazione, dalla sicurezza dei telefoni a quella degli aeroporti.
+
+**Svantaggi**:
+- **Privacy**: La raccolta e la gestione dei dati biometrici sollevano importanti preoccupazioni sulla privacy. È fondamentale che queste informazioni siano protette adeguatamente per prevenire abusi o furti di dati.
+
+### Impronte Digitali
+**Affidabilità**: È uno dei metodi biometrici più affidabili, poiché le impronte digitali sono uniche per ogni persona.
+**Vantaggi**:
+- Accesso rapido e sicuro a dispositivi e sistemi.
+- Elevato livello di sicurezza contro gli accessi non autorizzati, data la difficoltà di replicare le impronte.
+
+**Svantaggi**:
+- **Vulnerabilità**: Nonostante la difficoltà di replicazione, tecniche sofisticate possono a volte duplicare le impronte digitali da oggetti toccati dalla vittima.
+
+### Scansione dell'Iride
+**Precisione**: Utilizza la complessità unica dell'iride di ciascun individuo per offrire un metodo di identificazione estremamente preciso.
+**Vantaggi**:
+- Tecnologia non intrusiva che può operare a distanza.
+- Utilizzo in settori critici come la sicurezza aeroportuale e il settore bancario.
+
+**Svantaggi**:
+- **Costo e complessità**: Le tecnologie di scansione dell'iride possono essere costose e complesse da implementare rispetto ad altre forme di biometria.
+
+### Riconoscimento Vocale
+**Naturalezza**: Basa l'autenticazione sulle caratteristiche uniche della voce di una persona, offrendo un metodo di accesso naturale e conveniente.
+**Vantaggi**:
+- Utilizzabile in una varietà di ambienti, dalla verifica telefonica all'automazione domestica.
+
+**Svantaggi**:
+- **Affidabilità**: Sensibile a fattori ambientali come il rumore di fondo.
+- **Sicurezza**: Vulnerabile agli attacchi di deep fake e imitazioni, specialmente con l'avanzare delle tecnologie di sintesi vocale.
 
 ## Apple Face ID
 
-Il Face ID di Apple rappresenta un notevole avanzamento nel campo delle tecnologie di sicurezza biometrica, offrendo un metodo di autenticazione basato sul riconoscimento facciale che è sia sicuro sia conveniente. Basandoci sulle informazioni fornite dall'azienda, esaminiamo le caratteristiche di sicurezza del Face ID e la sua efficacia rispetto ad altre forme di autenticazione biometrica come il Touch ID.
+Il Face ID di Apple rappresenta un notevole avanzamento nel campo delle tecnologie di sicurezza biometrica, offrendo un metodo di autenticazione basato sul riconoscimento facciale che è sia sicuro sia conveniente. 
 
-### 1. **Addestramento Contro le Maschere Iperrealistiche**
+Basandoci sulle informazioni fornite dall'azienda, esaminiamo le caratteristiche di sicurezza del Face ID e la sua efficacia rispetto ad altre forme di autenticazione biometrica come il Touch ID.
+
+### **Addestramento Contro le Maschere Iperrealistiche**
 Apple ha addestrato il Face ID per riconoscere e non autorizzare le maschere iperrealistiche, come quelle prodotte negli studi di Hollywood. Questo significa che il sistema utilizza sofisticati algoritmi di riconoscimento facciale che possono distinguere tra un volto reale e una copia artificiale estremamente realistica. Questa caratteristica riduce significativamente la probabilità che il Face ID venga ingannato da maschere o altre tecniche che cercano di replicare il volto di una persona.
 
-### 2. **Funzione 'Attention Aware'**
+### **Funzione 'Attention Aware'**
 La funzione "Attention Aware" di Face ID aumenta ulteriormente la sicurezza assicurando che il dispositivo si sblocchi solo quando l'utente guarda direttamente il telefono con gli occhi aperti. Questo impedisce l'accesso non autorizzato, ad esempio, quando l'utente sta dormendo o è inconsapevole. La tecnologia verifica che l'utente sia consapevole e intenzionato a sbloccare il dispositivo, offrendo un ulteriore strato di sicurezza.
 
-### 3. **Confronto con il Touch ID**
+### **Confronto con il Touch ID**
 Secondo Apple, il Face ID offre una sicurezza superiore rispetto al Touch ID, il sistema di autenticazione basato su impronte digitali precedentemente utilizzato in molti dispositivi Apple. Mentre il Touch ID ha una probabilità teorica di errore di 1 su 50.000, il Face ID migliora questa metrica a 1 su 1.000.000. Questo indica che è molto meno probabile che due persone diverse possano sbloccare lo stesso dispositivo utilizzando il Face ID rispetto al Touch ID.
 
 ### Considerazioni sulla Privacy e Sicurezza del Face ID

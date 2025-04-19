@@ -1,14 +1,11 @@
-<!---
-status: ALMOST
-inserire una sezione con esempio di superficie d'attacco di una persona
-che usa normalmente pc e cellulare.
--->
+<!-- \cleardoublepage -->
+
 
 # Conosci te stesso. 
 
 > *Se non conosci né il nemico né te stesso, soccomberai in ogni battaglia*.
 
-> *(Sun Tzu. L'Arte della guerra)*
+> (Sun Tzu. L'Arte della guerra)
 
 Per rimediare cominciamo a conoscere noi stessi
 

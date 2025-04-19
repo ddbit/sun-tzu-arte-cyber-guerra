@@ -1,12 +1,10 @@
-<!---
-status: READY
--->
+<!-- \cleardoublepage -->
 
 # Il rischio è bello (se sai come prenderlo)
 
 > *(una società) con una enorme asimmetria tra chi non rischia nulla e chi deve farsi carico anche dei rischi altrui è destinata ad implodere.*
 
-> *(Nassim Nicholas Taleb)*
+> (Nassim Nicholas Taleb)
 
 
 Il titolo di questo capitolo potrebbe suonare strano, ma in realtà il concetto di rischio è fondamentale e la sua gestione potrebbe diventare uno strumento molto potente nelle nostre mani. 

@@ -1,7 +1,5 @@
-<!---
-status: ALMOST
-*TODO Manca intro a LLM e RAG*
--->
+<!-- \cleardoublepage -->
+
 
 # AI Generativa ed i suoi rischi
 
@@ -9,7 +7,7 @@ status: ALMOST
 
 > *Thamus: "Senza l’insegnamento orale del maestro non si avrà mai la conoscenza, ma l’arroganza del sapere e sarà impossibile arrivare alla verità"*
 
-*(Dialogo tra il dio Thot e il faraone Thamus, ricavato da "Fedro" di Platone)*
+> (Dialogo Thot e Thamus, dal "Fedro" di Platone)
 
 
 In questa sezione ci focalizziamo sui sistemi di AI generativa, ed in particolare su quelli chiamati in gergo LLM (Large Language Models).
@@ -76,7 +74,9 @@ Questi attacchi, noti come "prompt injection", sfruttano la capacità del modell
 
 Per approfondire, è possibile consultare l'articolo completo disponibile su arXiv.  
 
-[Exfiltration of personal information from ChatGPT via prompt injection](https://arxiv.org/abs/2406.00199?utm_source=chatgpt.com)
+[Link a **Exfiltration of personal information from ChatGPT via prompt injection**](https://arxiv.org/abs/2406.00199)
+
+![Link a Exfiltration of personal information from ChatGPT via prompt injection](images/qrcode_arxiv.org.png)
 
 
 ### Quando all'AI diamo informazioni riservate
@@ -163,7 +163,8 @@ Mentre il pre-trained è un modello che è stato addestrato attraverso il corpus
 
 In generale ogni modello pretrained viene testato con dei benchmark su vari aspetti del linguaggio dalla comprensione del testo ad aspetti più **generalisti**
 
-#### MMLU 
+#### MMLU
+
 
 MMLU è un test con domande a scelta multipla, quindi un benchmark piuttosto semplice. Il benchmark consiste in domande con quattro possibili risposte che coprono 57 domini di conoscenza generale raggruppati in categorie come: “Scienze umane”, “Scienze sociali”, “STEM”, ecc.
 
@@ -238,7 +239,7 @@ Tutto questo senza dover addestrare il modello attraverso un nuovo passaggio di 
 
 Una definizione di RAG molto utile la trovate sulla documentazione di Llamaindex (un famoso tool di RAG)
 
-> In RAG, your data is loaded and prepared for queries or “indexed”. User queries act on the index, which filters your data down to the most relevant context. This context and your query then go to the LLM along with a prompt, and the LLM provides a response.
+> *In RAG, your data is loaded and prepared for queries or “indexed”. User queries act on the index, which filters your data down to the most relevant context. This context and your query then go to the LLM along with a prompt, and the LLM provides a response.*
 
 
 
@@ -259,13 +260,27 @@ Questi tre criteri sono cruciali per garantire che il sistema RAG non solo produ
 
 Ecco una breve descrizione di alcuni paper sui modelli Retrieval-Augmented Generation (RAG) e i link per approfondimenti:
 
-1. **"Benchmarking Large Language Models in Retrieval-Augmented Generation"**: Questo studio si concentra sulla valutazione delle capacità dei Large Language Models (LLMs) nel contesto del RAG. Esamina aspetti come la robustezza al rumore, il rifiuto negativo, l'integrazione delle informazioni e la robustezza controfattuale. Questi fattori sono essenziali per determinare quanto bene un modello RAG possa limitare le sue risposte ai contesti documentali rilevanti. Puoi trovare il paper qui: [Benchmarking Large Language Models in Retrieval-Augmented Generation](https://ar5iv.org/html/2309.01431).
+---
 
-2. **"Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering"**: Questa ricerca propone RAG-end2end, un'estensione del RAG che addestra congiuntamente il componente di recupero e quello di generazione per compiti specifici di dominio. Sottolinea l'importanza del componente di recupero nell'accuratezza nel reperimento di informazioni da dataset specifici di dominio, che è vitale per garantire che le risposte siano limitate al contesto dei documenti forniti. Il paper è disponibile qui: [Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00436/110880/Improving-the-Domain-Adaptation-of-Retrieval).
+1. **"Benchmarking Large Language Models in Retrieval-Augmented Generation"**: Questo studio si concentra sulla valutazione delle capacità dei Large Language Models (LLMs) nel contesto del RAG. Esamina aspetti come la robustezza al rumore, il rifiuto negativo, l'integrazione delle informazioni e la robustezza controfattuale. Questi fattori sono essenziali per determinare quanto bene un modello RAG possa limitare le sue risposte ai contesti documentali rilevanti.
 
-3. **"Retrieval-Augmented Generation for Large Language Models: A Survey"**: Questo sondaggio copre varie tecniche e approcci nel RAG, inclusi metodi per il recupero denso zero-shot preciso e la generazione robusta supportata dal recupero. Questi approcci sono significativi per rifinire il processo di recupero nei modelli RAG, assicurando che le risposte generate siano strettamente allineate ai contesti specifici dei documenti di input. Per maggiori dettagli, consulta il paper qui: [Retrieval-Augmented Generation for Large Language Models: A Survey](https://ar5iv.org/html/2312.10997).
+2. **"Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering"**: Questa ricerca propone RAG-end2end, un'estensione del RAG che addestra congiuntamente il componente di recupero e quello di generazione per compiti specifici di dominio. Sottolinea l'importanza del componente di recupero nell'accuratezza nel reperimento di informazioni da dataset specifici di dominio, che è vitale per garantire che le risposte siano limitate al contesto dei documenti forniti.
 
-4. **"Advanced RAG 01: Small-to-Big Retrieval"**: Un write-up pratico sulle tecniche Child-Parent RecursiveRetriever e Sentence Window Retrieval con esempi pratici basati su LlamaIndex. [Advanced RAG 01: Small-to-Big Retrieval](https://towardsdatascience.com/advanced-rag-01-small-to-big-retrieval-172181b396d4)
+3. **"Retrieval-Augmented Generation for Large Language Models: A Survey"**: Questo sondaggio copre varie tecniche e approcci nel RAG, inclusi metodi per il recupero denso zero-shot preciso e la generazione robusta supportata dal recupero. Questi approcci sono significativi per rifinire il processo di recupero nei modelli RAG, assicurando che le risposte generate siano strettamente allineate ai contesti specifici dei documenti di input.
+
+4. **"Advanced RAG 01: Small-to-Big Retrieval"**: Un write-up pratico sulle tecniche Child-Parent RecursiveRetriever e Sentence Window Retrieval con esempi pratici basati su LlamaIndex.
+
+---
+
+**Bibliografia**
+
+- Chen, J., Lin, H., Han, X., & Sun, L. (2023). Benchmarking large language models in retrieval-augmented generation. arXiv preprint arXiv:2309.01431.
+
+- Siriwardhana, S., Weerasekera, R., Wen, E., Kaluarachchi, T., Rana, R., & Nanayakkara, S. (2023). Improving the domain adaptation of retrieval augmented generation (RAG) models for open domain question answering. Transactions of the Association for Computational Linguistics, 11, 1–17. https://doi.org/10.1162/tacl_a_00530
+
+- Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J., Wang, M., & Wang, H. (2023). Retrieval-augmented generation for large language models: A survey. arXiv preprint arXiv:2312.10997.
+
+- Yang, S. M. (2023). Advanced RAG 01: Small-to-Big Retrieval with LlamaIndex. LinkedIn. 
 
 
 <!-- non rimuovere il commento newpage -->

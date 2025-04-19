@@ -1,7 +1,5 @@
-<!---
-status: ALMOST
-inserire QR a pagina personale
--->
+<!-- \cleardoublepage -->
+
 
 # Chi è l'autore
 
