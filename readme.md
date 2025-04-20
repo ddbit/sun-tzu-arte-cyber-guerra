@@ -20,4 +20,9 @@ Puoi acquistare questo libro nel formato più comodo e più conveniente per te, 
 
 Insieme al libro è in sviluppo un chatbot istruito sulla normativa NIS2, Decreto 138/24 e tutte le linee guida ENISA sulla cybersecurity nelle organizzazioni e aziende. Se sei curioso contatta l'autore su Linkedin per ottenere accesso al chatbot.
 
-<img src="images/cover.jpg" width=400px />
+
+<img src="images/1741616188608.jpeg" width=300px />
+
+## Cover
+
+<img src="images/cover.jpg" width=300px />
