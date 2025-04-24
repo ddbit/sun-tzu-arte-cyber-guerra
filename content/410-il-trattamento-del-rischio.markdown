@@ -1,8 +1,11 @@
 # Come trattare il rischio
-(draft)
+
+> *La mia intenzione era di minimizzare il mio futuro rimpianto*
+
+> (Harry Markowitz, premio Nobel per l'economia 1990)
 
 
-Abbiamo imparato a valutare il rischio ma ora dobbiamo mettere in campo delle azioni.
+Abbiamo imparato a valutare il rischio ed ora dobbiamo mettere in campo delle azioni correttive.
 
 Nel contesto della **gestione del rischio** (soprattutto nella **sicurezza delle informazioni**, ma anche in altri ambiti ISO o NIS 2), i **controlli** sono uno degli elementi chiave.
 
@@ -133,7 +136,43 @@ Questo ciclo si adatta perfettamente anche alla **NIS 2**, alla **ISO/IEC 27005*
 
 
 
-Collegamenti utili
+## Caso di studio trattamento del rischio
+
+**Scenario:**
+
+L’azienda intende adottare soluzioni di intelligenza artificiale per sveltire il lavoro dei propri dipendenti. Tuttavia, durante l’analisi dei rischi emerge una criticità: l’utilizzo da parte dei dipendenti di piattaforme AI-as-a-Service (quali ChatGPT o Claude) potrebbe comportare l’esposizione involontaria di informazioni confidenziali o la violazione di normative aziendali in materia di riservatezza e protezione dei dati.
+
+A fronte di questa evenienza il CEO ed il CISO aprono un confronto e valutano le quattro principali strategie di trattamento del rischio: **modifica**, **eliminazione**, **accettazione** e **condivisione**.
+
+
+# 🔍 1. Riepilogo delle 4 opzioni di trattamento analizzate
+| **Opzione** | **Descrizione nel tuo contesto** | **Pro** | **Contro** |
+|:-:|:-:|:-:|:-:|
+| ✅ **Modificare** | Implementare un sistema AI controllato (es. LLM via **Amazon Bedrock**, **Azure OpenAI**, o **LLM on-premise**) | + Protezione dei dati+ Innovazione controllata+ Conformità GDPR | – Costi elevati– Complessità tecnica |
+| ❌ **Evitare** | Vietare del tutto l’uso dell’AI generativa per i dipendenti | + Rischio praticamente azzerato | – Opportunità perduta– Basso engagement– Shadow IT possibile |
+| 📥 **Accettare** | Consentire l’uso libero di ChatGPT/Claude, confidando nei benefici superiori al rischio | + Nessun costo+ Massima libertà operativa | – Altissimo rischio di violazioni– Inaccettabile per compliance |
+| 🤝 **Condividere** | Attivare una polizza assicurativa per coprire eventuali danni derivanti da violazioni accidentali o reclami (es. data breach causato da prompt involontari) | + Copertura finanziaria+ Meno investimenti upfront | – Non evita il danno– La responsabilità rimane– Non protegge i dati |
+
+A seguito della valutazione l'azienda decide di non rinunciare all'utilizzo dell'AI per i suoi dipendenti e opta per la strategia di modifica, che ovviamente comporta dei costi.
+
+
+Procedono ora con la **scheda di trattamento del rischio** , con l'opzione scelta: **"Modificare"** il rischio tramite l'adozione di AI controllata e sicura.
+
+# 📋 Scheda di trattamento del rischio
+| **Voce** | **Contenuto** |
+|:-:|:-:|
+| **Rischio (vulnerabilità/minaccia):** | I dipendenti inseriscono dati riservati o personali in AI-as-a-Service pubbliche (ChatGPT, Claude...) |
+| **Livello di rischio:** | 8 su 10 |
+| **Priorità:** | Alta |
+| **Opzione di trattamento:** | Modificare |
+| **Dettagli della misura:** | Adottare un’istanza AI su infrastruttura aziendale (es. Amazon Bedrock o Azure OpenAI privato), con controllo degli accessi e log |
+| **Risorse richieste:** | 50-100 ore IT per setup + costi cloud stimati 1.500 €/mese |
+| **Responsabile:** | CTO e Responsabile sicurezza delle informazioni |
+| **Data di inizio e conclusione:** | 2024-05-01 → 2024-06-30 |
+| **Manutenzione richiesta / commenti:** | Policy e formazione da aggiornare ogni 6 mesi, audit log da monitorare costantemente |
+
+
+Risorse utili
 -------------
 
 
@@ -143,4 +182,3 @@ Collegamenti utili
 | NIS 2                      | Art. 21 → misure di sicurezza basate su gestione del rischio |
 | Risk appetite              | Concetto chiave definito da ISO 31000         |
 | Corporate governance       | ISO 31000 si integra nei sistemi decisionali aziendali |
-
