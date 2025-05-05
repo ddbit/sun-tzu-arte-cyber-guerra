@@ -12,9 +12,11 @@ Attraverso esempi pratici e casi di studio, scoprirai come identificare le vulne
 
 ## Cosa significa libro open source.
 
-Puoi acquistare questo libro nel formato più comodo e più conveniente per te, oppure puoi sempre collegarti al repository dove potrai trovare tutti i materiali usati per creare il libro in licenza creative commons.
+Puoi acquistare questo libro nel formato più comodo e più conveniente per te, oppure puoi sempre collegarti a questo repository dove potrai trovare tutti i materiali usati per creare il libro in licenza creative commons e anche gli script per produrre epub e cartaceo.
 
-[Link al repository](https://github.com/ddbit/sun-tzu-arte-cyber-guerra)
+Ma se preferisci comprarlo ecco il link per versione Kindle e Paperback.
+
+[Link ad Amazon](https://www.amazon.it/lArte-della-Cyber-Guerra-professionali/dp/B0F4MGDS28)
 
 ## Il chatbot DeNISe
 
