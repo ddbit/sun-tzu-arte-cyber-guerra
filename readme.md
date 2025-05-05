@@ -12,7 +12,7 @@ Attraverso esempi pratici e casi di studio, scoprirai come identificare le vulne
 
 ## Cosa significa libro open source.
 
-Puoi acquistare questo libro nel formato più comodo e più conveniente per te, oppure puoi sempre collegarti a questo repository dove potrai trovare tutti i materiali usati per creare il libro in licenza creative commons e anche gli script per produrre epub e cartaceo.
+Puoi navigare i contenuti direttamente da questo repository e fruirne con licenza creative commons. Sono presenti anche gli script per produrre versione epub e cartaceo.
 
 Ma se preferisci comprarlo ecco il link per versione Kindle e Paperback.
 
