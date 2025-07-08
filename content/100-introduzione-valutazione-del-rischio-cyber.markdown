@@ -55,11 +55,11 @@ La valutazione del rischio cyber è un processo metodico che si articola in quat
 
 - **Matrice di Rischio**: La matrice di rischio è uno strumento visuale che aiuta le organizzazioni a classificare i rischi combinando la loro probabilità di occorrenza con il livello di impatto. Questa rappresentazione grafica facilita la comprensione immediata delle priorità e supporta le decisioni strategiche nel risk management.
 
-![Immagine della Matrice di Rischio](images/risk-matrix.png)
+![Immagine della Matrice di Rischio](../images/risk-matrix.png)
 
 - **Modello di Ciclo di Valutazione del Rischio**: Il modello ciclico di valutazione del rischio illustra come la gestione del rischio debba essere un processo continuativo e iterativo. La gestione del rischio non è un'attività statica ma richiede un aggiornamento costante e una re-evalutatione basata sui cambiamenti nell'ambiente di minaccia e negli asset aziendali.
 
-![Modello di Ciclo di Valutazione del Rischio](images/ciclo-gestione-rischio.png)
+![Modello di Ciclo di Valutazione del Rischio](../images/ciclo-gestione-rischio.png)
 
 <!-- non rimuovere il commento newpage -->
 <!-- \newpage -->
