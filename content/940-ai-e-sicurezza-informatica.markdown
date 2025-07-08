@@ -112,7 +112,7 @@ Queste fasi sono iterative: se i risultati non sono soddisfacenti, si torna al t
 La figura rappresenta un diagramma schematico dei principali approcci di **apprendimento automatico (Machine Learning)** e del processo che porta alla creazione e all'uso dei modelli di intelligenza artificiale (AI). Ecco una spiegazione dei tre principali tipi di apprendimento mostrati:
 
 
-![Apprendimento](images/apprendimento.png)
+![Apprendimento](../images/apprendimento.png)
 
 
 Training (Addestramento)
