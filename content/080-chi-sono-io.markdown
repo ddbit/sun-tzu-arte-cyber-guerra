@@ -38,7 +38,7 @@ Questo fa di me un esperto di sicurezza informatica? Forse no. Ma fa di me uno c
 Se volete sapere di più ecco un QR (sicuro se avete una copia originale del libro) che punta alla mia pagina personale.
 
 
-![digitaldavide.me](images/qrcode_digitaldavide.me.png)
+![digitaldavide.me](../images/qrcode_digitaldavide.me.png)
 
 <!-- non rimuovere il commento newpage -->
 <!-- \newpage -->
