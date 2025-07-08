@@ -51,7 +51,7 @@ In definitiva, il ransomware rimane una delle più grandi minacce per la sicurez
 
 L'immagine rappresenta una torta grafica che mostra la distribuzione delle varie tipologie di malware rilevate nel 2020, secondo il Rapporto 2021 sulla Sicurezza ICT in Italia di Clusit. Ecco un'analisi dei dati mostrati:
 
-![Distribuzione delle tipologie di Malware, 2020](images/malware-hist.png)
+![Distribuzione delle tipologie di Malware, 2020](../images/malware-hist.png)
 
 
 - **Ransomware (67%)**: Questa categoria domina nettamente il grafico, indicando che il ransomware è stato il tipo di malware più prevalente nel 2020. Questo sottolinea l'importanza crescente delle campagne di ransomware che mirano a criptare i dati delle vittime e richiedere un riscatto per il loro sblocco.
