@@ -15,7 +15,7 @@ Il concetto fondamentale di Sun Tzu è la conoscenza: conoscere se stessi e il n
 Sun Tzu enfatizzava anche l'importanza di vincere senza combattere, suggerendo che la suprema eccellenza non consiste nel vincere ogni battaglia, ma nel sconfiggere il nemico senza mai combattere. Nel contesto della cyber sicurezza, questo si traduce in una solida prevenzione: educare gli utenti a riconoscere tentativi di phishing potrebbe essere meno glorioso che smascherare un attacco DDoS in corso, ma è sicuramente più efficace nel lungo termine. Si potrebbe dire che un buon firewall fa più Sun Tzu di un esercito di white hat hacker in piena azione.
 
 
-![Ritratto di Sun Tzu, autore sconosciuto](images/suntzu.jpg)
+![Ritratto di Sun Tzu, autore sconosciuto](../images/suntzu.jpg)
 
 L'adattabilità è un altro pilastro delle strategie di Sun Tzu. L'abilità di adattarsi rapidamente alle nuove informazioni e cambiare tattica di conseguenza è fondamentale nella guerra come nella sicurezza informatica. Questo potrebbe significare rivedere la propria strategia di sicurezza alla luce di una nuova minaccia informatica, piuttosto che attaccarsi dogmaticamente a un piano che è tanto obsoleto quanto l'idea che il cyberspazio sia un luogo pacifico.
 
