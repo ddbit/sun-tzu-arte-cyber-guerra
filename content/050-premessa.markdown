@@ -29,7 +29,7 @@ Tutti i contenuti di questo libro sono disponibili con licenza Creative Commons 
 
 [https://github.com/ddbit/sun-tzu-arte-cyber-guerra](https://github.com/ddbit/sun-tzu-arte-cyber-guerra)
 
-![QR](images/qrcode_github.com.png)
+![QR](../images/qrcode_github.com.png)
 
 
 
