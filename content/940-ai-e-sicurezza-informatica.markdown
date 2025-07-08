@@ -80,7 +80,7 @@ Google ha dichiarato che le sue TPU sono state utilizzate nella sfida di Go: Alp
 
 Intanto dividiamoli in due grandi categorie, modelli per la **regressione** e modelli per la **classificazione**:
 
-![Confronto tra Regressione e Classificazione](images/regression_vs_classification_2.png)
+![Confronto tra Regressione e Classificazione](../images/regression_vs_classification_2.png)
 
 Questa figura mostra la differenza tra **regressione** e **classificazione** nei modelli di machine learning:
 
