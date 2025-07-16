@@ -154,6 +154,19 @@ Secondo molti ChatGPT starebbe implementando le richieste di diritto all'oblio d
 
 Il che però fa emergere due interessanti considerazioni: la prima è che per effetto Streisand migliaia di utenti hanno cominciato a scavare nel web alla ricerca di informazioni su queste persone vanificando di fatto ogni loro diritto alla privacy; la seconda invece sul diritto, violato, di ogni cittadino italiano di conoscere da chi è composto il Garante Privacy con la libertà di ottenere questa informazionedal suo bot AI preferito che invece, a seguito della richiesta dell'interessato, non può eseguire l'operazione.
 
+### Quando l'AI evoca nemici che altrimenti non sarebbero mai esistiti
+
+Nel 2024, un gruppo di ricercatori ha analizzato un fenomeno inquietante: le *package hallucinations* nei modelli di linguaggio generativo per la programmazione (LLM). In contesti di sviluppo software, questi modelli (come GPT o Codex) sono capaci di "inventare" nomi di librerie o pacchetti di codice che non esistono. E fin qui, potrebbe sembrare solo un bug innocuo. Ma i ricercatori hanno dimostrato che questa "immaginazione artificiale" può essere trasformata in un vettore d’attacco: un aggressore può registrare e pubblicare nei repository ufficiali (come PyPI o NPM) un pacchetto con esattamente quel nome allucinato. Lo sviluppatore, fidandosi del suggerimento dell’LLM, lo importerà nel suo progetto — inconsapevolmente, installerà codice ostile.
+
+L’attacco, simile al typosquatting ma ancor più subdolo, non richiede errori umani. Si basa sulla fiducia cieca nel consiglio di un assistente AI, amplificando l'efficacia della compromissione. La minaccia è sistemica: la fiducia nell'automazione può essere manipolata contro di noi.
+
+Un esempio perfetto dell’arte della guerra asimmetrica: l’avversario non attacca, ma aspetta che sia il tuo stesso esercito — o in questo caso, il tuo codice — a fare da cavallo di Troia.
+
+> **Riferimento**:
+> Wenjie Wang, Wenting Li, Lingming Zhang. *We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs.* arXiv preprint arXiv:2406.10279, June 2024. [https://arxiv.org/abs/2406.10279](https://arxiv.org/abs/2406.10279)
+
+
+
 
 Come valutiamo un modello LLM
 ----------
