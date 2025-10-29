@@ -115,7 +115,7 @@ Il phishing rimane una minaccia significativa nella sicurezza informatica a caus
 Di recente ho esaurito lo spazio disco sul servizio iCloud. Quindi ho cominciato a ricevere dei messaggi leciti da parte della Apple che mi invitavano a estendere lo spazio facendo un acquisto.
 
 
-![Vero messaggio Apple iCloud](images/phishing-0.png)
+![Vero messaggio Apple iCloud](../images/phishing-0.png)
 
 Nella figura ho messo in evidenza i domini internet da cui arrivavano i messaggi e a cui rimandavano i link contenuti nel corpo del messaggio stesso.
 
@@ -125,7 +125,7 @@ Questi messaggi apparivano con una certa frequenza, più o meno ogni volta che u
 
 In mezzo ai vari messaggi nella mia posta elettronica uno mi ha incuriosito:
 
-![Phishing mail](images/phishing-1.png)
+![Phishing mail](../images/phishing-1.png)
 
 Era un messaggio all'apparenza autentico, e in fondo arrivava in un momento in cui questi messaggi da parte di Apple erano frequenti nella mia mailbox.
 
@@ -133,7 +133,7 @@ Ad una più attenta ispezione dei link tuttavia emergeva qualcosa di strano.
 
 Il link non era verso un dominio di Apple o iCloud ma verso Linkedin, comunque un dominio per me affidabile. Ma allora cosa stava succedendo? Dovevo fidarmi?
 
-![Phishing mail](images/phishing-2.png)
+![Phishing mail](../images/phishing-2.png)
 
 **No**, il link Linkedin viene visto come “legale” dai tool anti malware, ma è un trucco, **il link incapsula un altro link ad un sito pericoloso**.
 
