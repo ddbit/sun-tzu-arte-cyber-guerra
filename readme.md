@@ -16,14 +16,8 @@ Puoi navigare i contenuti direttamente da questo repository e fruirne con licenz
 
 Ma se preferisci comprarlo ecco il link per versione Kindle e Paperback.
 
-[Link ad Amazon](https://www.amazon.it/lArte-della-Cyber-Guerra-professionali/dp/B0F4MGDS28)
+[Compra su Amazon](https://www.amazon.it/lArte-della-Cyber-Guerra-professionali/dp/B0F4MGDS28)
 
-## Il chatbot DeNISe
-
-Insieme al libro è in sviluppo un chatbot istruito sulla normativa NIS2, Decreto 138/24 e tutte le linee guida ENISA sulla cybersecurity nelle organizzazioni e aziende. Se sei curioso contatta l'autore su Linkedin per ottenere accesso al chatbot.
-
-
-<img src="images/1741616188608.jpeg" width=300px />
 
 ## Cover
 
