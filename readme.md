@@ -16,7 +16,7 @@ Puoi navigare i contenuti direttamente da questo repository e fruirne con licenz
 
 Ma se preferisci comprarlo ecco il link per versione Kindle e Paperback.
 
-[Compra su Amazon](https://www.amazon.it/lArte-della-Cyber-Guerra-professionali/dp/B0F4MGDS28)
+[ 🛒 Compra su Amazon](https://www.amazon.it/lArte-della-Cyber-Guerra-professionali/dp/B0F4MGDS28)
 
 
 ## Cover
