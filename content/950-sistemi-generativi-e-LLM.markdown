@@ -144,6 +144,21 @@ A proposito della prompt injection è emblematico il caso dei review dei paper s
 
 In alcuni casi, i prompt erano estremamente dettagliati e ordinavano all’IA di “raccomandare il paper per i suoi contributi d’impatto, rigore metodologico ed eccezionale novità”. A seguito dell’emergere dello scandalo, almeno un paper in programma all’**International Conference on Machine Learning (ICML)** è stato ritirato, e autori e istituzioni stanno riconsiderando le norme sull’uso dell’IA in fase di peer review .
 
+### Quando i modelli sparano le vostre conversazioni su Google
+
+Nel 2025 sono emersi casi documentati in cui conversazioni sensibili avvenute all'interno di chatbot generativi sono finite, senza alcuna intenzione dell'utente, all'interno di Google Search Console (GSC). Il problema si manifesta attraverso query anomale: stringhe lunghissime, spesso oltre i 300 caratteri, che coincidono con prompt reali scritti dalle persone nelle loro chat.
+
+Questi prompt includevano contenuti personali, delicati o riservati, come richieste di aiuto su problemi relazionali o lavorativi. Gli utenti presumibilmente ritenevano che tali conversazioni restassero private. Invece, i testi risultavano visibili ai proprietari dei siti web che avevano ricevuto traffico da quelle "query", esponendo così informazioni non destinate alla pubblica consultazione.
+
+Secondo l'analisi tecnica pubblicata da Jason Packer, il meccanismo coinvolto sembra essere legato all'uso di Google Search come fonte per rispondere a determinate richieste rivolte ai modelli linguistici. In pratica, quando il modello inoltra una ricerca verso Google, una parte del prompt dell'utente viene trasmessa insieme alla query, finendo poi nei log di Search Console dei siti richiamati nei risultati.
+
+Questa dinamica implica tre conseguenze gravi:
+
+1. **Perdita di riservatezza**: i prompt possono contenere dati personali o sensibili non protetti.
+2. **Assenza di controllo**: gli utenti non ricevono alcuna notifica né un'opzione per impedire questa trasmissione.
+3. **Persistenza dell'esposizione**: non esiste un meccanismo per rimuovere tali conversazioni da Google Search Console una volta propagate.
+
+Le dimensioni del fenomeno sono oggetto di analisi nel 2025: mentre alcuni analisti suggeriscono che il problema abbia interessato tutti i prompt che hanno attivato una ricerca esterna, OpenAI sostiene che i casi siano stati limitati, senza però fornire numeri verificabili. Indipendentemente dall'entità, il caso rappresenta un segnale chiaro della fragilità del perimetro di confidenzialità quando modelli generativi interagiscono con servizi esterni senza adeguate garanzie di protezione dei dati.
 
 
 ### Quando l'AI implementa in modo maldestro il GDPR
